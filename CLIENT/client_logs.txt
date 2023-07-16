@@ -1,0 +1,986 @@
+05-07-2023 10:09:33  INFO    [handle_server.py:27] statement: 
+05-07-2023 10:10:59  INFO    [handle_server.py:27] statement: 
+05-07-2023 10:12:52  INFO    [handle_server.py:27] statement: The two passwords don't match 
+05-07-2023 10:40:36  INFO    [handle_server.py:22] statement: username already used
+05-07-2023 10:43:04  INFO    [handle_server.py:22] statement: username already used
+05-07-2023 10:44:04  INFO    [handle_server.py:23] statement: username already used
+05-07-2023 10:45:57  INFO    [handle_server.py:23] statement: username already used
+05-07-2023 10:47:45  INFO    [handle_server.py:23] statement: username already used
+05-07-2023 10:56:22  INFO    [handle_server.py:23] statement: username already used
+05-07-2023 10:56:30  INFO    [handle_server.py:23] statement: username already used
+05-07-2023 10:56:45  INFO    [handle_server.py:23] statement: True
+05-07-2023 10:58:28  INFO    [handle_server.py:23] statement: The two passwords don't match 
+05-07-2023 11:09:16  INFO    [handle_server.py:23] statement: Invalid password
+05-07-2023 11:10:08  INFO    [handle_server.py:23] statement: Invalid password
+05-07-2023 11:10:49  INFO    [handle_server.py:23] statement: Invalid password
+05-07-2023 11:11:14  INFO    [handle_server.py:23] statement: Invalid password
+05-07-2023 11:12:58  INFO    [handle_server.py:23] statement: True
+05-07-2023 11:14:01  INFO    [handle_server.py:23] statement: True
+05-07-2023 11:42:59  INFO    [handle_server.py:26] statement: True
+05-07-2023 11:44:01  INFO    [handle_server.py:26] statement: True
+05-07-2023 11:44:54  INFO    [handle_server.py:26] statement: True
+05-07-2023 11:45:35  INFO    [handle_server.py:26] statement: True
+05-07-2023 12:26:32  INFO    [handle_server.py:26] statement: True
+05-07-2023 12:48:55  INFO    [handle_server.py:26] statement: True
+05-07-2023 12:50:19  INFO    [handle_server.py:26] statement: True
+05-07-2023 12:52:03  INFO    [handle_server.py:26] statement: True
+05-07-2023 12:58:16  INFO    [handle_server.py:26] statement: True
+05-07-2023 12:59:38  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:02:09  INFO    [handle_server.py:26] statement: username already used
+05-07-2023 13:02:34  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:04:20  INFO    [handle_server.py:26] statement: username already used
+05-07-2023 13:04:58  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:06:08  INFO    [handle_server.py:26] statement: username already used
+05-07-2023 13:06:44  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:08:42  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:09:45  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:10:35  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:11:18  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:13:33  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:15:35  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:17:09  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:19:17  INFO    [handle_server.py:26] statement: True
+05-07-2023 13:50:54  INFO    [handle_server.py:27] statement: True
+05-07-2023 13:53:02  INFO    [handle_server.py:27] statement: True
+05-07-2023 13:53:47  INFO    [handle_server.py:27] statement: True
+05-07-2023 13:54:58  INFO    [handle_server.py:27] statement: True
+05-07-2023 13:57:03  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:03:52  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:04:50  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:05:40  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:25:25  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:47:16  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:48:12  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:55:08  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:55:56  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:56:47  INFO    [handle_server.py:27] statement: True
+06-07-2023 11:58:28  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:00:17  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:01:25  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:01:54  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:03:27  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:05:31  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:08:09  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:10:18  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:11:38  INFO    [handle_server.py:27] statement: True
+06-07-2023 12:15:33  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:27:24  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:29:16  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:30:08  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:30:40  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:32:25  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:34:21  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:34:53  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:36:16  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:37:57  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:38:52  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:41:38  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:42:29  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:56:56  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:57:20  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:57:50  INFO    [handle_server.py:27] statement: True
+07-07-2023 10:58:28  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:01:32  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:02:10  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:04:33  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:06:13  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:10:43  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:11:07  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:11:54  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:12:23  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:13:28  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:45:21  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:45:43  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:46:32  INFO    [handle_server.py:27] statement: True
+07-07-2023 11:47:12  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:00:32  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:00:53  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:02:07  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:02:49  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:04:35  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:06:31  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:06:44  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:08:07  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:08:17  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:09:56  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:10:09  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:11:27  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:11:48  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:13:18  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:13:28  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:16:50  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:16:56  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:18:12  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:18:24  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:21:00  INFO    [handle_server.py:27] statement: True
+07-07-2023 12:21:07  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:16:20  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:16:30  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:19:05  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:19:17  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:19:43  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:21:02  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:21:03  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:22:52  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:22:53  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:24:58  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:24:59  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:28:29  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:28:30  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:30:25  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:30:26  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:34:28  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:34:29  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:36:39  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:36:40  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:36:43  CRITICAL[handle_server.py:19] conversation: [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey')]
+07-07-2023 14:37:19  CRITICAL[handle_server.py:19] conversation: [('9', 'hey'), ('9', 'hey'), ('9', 'how is it going'), ('9', 'hey'), ('9', 'How are you'), ('9', 'what is up'), ('9', 'how are you'), ('9', 'what is up'), ('9', 'how are you'), ('9', 'how are you'), ('9', ''), ('9', ''), ('9', ''), ('9', ''), ('9', 'hey')]
+07-07-2023 14:43:41  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:43:52  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:44:02  CRITICAL[handle_server.py:19] conversation: []
+07-07-2023 14:44:10  CRITICAL[handle_server.py:19] conversation: []
+07-07-2023 14:44:55  INFO    [handle_server.py:27] statement: Invalid password
+07-07-2023 14:44:59  INFO    [handle_server.py:27] statement: Invalid password
+07-07-2023 14:45:02  INFO    [handle_server.py:27] statement: Invalid password
+07-07-2023 14:45:04  INFO    [handle_server.py:27] statement: Invalid password
+07-07-2023 14:45:11  INFO    [handle_server.py:27] statement: Invalid password
+07-07-2023 14:45:16  INFO    [handle_server.py:27] statement: Invalid password
+07-07-2023 14:45:47  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:45:49  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:45:53  CRITICAL[handle_server.py:19] conversation: [('10', 'hey'), ('10', 'hello')]
+07-07-2023 14:45:55  CRITICAL[handle_server.py:19] conversation: [('8', 'hey'), ('8', 'hello')]
+07-07-2023 14:48:50  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:48:54  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:48:57  CRITICAL[handle_server.py:19] conversation: [('8', 'hey'), ('8', 'hello')]
+07-07-2023 14:48:58  CRITICAL[handle_server.py:19] conversation: [('10', 'hey'), ('10', 'hello')]
+07-07-2023 14:49:48  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:49:51  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:49:52  CRITICAL[handle_server.py:19] conversation: [('8', 'hey'), ('8', 'hello')]
+07-07-2023 14:49:53  CRITICAL[handle_server.py:19] conversation: [('10', 'hey'), ('10', 'hello')]
+07-07-2023 14:50:32  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:50:35  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:50:37  CRITICAL[handle_server.py:19] conversation: [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]
+07-07-2023 14:50:38  CRITICAL[handle_server.py:19] conversation: [('10', 'hey'), ('10', 'hello'), ('10', 'hey'), ('10', 'what is up'), ('10', 'are you fine')]
+07-07-2023 14:55:59  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:56:00  INFO    [handle_server.py:27] statement: True
+07-07-2023 14:56:03  CRITICAL[handle_server.py:19] conversation: [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]
+07-07-2023 14:56:07  CRITICAL[handle_server.py:19] conversation: [('10', 'hey'), ('10', 'hello'), ('10', 'hey'), ('10', 'what is up'), ('10', 'are you fine')]
+07-07-2023 15:03:38  INFO    [handle_server.py:27] statement: True
+07-07-2023 15:03:39  INFO    [handle_server.py:27] statement: True
+07-07-2023 15:03:40  CRITICAL[handle_server.py:20] conversation: [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]
+07-07-2023 15:03:41  CRITICAL[handle_server.py:20] conversation: [('10', 'hey'), ('10', 'hello'), ('10', 'hey'), ('10', 'what is up'), ('10', 'are you fine'), ('10', 'hey')]
+08-07-2023 11:43:16  INFO    [handle_server.py:27] statement: True
+08-07-2023 11:43:19  INFO    [handle_server.py:27] statement: True
+08-07-2023 11:43:28  INFO    [handle_server.py:27] statement: True
+08-07-2023 13:41:13  INFO    [handle_server.py:29] statement: True
+08-07-2023 13:41:48  INFO    [handle_server.py:29] statement: True
+08-07-2023 13:42:21  INFO    [handle_server.py:29] statement: True
+08-07-2023 13:42:55  INFO    [handle_server.py:29] statement: True
+08-07-2023 13:45:31  INFO    [handle_server.py:29] statement: True
+08-07-2023 13:46:06  INFO    [handle_server.py:29] statement: True
+08-07-2023 13:47:40  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:14:39  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:16:09  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:16:51  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:17:44  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:20:17  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:29:49  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:31:29  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:33:23  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:36:02  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:37:36  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:42:01  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:43:18  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:44:58  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:48:54  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:49:50  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:49:50  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]}]
+08-07-2023 14:52:27  INFO    [handle_server.py:29] statement: True
+08-07-2023 14:52:27  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]}]
+10-07-2023 13:13:46  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:13:46  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]}]
+10-07-2023 13:15:14  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:15:14  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]}]
+10-07-2023 13:19:28  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:19:28  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]}]
+10-07-2023 13:20:21  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:20:21  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': []}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': []}, {'friend_id': 8, 'conversation': [('10', 'hey'), ('10', 'hello'), ('10', 'hey'), ('10', 'what is up'), ('10', 'are you fine'), ('10', 'hey')]}, {'friend_id': 9, 'conversation': []}]
+10-07-2023 13:22:22  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:22:22  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]}]
+10-07-2023 13:22:25  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:22:25  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': []}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': []}, {'friend_id': 8, 'conversation': [('10', 'hey'), ('10', 'hello'), ('10', 'hey'), ('10', 'what is up'), ('10', 'are you fine'), ('10', 'hey'), ('10', 'hey')]}, {'friend_id': 9, 'conversation': []}]
+10-07-2023 13:23:56  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:23:56  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': []}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': []}, {'friend_id': 8, 'conversation': [('10', 'hey'), ('10', 'hello'), ('10', 'hey'), ('10', 'what is up'), ('10', 'are you fine'), ('10', 'hey'), ('10', 'hey'), ('10', 'hey')]}, {'friend_id': 9, 'conversation': []}]
+10-07-2023 13:23:58  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:23:58  CRITICAL[templates.py:14] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine')]}]
+10-07-2023 13:24:07  CRITICAL[handle_server.py:28] {'sender': '8', 'message': 'hey'}
+10-07-2023 13:46:35  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:46:35  CRITICAL[templates.py:18] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine'), ('8', 'hey')]}]
+10-07-2023 13:46:38  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:46:38  CRITICAL[templates.py:18] [{'friend_id': 1, 'conversation': []}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': []}, {'friend_id': 8, 'conversation': [('10', 'hey'), ('10', 'hello'), ('10', 'hey'), ('10', 'what is up'), ('10', 'are you fine'), ('10', 'hey'), ('10', 'hey'), ('10', 'hey')]}, {'friend_id': 9, 'conversation': []}]
+10-07-2023 13:46:50  CRITICAL[handle_server.py:28] {'sender': '10', 'message': 'hey'}
+10-07-2023 13:49:43  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:49:43  CRITICAL[templates.py:18] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine'), ('8', 'hey')]}]
+10-07-2023 13:49:50  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:49:50  CRITICAL[templates.py:18] [{'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': []}, {'friend_id': 8, 'conversation': [('1', 'how are you doing '), ('1', 'how are you'), ('1', 'what is up'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'what is up bro'), ('1', 'I am good what about you'), ('1', 'do you want to hang out')]}, {'friend_id': 9, 'conversation': []}, {'friend_id': 10, 'conversation': []}]
+10-07-2023 13:49:57  CRITICAL[handle_server.py:28] {'sender': '8', 'message': 'hey'}
+10-07-2023 13:49:57  CRITICAL[handle_server.py:31] 8
+10-07-2023 13:50:06  CRITICAL[handle_server.py:28] {'sender': '8', 'message': 'how are you doing'}
+10-07-2023 13:50:06  CRITICAL[handle_server.py:31] 8
+10-07-2023 13:50:24  CRITICAL[handle_server.py:28] {'sender': '1', 'message': 'hey'}
+10-07-2023 13:50:24  CRITICAL[handle_server.py:31] 10
+10-07-2023 13:50:30  CRITICAL[handle_server.py:28] {'sender': '1', 'message': 'hey'}
+10-07-2023 13:50:30  CRITICAL[handle_server.py:31] 10
+10-07-2023 13:51:32  CRITICAL[handle_server.py:28] {'sender': '8', 'message': 'hey'}
+10-07-2023 13:51:32  CRITICAL[handle_server.py:31] 8
+10-07-2023 13:51:42  CRITICAL[handle_server.py:28] {'sender': '8', 'message': 'broooooooooooooooooooooooooo'}
+10-07-2023 13:51:42  CRITICAL[handle_server.py:31] 5
+10-07-2023 13:57:17  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:57:17  CRITICAL[templates.py:18] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok'), ('8', 'hey'), ('8', 'how are you doing'), ('8', 'hey'), ('8', 'broooooooooooooooooooooooooo')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine'), ('8', 'hey')]}]
+10-07-2023 13:57:55  INFO    [handle_server.py:29] statement: True
+10-07-2023 13:57:55  CRITICAL[templates.py:18] [{'friend_id': 1, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'how are you'), ('8', 'hey'), ('8', 'hey'), ('8', 'hey'), ('8', 'what is up'), ('8', 'how are you bro'), ('8', 'What are we doing today'), ('8', 'ok'), ('8', 'hey'), ('8', 'how are you doing'), ('8', 'hey'), ('8', 'broooooooooooooooooooooooooo')]}, {'friend_id': 2, 'conversation': []}, {'friend_id': 3, 'conversation': []}, {'friend_id': 4, 'conversation': []}, {'friend_id': 5, 'conversation': []}, {'friend_id': 6, 'conversation': []}, {'friend_id': 7, 'conversation': [('8', 'hey')]}, {'friend_id': 9, 'conversation': [('8', 'hey'), ('8', 'hey'), ('8', 'how is it going'), ('8', 'hey'), ('8', 'How are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'what is up'), ('8', 'how are you'), ('8', 'how are you'), ('8', ''), ('8', ''), ('8', ''), ('8', ''), ('8', 'hey'), ('8', 'hey')]}, {'friend_id': 10, 'conversation': [('8', 'hey'), ('8', 'hello'), ('8', 'hey'), ('8', 'what is up'), ('8', 'are you fine'), ('8', 'hey')]}]
+10-07-2023 14:09:53  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:10:02  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:16:38  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:17:05  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:17:35  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:17:40  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:17:48  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'hey'}
+10-07-2023 14:17:48  CRITICAL[handle_server.py:33] 1
+10-07-2023 14:17:56  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'hello'}
+10-07-2023 14:17:56  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:18:16  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:18:32  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:19:59  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:20:06  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:20:11  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'hey'}
+10-07-2023 14:20:11  CRITICAL[handle_server.py:33] 1
+10-07-2023 14:20:18  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'hello'}
+10-07-2023 14:20:18  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:20:36  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:24:08  INFO    [handle_server.py:29] statement: username not found
+10-07-2023 14:24:12  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:24:57  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:25:02  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:25:10  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'hey'}
+10-07-2023 14:25:10  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:25:15  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'brooo'}
+10-07-2023 14:25:15  CRITICAL[handle_server.py:33] 1
+10-07-2023 14:25:29  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:28:15  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:28:16  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:28:20  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'hey'}
+10-07-2023 14:28:20  CRITICAL[handle_server.py:33] 1
+10-07-2023 14:28:28  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'bro'}
+10-07-2023 14:28:28  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:28:47  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:29:41  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:30:00  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:30:04  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:30:14  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'how are you'}
+10-07-2023 14:30:14  CRITICAL[handle_server.py:33] 1
+10-07-2023 14:32:16  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:32:28  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:32:41  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'heeeeeeeeeeeeee'}
+10-07-2023 14:32:41  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:35:10  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:35:14  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:35:21  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'hooooooooooo'}
+10-07-2023 14:35:21  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:39:09  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:39:13  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:39:22  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'hey bro'}
+10-07-2023 14:39:22  CRITICAL[handle_server.py:33] 1
+10-07-2023 14:52:00  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:52:01  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:52:06  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'wydad'}
+10-07-2023 14:52:06  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:55:17  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:55:20  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:55:28  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'derby '}
+10-07-2023 14:55:28  CRITICAL[handle_server.py:33] 2
+10-07-2023 14:58:12  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:58:16  INFO    [handle_server.py:29] statement: True
+10-07-2023 14:58:40  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'maae'}
+10-07-2023 14:58:40  CRITICAL[handle_server.py:33] 2
+10-07-2023 15:01:28  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'}
+10-07-2023 15:01:28  CRITICAL[handle_server.py:33] 1
+10-07-2023 15:07:25  INFO    [handle_server.py:29] statement: True
+10-07-2023 15:08:28  INFO    [handle_server.py:29] statement: True
+10-07-2023 15:10:26  INFO    [handle_server.py:29] statement: True
+10-07-2023 15:13:27  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:01:03  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:02:37  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:06:09  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:08:16  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:08:23  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:08:31  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'what is up'}
+10-07-2023 16:08:31  CRITICAL[handle_server.py:33] 2
+10-07-2023 16:08:45  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'frda'}
+10-07-2023 16:08:45  CRITICAL[handle_server.py:33] 3
+10-07-2023 16:08:56  CRITICAL[handle_server.py:30] {'sender': '1', 'message': 'chno tma'}
+10-07-2023 16:08:56  CRITICAL[handle_server.py:33] 3
+10-07-2023 16:27:26  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:28:33  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:28:33  CRITICAL[templates.py:16] {'(': 'hatim'}
+10-07-2023 16:29:54  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:29:54  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+10-07-2023 16:39:37  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:39:37  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+10-07-2023 16:39:43  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:39:43  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+10-07-2023 16:39:49  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'sat'}
+10-07-2023 16:39:49  CRITICAL[handle_server.py:33] 2
+10-07-2023 16:43:36  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:43:36  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+10-07-2023 16:43:43  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:43:43  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+10-07-2023 16:43:52  CRITICAL[handle_server.py:30] {'sender': '2', 'message': 'hey'}
+10-07-2023 16:43:52  CRITICAL[handle_server.py:33] 3
+10-07-2023 16:47:33  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:47:33  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+10-07-2023 16:49:09  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:49:09  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+10-07-2023 16:51:35  INFO    [handle_server.py:29] statement: True
+10-07-2023 16:51:35  CRITICAL[templates.py:16] {'1': 'yahya', '2': 'fahd', '3': 'hatim'}
+11-07-2023 11:50:15  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:50:43  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:51:20  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:51:42  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:52:52  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:54:13  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:55:10  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:55:46  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:55:46  CRITICAL[templates.py:18] [<objects.User object at 0x0000022483653160>, <objects.User object at 0x0000022483653100>, <objects.User object at 0x00000224836530A0>]
+11-07-2023 11:59:41  INFO    [handle_server.py:29] statement: True
+11-07-2023 11:59:41  CRITICAL[templates.py:18] [<objects.User object at 0x0000026626193B50>, <objects.User object at 0x0000026626193AF0>, <objects.User object at 0x0000026626193A90>]
+11-07-2023 12:00:19  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:00:19  CRITICAL[templates.py:18] [<objects.User object at 0x000001CA69295870>, <objects.User object at 0x000001CA692958D0>, <objects.User object at 0x000001CA69295930>]
+11-07-2023 12:02:34  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:02:34  CRITICAL[templates.py:18] [<objects.User object at 0x000001A9B6FAAB60>, <objects.User object at 0x000001A9B6FAAB00>, <objects.User object at 0x000001A9B6FAAAA0>]
+11-07-2023 12:03:18  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:03:18  CRITICAL[templates.py:18] [<objects.User object at 0x0000024A54F563B0>, <objects.User object at 0x0000024A54F56350>, <objects.User object at 0x0000024A54F562F0>]
+11-07-2023 12:18:10  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:19:00  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:20:19  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:20:25  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:21:41  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:21:47  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:32:29  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:32:38  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:38:14  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:40:40  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:46:28  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:46:47  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:47:52  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:47:53  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:49:38  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:49:38  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:52:55  INFO    [handle_server.py:29] statement: True
+11-07-2023 12:53:00  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:02:51  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:02:57  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:03:35  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:03:42  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:05:01  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:05:06  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:10:39  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:16:36  INFO    [handle_server.py:29] statement: True
+11-07-2023 13:16:49  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:12:21  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:13:38  INFO    [handle_server.py:29] statement: username already used
+11-07-2023 15:16:18  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:19:44  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:20:46  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:21:39  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:23:30  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:37:27  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:42:36  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:43:26  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:43:41  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:52:45  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:53:22  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:54:39  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:56:00  INFO    [handle_server.py:29] statement: True
+11-07-2023 15:59:44  INFO    [handle_server.py:29] statement: True
+11-07-2023 16:02:45  INFO    [handle_server.py:29] statement: True
+11-07-2023 16:05:15  INFO    [handle_server.py:29] statement: True
+11-07-2023 16:08:16  INFO    [handle_server.py:29] statement: True
+11-07-2023 16:09:16  INFO    [handle_server.py:29] statement: True
+11-07-2023 16:12:53  INFO    [handle_server.py:29] statement: True
+11-07-2023 16:14:47  INFO    [handle_server.py:29] statement: True
+12-07-2023 11:59:43  INFO    [handle_server.py:29] statement: True
+12-07-2023 11:59:49  INFO    [handle_server.py:29] statement: username not found
+12-07-2023 11:59:55  INFO    [handle_server.py:29] statement: username not found
+12-07-2023 11:59:59  INFO    [handle_server.py:29] statement: username not found
+12-07-2023 12:00:25  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:01:52  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:02:04  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:05:04  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:06:11  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:08:10  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:09:00  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:09:59  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:10:46  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:13:17  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:16:54  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:17:04  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:17:45  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:17:54  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:43:51  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:43:59  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:45:25  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:45:30  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:56:52  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:57:07  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:57:49  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:58:04  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:58:33  INFO    [handle_server.py:29] statement: True
+12-07-2023 12:58:38  INFO    [handle_server.py:29] statement: True
+12-07-2023 13:48:02  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:33:24  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:34:09  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:35:09  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:38:03  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:38:24  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:39:01  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:39:27  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:39:33  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:41:53  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:42:10  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:44:55  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:45:17  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:49:39  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:49:56  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:51:00  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:51:02  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:55:49  INFO    [handle_server.py:29] statement: True
+12-07-2023 14:56:01  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:02:25  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:03:10  INFO    [handle_server.py:29] statement: username not found
+12-07-2023 15:03:24  INFO    [handle_server.py:29] statement: The two passwords don't match 
+12-07-2023 15:03:30  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:04:25  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:05:42  INFO    [handle_server.py:29] statement: username not found
+12-07-2023 15:06:04  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:11:07  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:11:24  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:14:16  INFO    [handle_server.py:29] statement: Invalid password
+12-07-2023 15:14:19  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:16:11  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:16:23  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:19:45  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:19:52  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:37:45  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:38:21  INFO    [handle_server.py:29] statement: username already used
+12-07-2023 15:38:34  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:38:44  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:47:25  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:47:32  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:48:22  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:48:26  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:54:38  INFO    [handle_server.py:29] statement: Invalid password
+12-07-2023 15:54:41  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:54:50  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:56:35  INFO    [handle_server.py:29] statement: True
+12-07-2023 15:56:46  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:02:28  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:07:05  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:07:17  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:08:09  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:10:29  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:10:46  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:10:57  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:15:59  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:16:44  INFO    [handle_server.py:29] statement: Invalid password
+12-07-2023 16:16:48  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:22:38  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:23:39  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:24:35  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:25:12  INFO    [handle_server.py:29] statement: True
+12-07-2023 16:26:50  INFO    [handle_server.py:29] statement: Invalid password
+12-07-2023 16:26:54  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:10:33  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:10:33  CRITICAL[templates.py:24] [<objects.User object at 0x000002403774CE80>, <objects.User object at 0x000002403774CEB0>], [<objects.Conversation object at 0x000002403774CEE0>, <objects.Conversation object at 0x000002403774CF10>], []
+13-07-2023 11:13:38  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:13:38  CRITICAL[templates.py:24] [<objects.User object at 0x00000166B9E45C90>, <objects.User object at 0x00000166B9E45CC0>], [<objects.Conversation object at 0x00000166B9E45CF0>, <objects.Conversation object at 0x00000166B9E45D20>], []
+13-07-2023 11:15:04  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:15:04  CRITICAL[templates.py:24] [<objects.User object at 0x000001B8F49BD750>, <objects.User object at 0x000001B8F49BD780>], [<objects.Conversation object at 0x000001B8F49BD7B0>, <objects.Conversation object at 0x000001B8F49BD7E0>], []
+13-07-2023 11:16:23  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:16:23  CRITICAL[templates.py:24] [<objects.User object at 0x000001EBEC4BAC80>, <objects.User object at 0x000001EBEC4BACB0>], [<objects.Conversation object at 0x000001EBEC4BACE0>, <objects.Conversation object at 0x000001EBEC4BAD10>], []
+13-07-2023 11:17:12  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:17:52  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:17:52  CRITICAL[templates.py:24] [<objects.User object at 0x00000222E6DDAC80>, <objects.User object at 0x00000222E6DDACB0>], [<objects.Conversation object at 0x00000222E6DDACE0>, <objects.Conversation object at 0x00000222E6DDAD10>], []
+13-07-2023 11:18:27  CRITICAL[templates.py:24] [<objects.User object at 0x00000222E6DDAC80>, <objects.User object at 0x00000222E6DDACB0>], [<objects.Conversation object at 0x00000222E6DDACE0>, <objects.Conversation object at 0x00000222E6DDAD10>], []
+13-07-2023 11:22:57  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:22:57  CRITICAL[templates.py:24] [<objects.User object at 0x0000020839040400>, <objects.User object at 0x0000020839040430>], [<objects.Conversation object at 0x0000020839040460>, <objects.Conversation object at 0x0000020839040490>], []
+13-07-2023 11:23:53  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:23:53  CRITICAL[templates.py:24] [<objects.User object at 0x000001B634AB5C90>, <objects.User object at 0x000001B634AB5CC0>], [<objects.Conversation object at 0x000001B634AB5CF0>, <objects.Conversation object at 0x000001B634AB5D20>], []
+13-07-2023 11:25:14  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:25:14  CRITICAL[templates.py:24] [<objects.User object at 0x0000018ADFC80400>, <objects.User object at 0x0000018ADFC80430>], [<objects.Conversation object at 0x0000018ADFC80460>, <objects.Conversation object at 0x0000018ADFC80490>], []
+13-07-2023 11:26:27  INFO    [handle_server.py:29] statement: True
+13-07-2023 11:26:27  CRITICAL[templates.py:24] [<objects.User object at 0x0000021D5D250400>, <objects.User object at 0x0000021D5D250430>], [<objects.Conversation object at 0x0000021D5D250460>, <objects.Conversation object at 0x0000021D5D250490>], []
+13-07-2023 11:28:17  CRITICAL[templates.py:24] [<objects.User object at 0x0000021D5D250400>, <objects.User object at 0x0000021D5D250430>], [<objects.Conversation object at 0x0000021D5D250460>, <objects.Conversation object at 0x0000021D5D250490>], []
+13-07-2023 12:19:54  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:19:54  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:20:24  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:20:24  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:20:38  CRITICAL[templates.py:24] [<objects.User object at 0x000001983874AE90>], [<objects.Conversation object at 0x0000019838748430>], []
+13-07-2023 12:20:39  CRITICAL[templates.py:24] [<objects.User object at 0x000002F539880460>], [<objects.Conversation object at 0x000002F539880670>], []
+13-07-2023 12:23:42  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:23:42  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:23:54  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:23:54  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:25:25  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:25:25  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:25:31  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:25:31  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:25:40  CRITICAL[templates.py:24] [<objects.User object at 0x000001B233C40460>], [<objects.Conversation object at 0x000001B233C40670>], []
+13-07-2023 12:25:41  CRITICAL[templates.py:24] [<objects.User object at 0x00000284EC1D05B0>], [<objects.Conversation object at 0x00000284EC149E70>], []
+13-07-2023 12:32:47  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:32:47  CRITICAL[templates.py:24] [<objects.User object at 0x00000136C3375ED0>], [<objects.Conversation object at 0x00000136C3375EA0>], []
+13-07-2023 12:32:53  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:32:53  CRITICAL[templates.py:24] [<objects.User object at 0x000001E23FA5C460>], [<objects.Conversation object at 0x000001E23FA5C490>], []
+13-07-2023 12:39:42  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:39:42  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:39:51  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:39:51  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:39:58  CRITICAL[templates.py:24] [<objects.User object at 0x0000021C183DC5E0>], [<objects.Conversation object at 0x0000021C18359E70>], []
+13-07-2023 12:40:00  CRITICAL[templates.py:24] [<objects.User object at 0x00000252FE8EC6A0>], [<objects.Conversation object at 0x00000252FE8EC6D0>], []
+13-07-2023 12:42:23  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:42:23  CRITICAL[templates.py:24] [<objects.User object at 0x000002422E035ED0>], [<objects.Conversation object at 0x000002422E035EA0>], []
+13-07-2023 12:42:28  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:42:28  CRITICAL[templates.py:24] [<objects.User object at 0x000001BAC8E0C460>], [<objects.Conversation object at 0x000001BAC8E0C490>], []
+13-07-2023 12:45:07  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:45:07  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:45:24  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:45:24  CRITICAL[templates.py:24] [], [], []
+13-07-2023 12:45:37  CRITICAL[templates.py:24] [<objects.User object at 0x00000218D86BC5E0>], [<objects.Conversation object at 0x00000218D8639E70>], []
+13-07-2023 12:45:37  CRITICAL[templates.py:24] [<objects.User object at 0x000001E7FB1A5C60>], [<objects.Conversation object at 0x000001E7FB1A7F10>], []
+13-07-2023 12:47:29  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:47:29  CRITICAL[templates.py:24] [<objects.User object at 0x0000017E72B05ED0>], [<objects.Conversation object at 0x0000017E72B05EA0>], []
+13-07-2023 12:47:39  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:47:39  CRITICAL[templates.py:24] [<objects.User object at 0x000001EB4A00C460>], [<objects.Conversation object at 0x000001EB4A00C490>], []
+13-07-2023 12:48:49  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:48:49  CRITICAL[templates.py:24] [<objects.User object at 0x00000265D3135ED0>], [<objects.Conversation object at 0x00000265D3135EA0>], []
+13-07-2023 12:52:05  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:52:05  CRITICAL[templates.py:24] [<objects.User object at 0x000002AF7341AB30>], [<objects.Conversation object at 0x000002AF7341AD10>], []
+13-07-2023 12:54:17  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:54:17  CRITICAL[templates.py:24] [<objects.User object at 0x0000017C1DA45F00>], [<objects.Conversation object at 0x0000017C1DA45ED0>], []
+13-07-2023 12:56:55  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:56:55  CRITICAL[templates.py:24] [<objects.User object at 0x0000013A9A28ABC0>], [<objects.Conversation object at 0x0000013A9A28ADA0>], []
+13-07-2023 12:57:13  INFO    [handle_server.py:29] statement: True
+13-07-2023 12:57:13  CRITICAL[templates.py:24] [<objects.User object at 0x00000265D909C460>], [<objects.Conversation object at 0x00000265D909C490>], []
+13-07-2023 13:01:27  INFO    [handle_server.py:29] statement: True
+13-07-2023 13:01:27  CRITICAL[templates.py:24] [<objects.User object at 0x000002AB4B8F5F00>], [<objects.Conversation object at 0x000002AB4B8F5ED0>], []
+13-07-2023 13:02:39  INFO    [handle_server.py:29] statement: True
+13-07-2023 13:02:39  CRITICAL[templates.py:24] [<objects.User object at 0x000001DC239FD6F0>], [<objects.Conversation object at 0x000001DC239FD720>], []
+13-07-2023 13:02:56  INFO    [handle_server.py:29] statement: True
+13-07-2023 13:02:56  CRITICAL[templates.py:24] [<objects.User object at 0x000002646F300430>], [<objects.Conversation object at 0x000002646F300460>], []
+13-07-2023 14:20:34  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:20:34  CRITICAL[templates.py:24] [<objects.User object at 0x0000020D3561D6F0>], [<objects.Conversation object at 0x0000020D3561D720>], []
+13-07-2023 14:21:37  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:21:37  CRITICAL[templates.py:24] [<objects.User object at 0x000001A0E3CD0430>], [<objects.Conversation object at 0x000001A0E3CD0460>], []
+13-07-2023 14:22:39  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:22:39  CRITICAL[templates.py:24] [<objects.User object at 0x000001C3F59D56C0>], [<objects.Conversation object at 0x000001C3F59D5690>], []
+13-07-2023 14:25:02  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:25:02  CRITICAL[templates.py:24] [<objects.User object at 0x000002AE96DED6F0>], [<objects.Conversation object at 0x000002AE96DED720>], []
+13-07-2023 14:25:55  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:26:41  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:26:41  CRITICAL[templates.py:24] [<objects.User object at 0x0000026D7187CF10>], [<objects.Conversation object at 0x0000026D7187CEE0>], []
+13-07-2023 14:27:45  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:27:45  CRITICAL[templates.py:24] [<objects.User object at 0x0000025AF206D6F0>], [<objects.Conversation object at 0x0000025AF206D720>], []
+13-07-2023 14:31:16  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:31:16  CRITICAL[templates.py:24] [], [], []
+13-07-2023 14:31:37  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:31:37  CRITICAL[templates.py:24] [<objects.User object at 0x000001D2C5580430>], [<objects.Conversation object at 0x000001D2C5580460>], [<objects.FriendRequest object at 0x000001D2C5580610>]
+13-07-2023 14:31:41  CRITICAL[templates.py:24] [<objects.User object at 0x000001D2C5580430>, <objects.User object at 0x000001D2C55805B0>], [<objects.Conversation object at 0x000001D2C5580460>, <objects.Conversation object at 0x000001D2C54FB100>], []
+13-07-2023 14:31:54  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:31:54  CRITICAL[templates.py:24] [<objects.User object at 0x000001F0E6160430>], [<objects.Conversation object at 0x000001F0E6160460>], [<objects.FriendRequest object at 0x000001F0E6160610>]
+13-07-2023 14:31:56  CRITICAL[templates.py:24] [<objects.User object at 0x000001F0E6160430>, <objects.User object at 0x000001F0E61605B0>], [<objects.Conversation object at 0x000001F0E6160460>, <objects.Conversation object at 0x000001F0E60DB100>], []
+13-07-2023 14:32:01  CRITICAL[templates.py:24] [<objects.User object at 0x000001E04111D360>], [<objects.Conversation object at 0x000001E04111C490>], []
+13-07-2023 14:32:46  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:32:46  CRITICAL[templates.py:24] [<objects.User object at 0x00000292E8B40430>, <objects.User object at 0x00000292E8B40460>], [<objects.Conversation object at 0x00000292E8B40490>, <objects.Conversation object at 0x00000292E8B404C0>], []
+13-07-2023 14:34:29  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:34:29  CRITICAL[templates.py:24] [<objects.User object at 0x0000028E4CAAD6C0>, <objects.User object at 0x0000028E4CAAD6F0>], [<objects.Conversation object at 0x0000028E4CAAD720>, <objects.Conversation object at 0x0000028E4CAAD8A0>], []
+13-07-2023 14:34:34  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:34:34  CRITICAL[templates.py:24] [<objects.User object at 0x00000203BAD40460>, <objects.User object at 0x00000203BAD40490>], [<objects.Conversation object at 0x00000203BAD404C0>, <objects.Conversation object at 0x00000203BAD40640>], []
+13-07-2023 14:34:38  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:34:38  CRITICAL[templates.py:24] [<objects.User object at 0x000001D566C70460>, <objects.User object at 0x000001D566C70490>], [<objects.Conversation object at 0x000001D566C704C0>, <objects.Conversation object at 0x000001D566C704F0>], []
+13-07-2023 14:37:44  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:37:44  CRITICAL[templates.py:24] [<objects.User object at 0x0000020DB4855EA0>, <objects.User object at 0x0000020DB4855E70>], [<objects.Conversation object at 0x0000020DB4855E40>, <objects.Conversation object at 0x0000020DB4855C60>], []
+13-07-2023 14:37:50  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:37:50  CRITICAL[templates.py:24] [<objects.User object at 0x0000023C2DB30490>, <objects.User object at 0x0000023C2DB304C0>], [<objects.Conversation object at 0x0000023C2DB304F0>, <objects.Conversation object at 0x0000023C2DB306D0>], []
+13-07-2023 14:39:13  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:39:13  CRITICAL[templates.py:24] [<objects.User object at 0x000001BCA5AB5EA0>, <objects.User object at 0x000001BCA5AB5E70>], [<objects.Conversation object at 0x000001BCA5AB5E40>, <objects.Conversation object at 0x000001BCA5AB5C00>], []
+13-07-2023 14:39:18  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:39:18  CRITICAL[templates.py:24] [<objects.User object at 0x00000239D3F90490>, <objects.User object at 0x00000239D3F904C0>], [<objects.Conversation object at 0x00000239D3F904F0>, <objects.Conversation object at 0x00000239D3F90730>], []
+13-07-2023 14:42:58  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:42:58  CRITICAL[templates.py:24] [<objects.User object at 0x0000022ADF1A5EA0>, <objects.User object at 0x0000022ADF1A5E70>], [<objects.Conversation object at 0x0000022ADF1A5E40>, <objects.Conversation object at 0x0000022ADF1A5BD0>], []
+13-07-2023 14:43:03  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:43:03  CRITICAL[templates.py:24] [<objects.User object at 0x00000223F3080490>, <objects.User object at 0x00000223F30804C0>], [<objects.Conversation object at 0x00000223F30804F0>, <objects.Conversation object at 0x00000223F3080760>], []
+13-07-2023 14:55:17  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:55:17  CRITICAL[templates.py:24] [<objects.User object at 0x00000189A64F5EA0>, <objects.User object at 0x00000189A64F5E70>], [<objects.Conversation object at 0x00000189A64F5E40>, <objects.Conversation object at 0x00000189A64F5B70>], []
+13-07-2023 14:55:28  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:55:28  CRITICAL[templates.py:24] [<objects.User object at 0x0000025787A10490>, <objects.User object at 0x0000025787A104C0>], [<objects.Conversation object at 0x0000025787A104F0>, <objects.Conversation object at 0x0000025787A10520>], []
+13-07-2023 14:55:56  INFO    [handle_server.py:29] statement: Invalid password
+13-07-2023 14:56:01  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:56:01  CRITICAL[templates.py:24] [<objects.User object at 0x00000160F4530220>, <objects.User object at 0x00000160F4530100>], [<objects.Conversation object at 0x00000160F4530490>, <objects.Conversation object at 0x00000160F45307C0>], []
+13-07-2023 14:57:40  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:57:40  CRITICAL[templates.py:24] [<objects.User object at 0x00000191DF0C5750>, <objects.User object at 0x00000191DF0C5720>], [<objects.Conversation object at 0x00000191DF0C56F0>, <objects.Conversation object at 0x00000191DF0C52A0>], []
+13-07-2023 14:57:45  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:57:45  CRITICAL[templates.py:24] [<objects.User object at 0x000002122EA50490>, <objects.User object at 0x000002122EA504C0>], [<objects.Conversation object at 0x000002122EA504F0>, <objects.Conversation object at 0x000002122EA50820>], []
+13-07-2023 14:59:33  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:59:33  CRITICAL[templates.py:24] [<objects.User object at 0x0000027FEF330490>, <objects.User object at 0x0000027FEF3304C0>], [<objects.Conversation object at 0x0000027FEF3304F0>, <objects.Conversation object at 0x0000027FEF330820>], []
+13-07-2023 14:59:39  INFO    [handle_server.py:29] statement: True
+13-07-2023 14:59:39  CRITICAL[templates.py:24] [<objects.User object at 0x0000017509960490>, <objects.User object at 0x00000175099604C0>], [<objects.Conversation object at 0x00000175099604F0>, <objects.Conversation object at 0x0000017509960820>], []
+13-07-2023 15:03:39  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:03:39  CRITICAL[templates.py:24] [<objects.User object at 0x000001FDAEC0CE80>, <objects.User object at 0x000001FDAEC0CEB0>], [<objects.Conversation object at 0x000001FDAEC0CEE0>, <objects.Conversation object at 0x000001FDAEC0D180>], []
+13-07-2023 15:04:02  INFO    [handle_server.py:29] statement: Invalid password
+13-07-2023 15:04:08  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:04:08  CRITICAL[templates.py:24] [<objects.User object at 0x000002F223E60220>, <objects.User object at 0x000002F223E60100>], [<objects.Conversation object at 0x000002F223E60490>, <objects.Conversation object at 0x000002F223E608B0>], []
+13-07-2023 15:05:25  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:05:25  CRITICAL[templates.py:24] [<objects.User object at 0x000002CAC4070490>, <objects.User object at 0x000002CAC40704C0>], [<objects.Conversation object at 0x000002CAC40704F0>, <objects.Conversation object at 0x000002CAC4070520>], []
+13-07-2023 15:07:38  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:07:38  CRITICAL[templates.py:24] [<objects.User object at 0x0000017C7C8C5EA0>, <objects.User object at 0x0000017C7C8C5E70>], [<objects.Conversation object at 0x0000017C7C8C5E40>, <objects.Conversation object at 0x0000017C7C8C5A50>], []
+13-07-2023 15:07:45  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:07:45  CRITICAL[templates.py:24] [<objects.User object at 0x0000010A7AF70490>, <objects.User object at 0x0000010A7AF704C0>], [<objects.Conversation object at 0x0000010A7AF704F0>, <objects.Conversation object at 0x0000010A7AF708E0>], []
+13-07-2023 15:09:50  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:09:50  CRITICAL[templates.py:24] [<objects.User object at 0x000001C82D3B5EA0>, <objects.User object at 0x000001C82D3B5E70>], [<objects.Conversation object at 0x000001C82D3B5E40>, <objects.Conversation object at 0x000001C82D3B59C0>], []
+13-07-2023 15:09:55  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:09:55  CRITICAL[templates.py:24] [<objects.User object at 0x000001ED622E0490>, <objects.User object at 0x000001ED622E04C0>], [<objects.Conversation object at 0x000001ED622E04F0>, <objects.Conversation object at 0x000001ED622E06D0>], []
+13-07-2023 15:12:18  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:12:18  CRITICAL[templates.py:24] [<objects.User object at 0x000001EB8BCE5EA0>, <objects.User object at 0x000001EB8BCE5E70>], [<objects.Conversation object at 0x000001EB8BCE5E40>, <objects.Conversation object at 0x000001EB8BCE59C0>], []
+13-07-2023 15:12:23  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:12:23  CRITICAL[templates.py:24] [<objects.User object at 0x0000021798470490>, <objects.User object at 0x00000217984704C0>], [<objects.Conversation object at 0x00000217984704F0>, <objects.Conversation object at 0x00000217984706D0>], []
+13-07-2023 15:24:34  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:24:34  CRITICAL[templates.py:24] [<objects.User object at 0x000002589E2B78B0>, <objects.User object at 0x000002589E2B78E0>], [<objects.Conversation object at 0x000002589E2B79D0>, <objects.Conversation object at 0x000002589E2B7310>], []
+13-07-2023 15:24:39  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:24:39  CRITICAL[templates.py:24] [<objects.User object at 0x000001AEBAF8C490>, <objects.User object at 0x000001AEBAF8C4C0>], [<objects.Conversation object at 0x000001AEBAF8C4F0>, <objects.Conversation object at 0x000001AEBAF8C970>], []
+13-07-2023 15:34:44  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:34:44  CRITICAL[templates.py:24] [<objects.User object at 0x0000014872A95EA0>, <objects.User object at 0x0000014872A95E70>], [<objects.Conversation object at 0x0000014872A95E40>, <objects.Conversation object at 0x0000014872A95900>], []
+13-07-2023 15:34:48  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:34:48  CRITICAL[templates.py:24] [<objects.User object at 0x000001AA5DA2C490>, <objects.User object at 0x000001AA5DA2C4C0>], [<objects.Conversation object at 0x000001AA5DA2C4F0>, <objects.Conversation object at 0x000001AA5DA2CA30>], []
+13-07-2023 15:36:38  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:36:38  CRITICAL[templates.py:24] [<objects.User object at 0x0000020A38855EA0>, <objects.User object at 0x0000020A38855E70>], [<objects.Conversation object at 0x0000020A38855E40>, <objects.Conversation object at 0x0000020A38855900>], []
+13-07-2023 15:37:04  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:37:04  CRITICAL[templates.py:24] [<objects.User object at 0x00000163561FC490>, <objects.User object at 0x00000163561FC4C0>], [<objects.Conversation object at 0x00000163561FC4F0>, <objects.Conversation object at 0x00000163561FCA30>], []
+13-07-2023 15:38:56  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:38:56  CRITICAL[templates.py:24] [<objects.User object at 0x00000246F18E5EA0>, <objects.User object at 0x00000246F18E5E70>], [<objects.Conversation object at 0x00000246F18E5E40>, <objects.Conversation object at 0x00000246F18E5870>], []
+13-07-2023 15:39:01  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:39:01  CRITICAL[templates.py:24] [<objects.User object at 0x00000266AE42C490>, <objects.User object at 0x00000266AE42C4C0>], [<objects.Conversation object at 0x00000266AE42C4F0>, <objects.Conversation object at 0x00000266AE42CAC0>], []
+13-07-2023 15:41:11  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:41:11  CRITICAL[templates.py:24] [<objects.User object at 0x0000023784810EB0>, <objects.User object at 0x0000023784810EE0>], [<objects.Conversation object at 0x0000023784810F10>, <objects.Conversation object at 0x0000023784811570>], []
+13-07-2023 15:41:38  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:41:38  CRITICAL[templates.py:24] [<objects.User object at 0x00000295FE8EC490>, <objects.User object at 0x00000295FE8EC4C0>], [<objects.Conversation object at 0x00000295FE8EC4F0>, <objects.Conversation object at 0x00000295FE8ECB80>], []
+13-07-2023 15:50:56  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:50:56  CRITICAL[templates.py:24] [<objects.User object at 0x0000017B55A05EA0>, <objects.User object at 0x0000017B55A05E70>], [<objects.Conversation object at 0x0000017B55A05E40>, <objects.Conversation object at 0x0000017B55A057B0>], []
+13-07-2023 15:51:48  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:51:48  CRITICAL[templates.py:24] [<objects.User object at 0x000002DDDFB7C490>, <objects.User object at 0x000002DDDFB7C4C0>], [<objects.Conversation object at 0x000002DDDFB7C4F0>, <objects.Conversation object at 0x000002DDDFB7CB80>], []
+13-07-2023 15:54:37  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:54:37  CRITICAL[templates.py:24] [<objects.User object at 0x0000018B827AC490>, <objects.User object at 0x0000018B827AC4C0>], [<objects.Conversation object at 0x0000018B827AC4F0>, <objects.Conversation object at 0x0000018B827ACC10>], []
+13-07-2023 15:54:41  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:54:41  CRITICAL[templates.py:24] [<objects.User object at 0x000001065ED8C490>, <objects.User object at 0x000001065ED8C4C0>], [<objects.Conversation object at 0x000001065ED8C4F0>, <objects.Conversation object at 0x000001065ED8CC10>], []
+13-07-2023 15:55:19  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:55:19  CRITICAL[templates.py:24] [<objects.User object at 0x0000021B0BB1C490>, <objects.User object at 0x0000021B0BB1C4C0>], [<objects.Conversation object at 0x0000021B0BB1C4F0>, <objects.Conversation object at 0x0000021B0BB1C7C0>], []
+13-07-2023 15:58:10  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:58:10  CRITICAL[templates.py:24] [<objects.User object at 0x000001D0169F5EA0>, <objects.User object at 0x000001D0169F5E70>], [<objects.Conversation object at 0x000001D0169F5E40>, <objects.Conversation object at 0x000001D0169F5720>], []
+13-07-2023 15:58:46  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:58:46  CRITICAL[templates.py:24] [<objects.User object at 0x000001F71753C490>, <objects.User object at 0x000001F71753C4C0>], [<objects.Conversation object at 0x000001F71753C4F0>, <objects.Conversation object at 0x000001F71753CC10>], []
+13-07-2023 15:58:50  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:58:50  CRITICAL[templates.py:24] [<objects.User object at 0x000001AACD5FC490>, <objects.User object at 0x000001AACD5FC4C0>], [<objects.Conversation object at 0x000001AACD5FC4F0>, <objects.Conversation object at 0x000001AACD5FCC10>], []
+13-07-2023 15:58:54  INFO    [handle_server.py:29] statement: True
+13-07-2023 15:58:54  CRITICAL[templates.py:24] [<objects.User object at 0x000002E49D8BC490>, <objects.User object at 0x000002E49D8BC4C0>], [<objects.Conversation object at 0x000002E49D8BC4F0>, <objects.Conversation object at 0x000002E49D8BC7F0>], []
+13-07-2023 16:02:05  INFO    [handle_server.py:29] statement: True
+13-07-2023 16:02:05  CRITICAL[templates.py:24] [<objects.User object at 0x000001EAA04B5EA0>, <objects.User object at 0x000001EAA04B5E70>], [<objects.Conversation object at 0x000001EAA04B5E40>, <objects.Conversation object at 0x000001EAA04B56C0>], []
+13-07-2023 16:02:09  INFO    [handle_server.py:29] statement: True
+13-07-2023 16:02:09  CRITICAL[templates.py:24] [<objects.User object at 0x0000025F9E5DC490>, <objects.User object at 0x0000025F9E5DC4C0>], [<objects.Conversation object at 0x0000025F9E5DC4F0>, <objects.Conversation object at 0x0000025F9E5DCC70>], []
+13-07-2023 16:02:13  INFO    [handle_server.py:29] statement: True
+13-07-2023 16:02:13  CRITICAL[templates.py:24] [<objects.User object at 0x00000266E4DEC490>, <objects.User object at 0x00000266E4DEC4C0>], [<objects.Conversation object at 0x00000266E4DEC4F0>, <objects.Conversation object at 0x00000266E4DEC7F0>], []
+13-07-2023 16:10:37  INFO    [handle_server.py:29] statement: True
+13-07-2023 16:10:37  CRITICAL[templates.py:24] [<objects.User object at 0x000001B098EE5EA0>, <objects.User object at 0x000001B098EE5E70>], [<objects.Conversation object at 0x000001B098EE5E40>, <objects.Conversation object at 0x000001B098EE5600>], []
+13-07-2023 16:10:42  INFO    [handle_server.py:29] statement: True
+13-07-2023 16:10:42  CRITICAL[templates.py:24] [<objects.User object at 0x00000200E76CC490>, <objects.User object at 0x00000200E76CC4C0>], [<objects.Conversation object at 0x00000200E76CC4F0>, <objects.Conversation object at 0x00000200E76CCD30>], []
+13-07-2023 16:13:31  INFO    [handle_server.py:29] statement: True
+13-07-2023 16:13:31  CRITICAL[templates.py:24] [<objects.User object at 0x000002D343255EA0>, <objects.User object at 0x000002D343255E70>], [<objects.Conversation object at 0x000002D343255E40>, <objects.Conversation object at 0x000002D3432555D0>], []
+13-07-2023 16:13:35  INFO    [handle_server.py:29] statement: True
+13-07-2023 16:13:35  CRITICAL[templates.py:24] [<objects.User object at 0x000002309AD9C490>, <objects.User object at 0x000002309AD9C4C0>], [<objects.Conversation object at 0x000002309AD9C4F0>, <objects.Conversation object at 0x000002309AD9CD60>], []
+14-07-2023 16:54:27  INFO    [handle_server.py:29] statement: True
+14-07-2023 16:54:27  CRITICAL[templates.py:24] [<objects.User object at 0x000002461D5F5E70>, <objects.User object at 0x000002461D5F5E40>], [<objects.Conversation object at 0x000002461D5F5E10>, <objects.Conversation object at 0x000002461D5F5570>], []
+14-07-2023 16:54:33  INFO    [handle_server.py:29] statement: True
+14-07-2023 16:54:33  CRITICAL[templates.py:24] [<objects.User object at 0x00000279664404C0>, <objects.User object at 0x00000279664404F0>], [<objects.Conversation object at 0x0000027966440520>, <objects.Conversation object at 0x0000027966440DC0>], []
+14-07-2023 16:54:35  CRITICAL[objects.py:151] Message is seen: id : 45
+14-07-2023 16:56:44  INFO    [handle_server.py:29] statement: True
+14-07-2023 16:56:44  CRITICAL[templates.py:24] [<objects.User object at 0x0000024FCA286200>, <objects.User object at 0x0000024FCA286230>], [<objects.Conversation object at 0x0000024FCA286260>, <objects.Conversation object at 0x0000024FCA287040>], []
+14-07-2023 16:56:52  INFO    [handle_server.py:29] statement: True
+14-07-2023 16:56:52  CRITICAL[templates.py:24] [<objects.User object at 0x000001A799DB04C0>, <objects.User object at 0x000001A799DB04F0>], [<objects.Conversation object at 0x000001A799DB0520>, <objects.Conversation object at 0x000001A799DB0DC0>], []
+14-07-2023 17:02:24  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:02:24  CRITICAL[templates.py:24] [<objects.User object at 0x000002E782B004C0>, <objects.User object at 0x000002E782B004F0>], [<objects.Conversation object at 0x000002E782B00520>, <objects.Conversation object at 0x000002E782B00DF0>], []
+14-07-2023 17:02:30  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:02:30  CRITICAL[templates.py:24] [<objects.User object at 0x0000021995A45E70>, <objects.User object at 0x0000021995A45E40>], [<objects.Conversation object at 0x0000021995A45E10>, <objects.Conversation object at 0x0000021995A45540>], []
+14-07-2023 17:08:41  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:08:41  CRITICAL[templates.py:24] [<objects.User object at 0x000002BFBEA85ED0>, <objects.User object at 0x000002BFBEA85EA0>], [<objects.Conversation object at 0x000002BFBEA85E70>, <objects.Conversation object at 0x000002BFBEA85570>], []
+14-07-2023 17:10:59  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:11:00  CRITICAL[templates.py:24] [<objects.User object at 0x00000248583E5E70>, <objects.User object at 0x00000248583E5E40>], [<objects.Conversation object at 0x00000248583E5E10>, <objects.Conversation object at 0x00000248583E5510>], []
+14-07-2023 17:12:42  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:12:42  CRITICAL[templates.py:24] [<objects.User object at 0x000001DB5A745E70>, <objects.User object at 0x000001DB5A745E40>], [<objects.Conversation object at 0x000001DB5A745E10>, <objects.Conversation object at 0x000001DB5A745510>], []
+14-07-2023 17:12:47  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:12:47  CRITICAL[templates.py:24] [<objects.User object at 0x000002811CD804C0>, <objects.User object at 0x000002811CD804F0>], [<objects.Conversation object at 0x000002811CD80520>, <objects.Conversation object at 0x000002811CD80E20>], []
+14-07-2023 17:36:48  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:36:48  CRITICAL[templates.py:24] [<objects.User object at 0x000001BC261EC550>, <objects.User object at 0x000001BC261EC580>], [<objects.Conversation object at 0x000001BC261EC5B0>, <objects.Conversation object at 0x000001BC261ECEE0>], []
+14-07-2023 17:36:52  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:36:52  CRITICAL[templates.py:24] [<objects.User object at 0x0000021F953F5DE0>, <objects.User object at 0x0000021F953F5DB0>], [<objects.Conversation object at 0x0000021F953F5D80>, <objects.Conversation object at 0x0000021F953F5450>], []
+14-07-2023 17:39:29  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:39:29  CRITICAL[templates.py:24] [<objects.User object at 0x000001C967C7C490>, <objects.User object at 0x000001C967C7C4C0>], [<objects.Conversation object at 0x000001C967C7C4F0>, <objects.Conversation object at 0x000001C967C7CE50>], []
+14-07-2023 17:39:40  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:39:40  CRITICAL[templates.py:24] [<objects.User object at 0x000001A293395EA0>, <objects.User object at 0x000001A293395E70>], [<objects.Conversation object at 0x000001A293395E40>, <objects.Conversation object at 0x000001A2933954E0>], []
+14-07-2023 17:41:09  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:41:09  CRITICAL[templates.py:24] [<objects.User object at 0x000001E6C26CC490>, <objects.User object at 0x000001E6C26CC4C0>], [<objects.Conversation object at 0x000001E6C26CC4F0>, <objects.Conversation object at 0x000001E6C26CCE80>], []
+14-07-2023 17:41:13  INFO    [handle_server.py:29] statement: True
+14-07-2023 17:41:13  CRITICAL[templates.py:24] [<objects.User object at 0x000002A3443A5EA0>, <objects.User object at 0x000002A3443A5E70>], [<objects.Conversation object at 0x000002A3443A5E40>, <objects.Conversation object at 0x000002A3443A54B0>], []
+14-07-2023 18:02:38  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:02:38  CRITICAL[templates.py:24] [<objects.User object at 0x00000277B3155D50>, <objects.User object at 0x00000277B3155D20>], [<objects.Conversation object at 0x00000277B3155CF0>, <objects.Conversation object at 0x00000277B3155330>], []
+14-07-2023 18:02:43  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:02:43  CRITICAL[templates.py:24] [<objects.User object at 0x000001F1A25AC5E0>, <objects.User object at 0x000001F1A25AC610>], [<objects.Conversation object at 0x000001F1A25AC640>, <objects.Conversation object at 0x000001F1A25AD000>], []
+14-07-2023 18:11:09  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:11:09  CRITICAL[templates.py:24] [<objects.User object at 0x0000029ACD6BC5E0>, <objects.User object at 0x0000029ACD6BC610>], [<objects.Conversation object at 0x0000029ACD6BC640>, <objects.Conversation object at 0x0000029ACD6BD000>], []
+14-07-2023 18:11:18  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:11:18  CRITICAL[templates.py:24] [<objects.User object at 0x000001984B305D50>, <objects.User object at 0x000001984B305D20>], [<objects.Conversation object at 0x000001984B305CF0>, <objects.Conversation object at 0x000001984B305330>], []
+14-07-2023 18:12:19  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:12:19  CRITICAL[templates.py:24] [<objects.User object at 0x0000019F5F5D5D50>, <objects.User object at 0x0000019F5F5D5D20>], [<objects.Conversation object at 0x0000019F5F5D5CF0>, <objects.Conversation object at 0x0000019F5F5D5300>], []
+14-07-2023 18:12:24  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:12:24  CRITICAL[templates.py:24] [<objects.User object at 0x0000017C1106C5E0>, <objects.User object at 0x0000017C1106C610>], [<objects.Conversation object at 0x0000017C1106C640>, <objects.Conversation object at 0x0000017C1106D030>], []
+14-07-2023 18:15:14  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:15:14  CRITICAL[templates.py:24] [<objects.User object at 0x000002A858F15D50>, <objects.User object at 0x000002A858F15D20>], [<objects.Conversation object at 0x000002A858F15CF0>, <objects.Conversation object at 0x000002A858F152D0>], []
+14-07-2023 18:15:19  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:15:19  CRITICAL[templates.py:24] [<objects.User object at 0x0000021FE2A3C5E0>, <objects.User object at 0x0000021FE2A3C610>], [<objects.Conversation object at 0x0000021FE2A3C640>, <objects.Conversation object at 0x0000021FE2A3D060>], []
+14-07-2023 18:21:55  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:21:55  CRITICAL[templates.py:24] [<objects.User object at 0x0000023230F3C610>, <objects.User object at 0x0000023230F3C640>], [<objects.Conversation object at 0x0000023230F3C670>, <objects.Conversation object at 0x0000023230F3D0C0>], []
+14-07-2023 18:22:24  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:22:24  CRITICAL[templates.py:24] [<objects.User object at 0x000001C2891EC610>, <objects.User object at 0x000001C2891EC640>], [<objects.Conversation object at 0x000001C2891EC670>, <objects.Conversation object at 0x000001C2891ED0C0>], []
+14-07-2023 18:22:29  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:22:29  CRITICAL[templates.py:24] [<objects.User object at 0x000002556297C610>, <objects.User object at 0x000002556297C640>], [<objects.Conversation object at 0x000002556297C670>, <objects.Conversation object at 0x000002556297D0C0>], []
+14-07-2023 18:26:21  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:26:21  CRITICAL[templates.py:24] [<objects.User object at 0x000001752557C610>, <objects.User object at 0x000001752557C640>], [<objects.Conversation object at 0x000001752557C670>, <objects.Conversation object at 0x000001752557D0F0>], []
+14-07-2023 18:26:26  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:26:26  CRITICAL[templates.py:24] [<objects.User object at 0x000002537F0F7FD0>, <objects.User object at 0x000002537F0F5E40>], [<objects.Conversation object at 0x000002537F0F5CC0>, <objects.Conversation object at 0x000002537F0F5240>], []
+14-07-2023 18:28:53  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:28:53  CRITICAL[templates.py:24] [<objects.User object at 0x000001B1FF74C610>, <objects.User object at 0x000001B1FF74C640>], [<objects.Conversation object at 0x000001B1FF74C670>, <objects.Conversation object at 0x000001B1FF74D180>], []
+14-07-2023 18:28:58  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:28:58  CRITICAL[templates.py:24] [<objects.User object at 0x0000025CE87B5D20>, <objects.User object at 0x0000025CE87B5CF0>], [<objects.Conversation object at 0x0000025CE87B5CC0>, <objects.Conversation object at 0x0000025CE87B51B0>], []
+14-07-2023 18:30:24  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:30:24  CRITICAL[templates.py:24] [<objects.User object at 0x0000029A4ADFC610>, <objects.User object at 0x0000029A4ADFC640>], [<objects.Conversation object at 0x0000029A4ADFC670>, <objects.Conversation object at 0x0000029A4ADFD1B0>], []
+14-07-2023 18:30:30  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:30:30  CRITICAL[templates.py:24] [<objects.User object at 0x0000028B18BD5D20>, <objects.User object at 0x0000028B18BD5CF0>], [<objects.Conversation object at 0x0000028B18BD5CC0>, <objects.Conversation object at 0x0000028B18BD5180>], []
+14-07-2023 18:35:26  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:35:26  CRITICAL[templates.py:24] [<objects.User object at 0x000001F6A730B130>, <objects.User object at 0x000001F6A730B160>], [<objects.Conversation object at 0x000001F6A730B190>, <objects.Conversation object at 0x000001F6A73089A0>], []
+14-07-2023 18:35:37  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:35:37  CRITICAL[templates.py:24] [<objects.User object at 0x000001CB4E2EC610>, <objects.User object at 0x000001CB4E2EC640>], [<objects.Conversation object at 0x000001CB4E2EC670>, <objects.Conversation object at 0x000001CB4E2ED1E0>], []
+14-07-2023 18:36:31  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:36:31  CRITICAL[templates.py:24] [<objects.User object at 0x000001A73F7FC610>, <objects.User object at 0x000001A73F7FC640>], [<objects.Conversation object at 0x000001A73F7FC670>, <objects.Conversation object at 0x000001A73F7FD270>], []
+14-07-2023 18:36:36  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:36:36  CRITICAL[templates.py:24] [<objects.User object at 0x000002148185C610>, <objects.User object at 0x000002148185C640>], [<objects.Conversation object at 0x000002148185C670>, <objects.Conversation object at 0x000002148185D270>], []
+14-07-2023 18:41:18  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:41:18  CRITICAL[templates.py:24] [<objects.User object at 0x0000023FACB95C90>, <objects.User object at 0x0000023FACB95C60>], [<objects.Conversation object at 0x0000023FACB95C30>, <objects.Conversation object at 0x0000023FACB94FD0>], []
+14-07-2023 18:41:23  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:41:23  CRITICAL[templates.py:24] [<objects.User object at 0x0000016E8561C6A0>, <objects.User object at 0x0000016E8561C6D0>], [<objects.Conversation object at 0x0000016E8561C700>, <objects.Conversation object at 0x0000016E8561D360>], []
+14-07-2023 18:45:26  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:45:26  CRITICAL[templates.py:24] [<objects.User object at 0x000001AF5FF7B190>, <objects.User object at 0x000001AF5FF7B1C0>], [<objects.Conversation object at 0x000001AF5FF7B1F0>, <objects.Conversation object at 0x000001AF5FF78B20>], []
+14-07-2023 18:45:30  INFO    [handle_server.py:29] statement: True
+14-07-2023 18:45:30  CRITICAL[templates.py:24] [<objects.User object at 0x00000258F97AC6A0>, <objects.User object at 0x00000258F97AC6D0>], [<objects.Conversation object at 0x00000258F97AC700>, <objects.Conversation object at 0x00000258F97AD3C0>], []
+14-07-2023 19:40:09  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:40:09  CRITICAL[templates.py:24] [<objects.User object at 0x000002C603BC5E40>, <objects.User object at 0x000002C603BC5E10>], [<objects.Conversation object at 0x000002C603BC5DE0>, <objects.Conversation object at 0x000002C603BC5060>], []
+14-07-2023 19:40:21  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:40:21  CRITICAL[templates.py:24] [<objects.User object at 0x000002C5888904F0>, <objects.User object at 0x000002C588890520>], [<objects.Conversation object at 0x000002C588890550>, <objects.Conversation object at 0x000002C5888912D0>], []
+14-07-2023 19:44:22  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:44:22  CRITICAL[templates.py:24] [<objects.User object at 0x000001CF8442D630>, <objects.User object at 0x000001CF8442D660>], [<objects.Conversation object at 0x000001CF8442D690>, <objects.Conversation object at 0x000001CF8442E4A0>], []
+14-07-2023 19:44:28  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:44:28  CRITICAL[templates.py:24] [<objects.User object at 0x000002D11209C490>, <objects.User object at 0x000002D11209C4C0>], [<objects.Conversation object at 0x000002D11209C4F0>, <objects.Conversation object at 0x000002D11209D300>], []
+14-07-2023 19:46:06  INFO    [handle_server.py:29] statement: Invalid password
+14-07-2023 19:46:10  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:46:10  CRITICAL[templates.py:24] [<objects.User object at 0x000001DAAB197FD0>, <objects.User object at 0x000001DAAB197EB0>], [<objects.Conversation object at 0x000001DAAB195EA0>, <objects.Conversation object at 0x000001DAAB195000>], []
+14-07-2023 19:46:14  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:46:14  CRITICAL[templates.py:24] [<objects.User object at 0x00000205057FC490>, <objects.User object at 0x00000205057FC4C0>], [<objects.Conversation object at 0x00000205057FC4F0>, <objects.Conversation object at 0x00000205057FD330>], []
+14-07-2023 19:47:57  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:47:57  CRITICAL[templates.py:24] [<objects.User object at 0x000002B1C409C490>, <objects.User object at 0x000002B1C409C4C0>], [<objects.Conversation object at 0x000002B1C409C4F0>, <objects.Conversation object at 0x000002B1C409C7F0>], []
+14-07-2023 19:51:55  INFO    [handle_server.py:29] statement: True
+14-07-2023 19:51:55  CRITICAL[templates.py:24] [<objects.User object at 0x0000020A87A25ED0>, <objects.User object at 0x0000020A87A25EA0>], [<objects.Conversation object at 0x0000020A87A25E70>, <objects.Conversation object at 0x0000020A87A24FD0>], []
+14-07-2023 20:19:06  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:19:06  CRITICAL[templates.py:24] [], [], []
+14-07-2023 20:19:25  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:19:25  CRITICAL[templates.py:24] [], [], []
+14-07-2023 20:19:35  CRITICAL[templates.py:24] [<objects.User object at 0x000001A021FAC6A0>], [<objects.Conversation object at 0x000001A021FAC6D0>], []
+14-07-2023 20:19:36  CRITICAL[templates.py:24] [<objects.User object at 0x000002A8E0DAC610>], [<objects.Conversation object at 0x000002A8E0D29E70>], []
+14-07-2023 20:20:30  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:20:30  CRITICAL[templates.py:24] [], [], []
+14-07-2023 20:20:40  CRITICAL[templates.py:24] [], [], []
+14-07-2023 20:20:47  CRITICAL[templates.py:24] [<objects.User object at 0x000002A8E0DAC610>, <objects.User object at 0x000002A8E0DAD420>], [<objects.Conversation object at 0x000002A8E0D29E70>, <objects.Conversation object at 0x000002A8E0DACBB0>], []
+14-07-2023 20:20:48  CRITICAL[templates.py:24] [<objects.User object at 0x000001A021FAC6A0>, <objects.User object at 0x000001A021FAD420>], [<objects.Conversation object at 0x000001A021FAC6D0>, <objects.Conversation object at 0x000001A021FAC8B0>], []
+14-07-2023 20:22:42  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:22:42  CRITICAL[templates.py:24] [<objects.User object at 0x0000022BFB375ED0>, <objects.User object at 0x0000022BFB375EA0>], [<objects.Conversation object at 0x0000022BFB375E70>, <objects.Conversation object at 0x0000022BFB375DE0>], []
+14-07-2023 20:23:28  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:23:28  CRITICAL[templates.py:24] [<objects.User object at 0x00000190753C5ED0>, <objects.User object at 0x00000190753C5EA0>], [<objects.Conversation object at 0x00000190753C5E70>, <objects.Conversation object at 0x00000190753C5DE0>], []
+14-07-2023 20:23:33  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:23:34  CRITICAL[templates.py:24] [<objects.User object at 0x000001D0ED20C460>, <objects.User object at 0x000001D0ED20C490>], [<objects.Conversation object at 0x000001D0ED20C4C0>, <objects.Conversation object at 0x000001D0ED20C550>], []
+14-07-2023 20:24:44  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:24:45  CRITICAL[templates.py:24] [<objects.User object at 0x000002B69E5F5ED0>, <objects.User object at 0x000002B69E5F5EA0>], [<objects.Conversation object at 0x000002B69E5F5E70>, <objects.Conversation object at 0x000002B69E5F5DB0>], []
+14-07-2023 20:24:50  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:24:50  CRITICAL[templates.py:24] [<objects.User object at 0x000002313351C460>, <objects.User object at 0x000002313351C490>], [<objects.Conversation object at 0x000002313351C4C0>, <objects.Conversation object at 0x000002313351C580>], []
+14-07-2023 20:31:17  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:31:17  CRITICAL[templates.py:24] [<objects.User object at 0x00000174E9A1C460>, <objects.User object at 0x00000174E9A1C490>], [<objects.Conversation object at 0x00000174E9A1C4C0>, <objects.Conversation object at 0x00000174E9A1C5B0>], []
+14-07-2023 20:31:22  INFO    [handle_server.py:29] statement: True
+14-07-2023 20:31:22  CRITICAL[templates.py:24] [<objects.User object at 0x00000213AE43C460>, <objects.User object at 0x00000213AE43C490>], [<objects.Conversation object at 0x00000213AE43C4C0>, <objects.Conversation object at 0x00000213AE43C5B0>], []
+15-07-2023 13:04:32  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:04:32  CRITICAL[templates.py:24] [<objects.User object at 0x0000014BF403BBB0>, <objects.User object at 0x0000014BF403BB80>], [<objects.Conversation object at 0x0000014BF403BB50>, <objects.Conversation object at 0x0000014BF403B9D0>], []
+15-07-2023 13:04:39  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:04:39  CRITICAL[templates.py:24] [<objects.User object at 0x00000186A049C760>, <objects.User object at 0x00000186A049C790>], [<objects.Conversation object at 0x00000186A049C7C0>, <objects.Conversation object at 0x00000186A049C940>], []
+15-07-2023 13:05:19  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:05:19  CRITICAL[templates.py:24] [<objects.User object at 0x00000194EA39CF10>, <objects.User object at 0x00000194EA39CF40>], [<objects.Conversation object at 0x00000194EA39CF70>, <objects.Conversation object at 0x00000194EA39D0F0>], []
+15-07-2023 13:05:23  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:05:23  CRITICAL[templates.py:24] [<objects.User object at 0x000001CE8EC9C760>, <objects.User object at 0x000001CE8EC9C790>], [<objects.Conversation object at 0x000001CE8EC9C7C0>, <objects.Conversation object at 0x000001CE8EC9C940>], []
+15-07-2023 13:06:48  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:06:48  CRITICAL[templates.py:24] [<objects.User object at 0x0000019F52F5CF10>, <objects.User object at 0x0000019F52F5CF40>], [<objects.Conversation object at 0x0000019F52F5CF70>, <objects.Conversation object at 0x0000019F52F5D0F0>], []
+15-07-2023 13:14:31  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:14:31  CRITICAL[templates.py:24] [<objects.User object at 0x000002742CD4CF10>, <objects.User object at 0x000002742CD4CF40>], [<objects.Conversation object at 0x000002742CD4CF70>, <objects.Conversation object at 0x000002742CD4D0F0>], []
+15-07-2023 13:15:31  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:15:31  CRITICAL[templates.py:24] [<objects.User object at 0x000001C8C792CF10>, <objects.User object at 0x000001C8C792CF40>], [<objects.Conversation object at 0x000001C8C792CF70>, <objects.Conversation object at 0x000001C8C792D0F0>], []
+15-07-2023 13:16:31  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:16:50  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:16:50  CRITICAL[templates.py:24] [<objects.User object at 0x0000029AE35C5600>, <objects.User object at 0x0000029AE35C55D0>], [<objects.Conversation object at 0x0000029AE35C55A0>, <objects.Conversation object at 0x0000029AE35C5300>], []
+15-07-2023 13:17:54  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:17:54  CRITICAL[templates.py:24] [<objects.User object at 0x000001AD905B9BD0>, <objects.User object at 0x000001AD905B9C00>], [<objects.Conversation object at 0x000001AD905B9C30>, <objects.Conversation object at 0x000001AD905B9DB0>], []
+15-07-2023 13:22:16  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:22:16  CRITICAL[templates.py:24] [<objects.User object at 0x00000261C97A58D0>, <objects.User object at 0x00000261C97A5900>], [<objects.Conversation object at 0x00000261C97A5930>, <objects.Conversation object at 0x00000261C97A5AB0>], []
+15-07-2023 13:24:37  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:24:37  CRITICAL[templates.py:24] [<objects.User object at 0x000001264E50CF10>, <objects.User object at 0x000001264E50CF40>], [<objects.Conversation object at 0x000001264E50CF70>, <objects.Conversation object at 0x000001264E50D0F0>], []
+15-07-2023 13:25:24  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:25:24  CRITICAL[templates.py:24] [<objects.User object at 0x00000173B0A39C60>, <objects.User object at 0x00000173B0A39C90>], [<objects.Conversation object at 0x00000173B0A39CC0>, <objects.Conversation object at 0x00000173B0A39E40>], []
+15-07-2023 13:28:57  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:28:57  CRITICAL[templates.py:24] [<objects.User object at 0x0000029A67C95780>, <objects.User object at 0x0000029A67C957B0>], [<objects.Conversation object at 0x0000029A67C957E0>, <objects.Conversation object at 0x0000029A67C95960>], []
+15-07-2023 13:32:33  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:32:33  CRITICAL[templates.py:24] [<objects.User object at 0x000002CB45180760>, <objects.User object at 0x000002CB45180790>], [<objects.Conversation object at 0x000002CB451807C0>, <objects.Conversation object at 0x000002CB45180940>], []
+15-07-2023 13:36:06  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:36:06  CRITICAL[templates.py:24] [<objects.User object at 0x0000011CA8B2CF40>, <objects.User object at 0x0000011CA8B2CF70>], [<objects.Conversation object at 0x0000011CA8B2CFA0>, <objects.Conversation object at 0x0000011CA8B2D120>], []
+15-07-2023 13:51:49  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:51:49  CRITICAL[templates.py:24] [<objects.User object at 0x0000024E394D07F0>, <objects.User object at 0x0000024E394D0820>], [<objects.Conversation object at 0x0000024E394D0850>, <objects.Conversation object at 0x0000024E394D09D0>], []
+15-07-2023 13:52:30  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:52:30  CRITICAL[templates.py:24] [<objects.User object at 0x0000013B790FB3D0>, <objects.User object at 0x0000013B790FB400>], [<objects.Conversation object at 0x0000013B790FB430>, <objects.Conversation object at 0x0000013B790FB5B0>], []
+15-07-2023 13:54:11  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:54:11  CRITICAL[templates.py:24] [<objects.User object at 0x00000205C14A5AE0>, <objects.User object at 0x00000205C14A5B10>], [<objects.Conversation object at 0x00000205C14A5B40>, <objects.Conversation object at 0x00000205C14A5CC0>], []
+15-07-2023 13:55:57  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:55:57  CRITICAL[templates.py:24] [<objects.User object at 0x000002BD3A239B70>, <objects.User object at 0x000002BD3A239BA0>], [<objects.Conversation object at 0x000002BD3A239BD0>, <objects.Conversation object at 0x000002BD3A239D50>], []
+15-07-2023 13:57:02  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:57:02  CRITICAL[templates.py:24] [<objects.User object at 0x000001F449C1B3D0>, <objects.User object at 0x000001F449C1B400>], [<objects.Conversation object at 0x000001F449C1B430>, <objects.Conversation object at 0x000001F449C1B5B0>], []
+15-07-2023 13:57:27  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:57:27  CRITICAL[templates.py:24] [<objects.User object at 0x000002E12F42B3D0>, <objects.User object at 0x000002E12F42B400>], [<objects.Conversation object at 0x000002E12F42B430>, <objects.Conversation object at 0x000002E12F42B5B0>], []
+15-07-2023 13:58:00  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:58:00  CRITICAL[templates.py:24] [<objects.User object at 0x000002787F749C00>, <objects.User object at 0x000002787F749C30>], [<objects.Conversation object at 0x000002787F749C60>, <objects.Conversation object at 0x000002787F749DE0>], []
+15-07-2023 13:58:47  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:58:47  CRITICAL[templates.py:24] [<objects.User object at 0x0000023E71A9B2E0>, <objects.User object at 0x0000023E71A9B3D0>], [<objects.Conversation object at 0x0000023E71A9B400>, <objects.Conversation object at 0x0000023E71A9B580>], []
+15-07-2023 13:59:36  INFO    [handle_server.py:29] statement: True
+15-07-2023 13:59:36  CRITICAL[templates.py:24] [<objects.User object at 0x00000147C631B280>, <objects.User object at 0x00000147C631B310>], [<objects.Conversation object at 0x00000147C631B340>, <objects.Conversation object at 0x00000147C631B580>], []
+15-07-2023 14:00:15  INFO    [handle_server.py:29] statement: True
+15-07-2023 14:00:15  CRITICAL[templates.py:24] [<objects.User object at 0x000002163AF09BD0>, <objects.User object at 0x000002163AF09C00>], [<objects.Conversation object at 0x000002163AF09C30>, <objects.Conversation object at 0x000002163AF09DB0>], []
+15-07-2023 14:02:32  INFO    [handle_server.py:29] statement: True
+15-07-2023 14:02:32  CRITICAL[templates.py:24] [<objects.User object at 0x00000219464C5AE0>, <objects.User object at 0x00000219464C5B10>], [<objects.Conversation object at 0x00000219464C5B40>, <objects.Conversation object at 0x00000219464C5CC0>, <objects.Conversation object at 0x00000219464C5D20>, <objects.Conversation object at 0x00000219464C5ED0>], []
+15-07-2023 14:02:45  CRITICAL[templates.py:24] [<objects.User object at 0x00000219464C5AE0>, <objects.User object at 0x00000219464C5B10>], [<objects.Conversation object at 0x00000219464C5B40>, <objects.Conversation object at 0x00000219464C5CC0>, <objects.Conversation object at 0x00000219464C5D20>, <objects.Conversation object at 0x00000219464C5ED0>], []
+15-07-2023 15:45:40  INFO    [handle_server.py:29] statement: Invalid password
+15-07-2023 15:45:43  INFO    [handle_server.py:29] statement: True
+15-07-2023 15:45:43  CRITICAL[templates.py:25] [<objects.User object at 0x000002B4C96EFC10>, <objects.User object at 0x000002B4C96EFD30>], [<objects.Conversation object at 0x000002B4C96EF9A0>, <objects.Conversation object at 0x000002B4C96EF7C0>, <objects.Conversation object at 0x000002B4C96EF760>, <objects.Conversation object at 0x000002B4C96EF5B0>], []
+15-07-2023 15:46:33  INFO    [handle_server.py:29] statement: True
+15-07-2023 15:46:33  CRITICAL[templates.py:25] [<objects.User object at 0x000001B1DFC9BE50>, <objects.User object at 0x000001B1DFC9BE80>], [<objects.Conversation object at 0x000001B1DFC9BEB0>, <objects.Conversation object at 0x000001B1DFC995A0>, <objects.Conversation object at 0x000001B1DFC99540>, <objects.Conversation object at 0x000001B1DFC99390>], []
+15-07-2023 15:58:58  INFO    [handle_server.py:29] statement: True
+15-07-2023 15:59:30  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:06:56  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:06:56  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:07:06  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:07:06  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:07:18  CRITICAL[templates.py:25] [<objects.User object at 0x0000027FB0D8D780>], [<objects.Conversation object at 0x0000027FB0D083D0>], []
+15-07-2023 16:08:00  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:08:00  CRITICAL[templates.py:25] [<objects.User object at 0x0000025CB3C8BEE0>], [<objects.Conversation object at 0x0000025CB3C8BF10>], []
+15-07-2023 16:09:53  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:09:53  CRITICAL[templates.py:25] [<objects.User object at 0x000001EAB0F019F0>], [<objects.Conversation object at 0x000001EAB0F01A20>], []
+15-07-2023 16:10:52  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:10:52  CRITICAL[templates.py:25] [<objects.User object at 0x00000245E77663E0>], [<objects.Conversation object at 0x00000245E7766410>], []
+15-07-2023 16:10:59  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:10:59  CRITICAL[templates.py:25] [<objects.User object at 0x0000016BBFCBD5D0>], [<objects.Conversation object at 0x0000016BBFCBD600>], []
+15-07-2023 16:11:36  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:11:36  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:11:51  CRITICAL[templates.py:25] [<objects.User object at 0x00000191D684D150>], [<objects.Conversation object at 0x00000191D684D720>], []
+15-07-2023 16:11:53  CRITICAL[templates.py:25] [<objects.User object at 0x00000245E77663E0>, <objects.User object at 0x00000245E7766F80>], [<objects.Conversation object at 0x00000245E7766410>, <objects.Conversation object at 0x00000245E77665C0>], []
+15-07-2023 16:11:54  CRITICAL[templates.py:25] [<objects.User object at 0x0000016BBFCBD5D0>, <objects.User object at 0x0000016BBFCBE110>], [<objects.Conversation object at 0x0000016BBFCBD600>, <objects.Conversation object at 0x0000016BBFC39E70>], []
+15-07-2023 16:14:07  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:14:07  CRITICAL[templates.py:25] [<objects.User object at 0x00000207DEFCD600>, <objects.User object at 0x00000207DEFCD630>], [<objects.Conversation object at 0x00000207DEFCD660>, <objects.Conversation object at 0x00000207DEFCD6C0>], []
+15-07-2023 16:14:14  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:14:14  CRITICAL[templates.py:25] [<objects.User object at 0x000001E8C698D600>, <objects.User object at 0x000001E8C698D630>], [<objects.Conversation object at 0x000001E8C698D660>, <objects.Conversation object at 0x000001E8C698D6C0>], []
+15-07-2023 16:14:20  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:14:20  CRITICAL[templates.py:25] [<objects.User object at 0x000001ADB71A4D30>, <objects.User object at 0x000001ADB71A4D00>], [<objects.Conversation object at 0x000001ADB71A4CD0>, <objects.Conversation object at 0x000001ADB71A4C70>], []
+15-07-2023 16:15:14  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:15:14  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:15:22  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:15:22  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:15:29  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:15:29  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:15:41  CRITICAL[templates.py:25] [<objects.User object at 0x0000015FDDB3D7B0>], [<objects.Conversation object at 0x0000015FDDAB83D0>], []
+15-07-2023 16:15:48  CRITICAL[templates.py:25] [<objects.User object at 0x0000015FDDB3D7B0>], [<objects.Conversation object at 0x0000015FDDAB83D0>], []
+15-07-2023 16:15:50  CRITICAL[templates.py:25] [<objects.User object at 0x000001947D1ED7B0>, <objects.User object at 0x000001947D1EDC90>], [<objects.Conversation object at 0x000001947D1683D0>, <objects.Conversation object at 0x000001947D1ED450>], []
+15-07-2023 16:15:54  CRITICAL[templates.py:25] [<objects.User object at 0x0000023AEDFDD870>], [<objects.Conversation object at 0x0000023AEDFDD180>], []
+15-07-2023 16:16:10  CRITICAL[templates.py:25] [<objects.User object at 0x0000015FDDB3D7B0>, <objects.User object at 0x0000015FDDB3D870>], [<objects.Conversation object at 0x0000015FDDAB83D0>, <objects.Conversation object at 0x0000015FDDB3D180>, <objects.GroupConversation object at 0x0000015FDDB3DF00>], []
+15-07-2023 16:16:57  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:18:30  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:18:30  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:18:37  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:18:37  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:18:47  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:18:47  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:19:05  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:19:22  CRITICAL[templates.py:25] [<objects.User object at 0x000002BC9B92D7B0>, <objects.User object at 0x000002BC9B92D480>], [<objects.Conversation object at 0x000002BC9B8A83D0>, <objects.Conversation object at 0x000002BC9B92DF30>], []
+15-07-2023 16:19:24  CRITICAL[templates.py:25] [<objects.User object at 0x00000229F9B4D630>, <objects.User object at 0x00000229F9B4DC30>], [<objects.Conversation object at 0x00000229F9B4DCC0>, <objects.Conversation object at 0x00000229F9B4DBA0>], []
+15-07-2023 16:19:25  CRITICAL[templates.py:25] [<objects.User object at 0x00000171C6D6D7B0>, <objects.User object at 0x00000171C6D6DCC0>], [<objects.Conversation object at 0x00000171C6CE83D0>, <objects.Conversation object at 0x00000171C6D6DCF0>], []
+15-07-2023 16:19:37  CRITICAL[templates.py:25] [<objects.User object at 0x00000229F9B4D630>, <objects.User object at 0x00000229F9B4DC30>], [<objects.Conversation object at 0x00000229F9B4DCC0>, <objects.Conversation object at 0x00000229F9B4DBA0>], []
+15-07-2023 16:19:55  CRITICAL[templates.py:25] [<objects.User object at 0x00000229F9B4D630>, <objects.User object at 0x00000229F9B4DC30>], [<objects.Conversation object at 0x00000229F9B4DCC0>, <objects.Conversation object at 0x00000229F9B4DBA0>, <objects.GroupConversation object at 0x00000229F9B4E860>], []
+15-07-2023 16:20:13  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:26:21  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:26:21  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:26:32  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:26:32  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:26:41  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:26:41  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:27:00  CRITICAL[templates.py:25] [<objects.User object at 0x00000228028CD7B0>], [<objects.Conversation object at 0x00000228028483D0>], []
+15-07-2023 16:27:07  CRITICAL[templates.py:25] [<objects.User object at 0x00000279A123D7B0>, <objects.User object at 0x00000279A123DC90>], [<objects.Conversation object at 0x00000279A11B83D0>, <objects.Conversation object at 0x00000279A123D450>], []
+15-07-2023 16:27:08  CRITICAL[templates.py:25] [<objects.User object at 0x000001DA353DD870>], [<objects.Conversation object at 0x000001DA353DD180>], []
+15-07-2023 16:27:08  CRITICAL[templates.py:25] [<objects.User object at 0x00000228028CD7B0>, <objects.User object at 0x00000228028CD1E0>], [<objects.Conversation object at 0x00000228028483D0>, <objects.Conversation object at 0x00000228028CDCC0>], []
+15-07-2023 16:27:39  CRITICAL[templates.py:25] [<objects.User object at 0x000001DA353DD870>, <objects.User object at 0x000001DA353DD5D0>], [<objects.Conversation object at 0x000001DA353DD180>, <objects.Conversation object at 0x000001DA353DD420>, <objects.GroupConversation object at 0x000001DA353DD4E0>], []
+15-07-2023 16:27:56  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:27:56  CRITICAL[templates.py:25] [<objects.User object at 0x0000012DCB04D600>, <objects.User object at 0x0000012DCB04D630>, <objects.User object at 0x0000012DCB04D660>], [<objects.Conversation object at 0x0000012DCB04D690>, <objects.Conversation object at 0x0000012DCB04D6C0>, <objects.Conversation object at 0x0000012DCB04D720>], []
+15-07-2023 16:45:24  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:45:24  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:46:28  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:46:28  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:46:33  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:46:33  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:46:49  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:46:49  CRITICAL[templates.py:25] [], [], []
+15-07-2023 16:47:06  CRITICAL[templates.py:25] [<objects.User object at 0x0000023E8C9FD7B0>, <objects.User object at 0x0000023E8C9FD480>], [<objects.Conversation object at 0x0000023E8C9783D0>, <objects.Conversation object at 0x0000023E8C9FDF30>], []
+15-07-2023 16:47:07  CRITICAL[templates.py:25] [<objects.User object at 0x000001EF731ED180>], [<objects.Conversation object at 0x000001EF731ED1E0>], []
+15-07-2023 16:47:08  CRITICAL[templates.py:25] [<objects.User object at 0x000002C96F81D7B0>, <objects.User object at 0x000002C96F81DCC0>], [<objects.Conversation object at 0x000002C96F7983D0>, <objects.Conversation object at 0x000002C96F81DCF0>], []
+15-07-2023 16:47:27  CRITICAL[templates.py:25] [<objects.User object at 0x000001EF731ED180>, <objects.User object at 0x000001EF731ED6C0>], [<objects.Conversation object at 0x000001EF731ED1E0>, <objects.Conversation object at 0x000001EF731ED6F0>, <objects.GroupConversation object at 0x000001EF731ED720>], []
+15-07-2023 16:48:02  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:48:35  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:48:35  CRITICAL[templates.py:25] [<objects.User object at 0x000002503080D600>, <objects.User object at 0x000002503080D630>, <objects.User object at 0x000002503080D660>], [<objects.Conversation object at 0x000002503080D690>, <objects.Conversation object at 0x000002503080D6C0>, <objects.Conversation object at 0x000002503080D720>], []
+15-07-2023 16:49:01  INFO    [handle_server.py:29] statement: True
+15-07-2023 16:49:01  CRITICAL[templates.py:25] [<objects.User object at 0x00000269E0F1D600>, <objects.User object at 0x00000269E0F1D630>, <objects.User object at 0x00000269E0F1D660>], [<objects.Conversation object at 0x00000269E0F1D690>, <objects.Conversation object at 0x00000269E0F1D6C0>, <objects.Conversation object at 0x00000269E0F1D720>], []
+15-07-2023 17:21:15  INFO    [handle_server.py:29] statement: True
+15-07-2023 17:21:15  CRITICAL[templates.py:25] [<objects.User object at 0x00000188F6CCD600>, <objects.User object at 0x00000188F6CCD630>, <objects.User object at 0x00000188F6CCD660>], [<objects.Conversation object at 0x00000188F6CCD690>, <objects.Conversation object at 0x00000188F6CCD6C0>, <objects.Conversation object at 0x00000188F6CCD720>], []
+15-07-2023 17:21:23  INFO    [handle_server.py:29] statement: True
+15-07-2023 17:21:23  CRITICAL[templates.py:25] [<objects.User object at 0x0000017845B0D600>, <objects.User object at 0x0000017845B0D630>, <objects.User object at 0x0000017845B0D660>], [<objects.Conversation object at 0x0000017845B0D690>, <objects.Conversation object at 0x0000017845B0D6C0>, <objects.Conversation object at 0x0000017845B0D720>], []
+15-07-2023 17:21:28  INFO    [handle_server.py:29] statement: True
+15-07-2023 17:21:28  CRITICAL[templates.py:25] [<objects.User object at 0x000002682BD8D600>, <objects.User object at 0x000002682BD8D630>, <objects.User object at 0x000002682BD8D660>], [<objects.Conversation object at 0x000002682BD8D690>, <objects.Conversation object at 0x000002682BD8D6C0>, <objects.Conversation object at 0x000002682BD8D720>], []
+15-07-2023 17:28:27  INFO    [handle_server.py:29] statement: True
+15-07-2023 17:28:27  CRITICAL[templates.py:25] [<objects.User object at 0x000002C56ED619F0>, <objects.User object at 0x000002C56ED61A20>, <objects.User object at 0x000002C56ED61A50>], [<objects.Conversation object at 0x000002C56ED61A80>, <objects.Conversation object at 0x000002C56ED61AB0>, <objects.Conversation object at 0x000002C56ED61B10>], []
+15-07-2023 17:28:30  INFO    [handle_server.py:29] statement: True
+15-07-2023 17:28:30  CRITICAL[templates.py:25] [<objects.User object at 0x00000279C16CD600>, <objects.User object at 0x00000279C16CD630>, <objects.User object at 0x00000279C16CD660>], [<objects.Conversation object at 0x00000279C16CD690>, <objects.Conversation object at 0x00000279C16CD6C0>, <objects.Conversation object at 0x00000279C16CD720>], []
+15-07-2023 17:28:36  INFO    [handle_server.py:29] statement: True
+15-07-2023 17:28:36  CRITICAL[templates.py:25] [<objects.User object at 0x0000023E4C47D600>, <objects.User object at 0x0000023E4C47D630>, <objects.User object at 0x0000023E4C47D660>], [<objects.Conversation object at 0x0000023E4C47D690>, <objects.Conversation object at 0x0000023E4C47D6C0>, <objects.Conversation object at 0x0000023E4C47D720>], []
+15-07-2023 17:30:18  INFO    [handle_server.py:29] statement: True
+15-07-2023 17:30:18  CRITICAL[templates.py:25] [<objects.User object at 0x0000017DFE6E4D30>, <objects.User object at 0x0000017DFE6E4D00>, <objects.User object at 0x0000017DFE6E4CD0>], [<objects.Conversation object at 0x0000017DFE6E4CA0>, <objects.Conversation object at 0x0000017DFE6E4C70>, <objects.Conversation object at 0x0000017DFE6E4C10>], []
