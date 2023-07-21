@@ -3,7 +3,6 @@ def find_logged_in_user(server, user_id):
     for i in range(len(logged_in_users)):
 
         if user_id == logged_in_users[i][1]:
-
             # if the id is present in the list, we return True, along with the user connection
             user_connection = logged_in_users[i][0]
             return True, user_connection
@@ -18,7 +17,6 @@ def get_members_data_as_string(members_data, member_id):
     if data_as_string.endswith('>'):
         data_as_string = data_as_string[:-1]
     return data_as_string
-
 
 
 encoding_dict = {'a': "'3,9 5'6l9,1,9n1'0'4x1b9'", 'b': "y3,0'3,3 2 1,6'9,0'2'4 4 ", 'c': " 8 8'1'2a1 6 911s5'2 8'5 ",
@@ -63,3 +61,63 @@ def decode(encoded_data):
         t += 25
 
     return decoded_data
+
+
+def split_requests(requests):
+    """
+    The client may send multiple requests at once, so the goal of this function is to split the requests if needed.
+    For each request type, we create a list that has all the elements from its index to the next request type index.
+    Finally, we add the last request type if there is more than one request.
+    param requests: The concatenated string of multiple requests.
+    :return: A list containing individual requests as separate lists.
+    """
+    requests_types = ['send', 'add_friend', 'accept', 'decline', 'is_seen', 'is_distributed', 'create_group', 'log_out', 'is_online']
+    requests_organized = []
+    requests_components = requests.split('/')
+    index_counter = -1
+    skip_next = 0
+    last_index_added = None
+    for component in requests_components:
+        index_counter += 1
+        if skip_next > 0:
+            skip_next -= 1
+            continue
+        if component in requests_types:
+            index_counter2 = index_counter
+            for next_component in requests_components[index_counter + 1:]:
+                index_counter2 += 1
+
+                if next_component in requests_types:
+                    request = requests_components[index_counter:index_counter2]
+                    skip_next += (index_counter2 - index_counter) - 1
+                    last_index_added = index_counter2
+                    requests_organized.append(request)
+                    break
+    try:
+        requests_organized.append(requests_components[last_index_added:])
+    except IndexError:
+        pass
+    return requests_organized
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

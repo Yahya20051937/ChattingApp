@@ -241,6 +241,9 @@ class User:
                     friend_id = response[1]
                     friend = search_object_by_id(self.friends, friend_id)
                     friend.status = 'offline'
+                    conversation = get_conversation_by_friend(self.conversations, friend)
+                    label = get_label(self.page_elements['users_labels'], conversation)
+                    label.update_on_off_line()
 
 
 class Conversation:

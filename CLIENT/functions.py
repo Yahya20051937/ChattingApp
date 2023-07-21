@@ -102,15 +102,7 @@ def search_object_by_username(object_list, target_object_username):
 def get_conversation_by_friend(conversations, friend):
     for conv in conversations:
         if not conv.is_group:
-            if int(friend.id) in [int(member.id) for member in conversations.members]:
-                return conv
-
-
-def get_group_conversation(conversations, conv_id):
-    from objects import GroupConversation
-    for conv in conversations:
-        if conv.__class__ == GroupConversation:
-            if int(conv.id) == int(conv_id):
+            if int(friend.id) in [int(member.id) for member in conv.members]:
                 return conv
 
 

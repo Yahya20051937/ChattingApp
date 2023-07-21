@@ -12,5 +12,4 @@ def find_first_index(lst, element):
     return None
 
 
-def split_requests():
 

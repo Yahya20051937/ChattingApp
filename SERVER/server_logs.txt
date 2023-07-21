@@ -3874,3 +3874,38 @@
 21-07-2023 15:54:43  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
 21-07-2023 15:56:45  CRITICAL[server.py:21] New connection from <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61825)>, ('192.168.100.56', 61825)
 21-07-2023 15:56:50  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+21-07-2023 17:47:16  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 17:47:23  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62823)>, ('192.168.100.56', 62823)
+21-07-2023 17:47:26  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 17:47:35  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 17:47:37  CRITICAL[server.py:21] New connection from <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62824)>, ('192.168.100.56', 62824)
+21-07-2023 17:47:40  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 17:48:03  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62825)>, ('192.168.100.56', 62825)
+21-07-2023 17:48:08  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 17:49:19  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 17:49:20  CRITICAL[server.py:21] New connection from <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62829)>, ('192.168.100.56', 62829)
+21-07-2023 17:49:24  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 17:49:42  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62830)>, ('192.168.100.56', 62830)
+21-07-2023 17:49:49  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 17:50:28  CRITICAL[server.py:21] New connection from <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62833)>, ('192.168.100.56', 62833)
+21-07-2023 17:51:01  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 17:51:04  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62837)>, ('192.168.100.56', 62837)
+21-07-2023 17:51:07  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 17:51:13  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62840)>, ('192.168.100.56', 62840)
+21-07-2023 17:51:20  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 17:51:26  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62841)>, ('192.168.100.56', 62841)
+21-07-2023 17:52:08  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 17:52:11  CRITICAL[server.py:21] New connection from <socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62842)>, ('192.168.100.56', 62842)
+21-07-2023 17:52:13  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62844)>, ('192.168.100.56', 62844)
+21-07-2023 17:52:17  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 17:52:21  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 17:52:24  CRITICAL[server.py:21] New connection from <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62845)>, ('192.168.100.56', 62845)
+21-07-2023 17:52:30  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 17:52:33  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62846)>, ('192.168.100.56', 62846)
+21-07-2023 17:52:39  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 17:52:49  CRITICAL[server.py:21] New connection from <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62853)>, ('192.168.100.56', 62853)
+21-07-2023 17:53:04  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 17:53:25  CRITICAL[server.py:21] New connection from <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62856)>, ('192.168.100.56', 62856)
+21-07-2023 17:53:30  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+21-07-2023 17:53:33  CRITICAL[server.py:21] New connection from <socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 62857)>, ('192.168.100.56', 62857)
+21-07-2023 17:53:39  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
