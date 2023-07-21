@@ -6,7 +6,7 @@ def handle_send_text_request(server, conn, user_id, conv_id, msg_id, message):
     # get the conversation members
     # add the message in the conversation database
     # send the message to the online members
-    # send the info to the user tha the message has been distributed, and add that info to the database 
+    # send the info to the user tha the message has been distributed, and add that info to the database
     from SERVER.database.users_database import get_conversation_data
     from SERVER.database.chatting_databases import add_message
     from chatting.function import find_logged_in_user
