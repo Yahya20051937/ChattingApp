@@ -2,45 +2,34 @@ import pickle
 import json
 
 
-def handle_send_text_request(server, conn, user_id, conv_id, friend_id, msg_id, message):
+def handle_send_text_request(server, conn, user_id, conv_id, msg_id, message):
+    # get the conversation members
+    # add the message in the conversation database
+    # send the message to the online members
+    # send the info to the user tha the message has been distributed, and add that info to the database 
+    from SERVER.database.users_database import get_conversation_data
+    from SERVER.database.chatting_databases import add_message
     from chatting.function import find_logged_in_user
-    from database.chatting_databases import add_message
 
-    bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
+    conversation_data = get_conversation_data(conv_id=conv_id)[1].split('-')
+    # print(conversation_data)
+    conversation_members = [member_id for member_id in conversation_data if
+                            int(member_id) != int(user_id)]
+    add_message(conv_id=conv_id, sender_id=user_id, message=message, msg_id=msg_id)
 
-    if bool_value:  # the friend is logged in, so we send him the message directly
-        message_dict = {'sender': user_id, 'message': message}
-        message_json = json.dumps(message_dict)
-        response = f'message/{message_json}'
-        friend_connection.sendall(response.encode('utf-8'))
-        distributed_response = f'message_is_distributed/{friend_id}/{msg_id}'  # this will be a response to inform the client side that message has been distributed
-        conn.sendall(distributed_response.encode('utf-8'))
-    add_message(table_owner_id=user_id, sender_id=user_id, receiver_id=friend_id, friend_id=friend_id, message=message)
-    add_message(table_owner_id=friend_id, sender_id=user_id, receiver_id=friend_id, friend_id=user_id,
-                message=message)
-
-
-def handle_grp_send_text_request(server, conn, user_id, conv_id, friends_ids, msg_id, message):
-    from chatting.function import find_logged_in_user
-    from database.chatting_databases import add_grp_message, add_message
-
-    friends_ids = friends_ids.split('-')
-    for friend_id in friends_ids:
-        bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
-
+    for member_id in conversation_members:
+        bool_value, member_connection = find_logged_in_user(server, int(member_id))
         if bool_value:
-            message_dict = {'sender': user_id, 'message': message}
+            message_dict = {'conv_id': conv_id, 'sender': user_id, 'message': message}
             message_json = json.dumps(message_dict)
-            response = f'grp_message/{conv_id}/{message_json}'
-            friend_connection.sendall(response.encode('utf-8'))
-        add_grp_message(table_owner_id=friend_id, conv_id=conv_id, sender_id=user_id, message=message)
-    add_grp_message(table_owner_id=user_id, conv_id=conv_id, sender_id=user_id, message=message)
+            response = f'message/{message_json}'
+            member_connection.sendall(response.encode('utf-8'))
 
 
 def handle_add_friend_request(server, conn, user_id, friend_username):
     from chatting.function import find_logged_in_user
-    from database.users_database import get_users_data, get_user
-    from database.chatting_databases import add_request
+    from SERVER.database.users_database import get_users_data, get_user
+    from SERVER.database.chatting_databases import add_request
 
     usernames = [user[1] for user in get_users_data()]
     if friend_username in usernames:
@@ -60,72 +49,116 @@ def handle_add_friend_request(server, conn, user_id, friend_username):
 
 
 def handle_accept_request(server, conn, user_id, friend_id):
-    from database.users_database import add_friend, get_user, get_user_friends
-    from database.chatting_databases import delete_request, create_table
+    # add each other as friends in the database
+    # delete the request
+    # create a new conversation in the database, and send the id the request receiver and to the request sender
+    # add a new conversation table in tha database
+    from SERVER.database.users_database import add_friend, add_conversation, get_user
+    from SERVER.database.chatting_databases import create_conversation_table, delete_request
     from chatting.function import find_logged_in_user
 
-    if int(friend_id) not in [int(f[0]) for f in get_user_friends(user_id)] and user_id not in [int(f[0]) for f in
-                                                                                                get_user_friends(
-                                                                                                    friend_id)]:  # if one of the user has already accepted a request and both of them have sent in to each other we should do this process only once
+    add_friend(user_id, friend_id)
+    add_friend(friend_id, user_id)
 
-        add_friend(user_id, friend_id)
-        add_friend(friend_id, user_id)
-        delete_request(user_id, friend_id)
-        create_table(user_id, friend_id)
-        create_table(friend_id, user_id)
-        username = get_user(user_id, by='id')[1]
-        bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
-        if bool_value:
-            response = f'friend_request_accepted/{user_id}/{username}'
-            friend_connection.sendall(response.encode('utf-8'))
+    delete_request(user_id, friend_id)
+
+    conv_id, name = add_conversation(members=f'{user_id}-{friend_id}')
+    create_conversation_table(conv_id=conv_id)
+
+    username = get_user(user_id, by='id')[1]
+    friend_name = get_user(friend_id, by='id')[1]
+    #  print(username, friend_name)
+    user_response = f'new_conversation/{conv_id}/{name}/{friend_id}-{friend_name}>'  # the username and user id are separated by an - and the members are separated by a >
+    friend_response = f'new_conversation/{conv_id}/{name}/{user_id}-{username}>'
+    #  print(user_response, friend_response)
+    bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
+    if bool_value:
+        friend_connection.sendall(friend_response.encode('utf-8'))
+    bool_value, user_connection = find_logged_in_user(server, int(user_id))
+    if bool_value:
+        conn.sendall(user_response.encode('utf-8'))
 
 
 def handle_decline_request(server, conn, user_id, friend_id):
-    from database.chatting_databases import delete_request
+    from SERVER.database.chatting_databases import delete_request
     delete_request(user_id, friend_id)
 
 
-def handle_message_is_seen_request(server, conn, user_id, friend_id, msg_id):
+def handle_message_is_seen_request(server, conn, conv_id, msg_id, sender_id, seen_by_id):
+    # add the seen_by_id to the database
+    # check if the message is seen by all the receivers, if so send a response to the sender
+    from SERVER.database.chatting_databases import increment_message_is_seen
+    from SERVER.database.users_database import get_conversation_data
     from chatting.function import find_logged_in_user
-    from database.chatting_databases import edit_message_to_seen
 
-    bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
-    if bool_value:  # if the user is logged in, we send him directly the response, that his message is seen by the user.
-        response = f'message_is_seen/{user_id}/{msg_id}'
-        friend_connection.sendall(response.encode('utf-8'))
-
-    edit_message_to_seen(table_owner_id=user_id, friend_id=friend_id, msg_id=msg_id)  # and we edit both tables.
-    edit_message_to_seen(table_owner_id=friend_id, friend_id=user_id, msg_id=msg_id)
-
-
-def handle_message_is_distributed_request(server, conn, user_id, friend_id, msg_id):
-    from chatting.function import find_logged_in_user
-    from database.chatting_databases import edit_message_to_distributed
-
-    bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
-    if bool_value:  # if the user is logged in, we send him directly the response, that his message is seen by the user.
-        response = f'message_is_seen/{user_id}/{msg_id}'
-        friend_connection.sendall(response.encode('utf-8'))
-
-    edit_message_to_distributed(table_owner_id=user_id, friend_id=friend_id, msg_id=msg_id)  # and we edit both tables.
-    edit_message_to_distributed(table_owner_id=friend_id, friend_id=user_id, msg_id=msg_id)
-
-
-def handle_create_group_request(server, conn, user_id, grp_id, grp_name, friends_ids):
-    from SERVER.database.chatting_databases import create_grp_table
-    from SERVER.database.users_database import add_friend, add_user
-    from SERVER.chatting.function import find_logged_in_user, get_friends_ids_string, encode, decode
-
-    friends_ids = friends_ids.split('-')
-    add_user(userid=grp_id, username=encode(grp_name), email=encode('email'), password=encode(123))
-    for friend_id in friends_ids:
-        bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
-        friends_ids_data = get_friends_ids_string(friends_ids, friend_id)
+    len_seen_by = increment_message_is_seen(msg_id=msg_id, conv_id=conv_id, seen_by_id=seen_by_id)
+    len_conversation_members = len(get_conversation_data(conv_id=conv_id)[1].split('-'))
+    print(len_seen_by, len_conversation_members)
+    if len_seen_by == len_conversation_members - 1:
+        bool_value, sender_connection = find_logged_in_user(server, int(sender_id))
         if bool_value:
-            friend_connection.sendall(f'group_is_created/{grp_id}/{grp_name}/{friends_ids_data}'.encode('utf-8'))
+            response = f'message_is_seen/{conv_id}/{msg_id}'
+            sender_connection.sendall(response.encode('utf-8'))
 
-        create_grp_table(user_id=friend_id, conv_id=grp_id)
-        add_friend(user_id=friend_id, friend_id=grp_id)
 
-    add_friend(user_id=user_id, friend_id=grp_id)
-    create_grp_table(user_id=user_id, conv_id=grp_id)
+def handle_message_is_distributed_request(server, conn, conv_id, msg_id, sender_id, distributed_to_id):
+    # add the distributed_to_id to the database
+    # check if the message is distributed by all the receivers, if so send a response to the sender
+    from SERVER.database.chatting_databases import increment_message_is_distributed
+    from SERVER.database.users_database import get_conversation_data
+    from chatting.function import find_logged_in_user
+
+    len_distributed_to = increment_message_is_distributed(msg_id=msg_id, distributed_to_id=distributed_to_id,
+                                                          conv_id=conv_id)
+    len_conversation_members = len(get_conversation_data(conv_id=conv_id)[1].split('-'))
+
+    if len_distributed_to == len_conversation_members - 1:
+        bool_value, sender_connection = find_logged_in_user(server, int(sender_id))
+        if bool_value:
+            response = f'message_is_distributed/{conv_id}/{msg_id}'
+            sender_connection.sendall(response.encode('utf-8'))
+
+
+def handle_create_group_request(server, conn, user_id, grp_name, members_ids):
+    from SERVER.database.users_database import add_conversation, get_user
+    from SERVER.database.chatting_databases import create_conversation_table
+    from chatting.function import find_logged_in_user, get_members_data_as_string
+
+    conv_id, name = add_conversation(members=f'{members_ids}', name=grp_name)
+    create_conversation_table(conv_id=conv_id)
+
+    members_data = []
+
+    for member_id in members_ids.split('-'):
+        member_username = get_user(member_id, by='id')[1]
+        members_data.append((member_id, member_username))
+
+    for member_id in members_ids.split('-'):
+        bool_value, member_connection = find_logged_in_user(server, int(member_id))
+        if bool_value:
+            response = f'new_conversation/{conv_id}/{name}/{get_members_data_as_string(members_data, member_id)}>'
+            member_connection.sendall(response.encode('utf-8'))
+
+
+def handle_log_out_request(server, conn, user_id):
+    from SERVER.database.users_database import get_user_friends
+    from chatting.function import find_logged_in_user
+
+    server.log_in_users = [t for t in server.log_in_users if int(t[1]) != int(user_id)]
+
+    user_friends_ids = [friend[0] for friend in get_user_friends(user_id)]
+    for friend_id in user_friends_ids:
+        bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
+        if bool_value:
+            friend_connection.sendall(f'friend_is_offline/{user_id}'.encode('utf-8'))
+
+
+def handle_is_online_request(server, conn, user_id):
+    from SERVER.database.users_database import get_user_friends
+    from chatting.function import find_logged_in_user
+
+    user_friends_ids = [friend[0] for friend in get_user_friends(user_id)]
+    for friend_id in user_friends_ids:
+        bool_value, friend_connection = find_logged_in_user(server, int(friend_id))
+        if bool_value:
+            friend_connection.sendall(f'friend_is_online/{user_id}'.encode('utf-8'))

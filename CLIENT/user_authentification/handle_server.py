@@ -41,8 +41,9 @@ def send_user_auth_request(client, val):
 
             user = User(id=user_data_list[0], username=user_data_list[1], connection=client,
                         send_request_func=send_request_function)
-
-            home_page(client, user, send_request_function, user.friends)
+            user.status = 'online'
+            send_request_function.send(f'/is_online/{user.id}')
+            home_page(user=user, auth_func=func)
 
         else:
 

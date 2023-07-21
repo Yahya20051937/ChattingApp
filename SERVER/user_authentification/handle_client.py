@@ -28,8 +28,9 @@ def handle_sign_up_request(request, conn, server):
 
 
 def sign_up_response(server, conn, validation, error_or_id):
-    from database.users_database import get_user, get_users_data
-    from database.chatting_databases import create_request_table
+    from SERVER.database.users_database import get_user, get_users_data
+    from SERVER.database.chatting_databases import create_request_table
+
     if validation:
         server.log_in_users.append((conn,
                                     error_or_id))  # if the user is logged in, we add the connection and the id to the login users attribute of the server
@@ -42,7 +43,7 @@ def sign_up_response(server, conn, validation, error_or_id):
         create_request_table(user_data[0])
         conn.sendall(user_data_as_pickle)
         send_friends_data(conn, [])
-        send_all_conversations(conn, [], user_data)
+        send_all_conversations(conn, user_data)
         send_all_requests(conn, user_data[0])
 
     else:
@@ -65,8 +66,9 @@ def handle_log_in_request(request, conn, server):
 
 
 def log_in_response(server, conn, validation, statement, username):
-    from database.users_database import get_user, get_users_data, get_user_friends
-    from database.chatting_databases import create_table, create_request_table
+    from SERVER.database.users_database import get_user, get_users_data, get_user_friends, \
+        create_conversation_data_table
+    from SERVER.database.chatting_databases import create_request_table
 
     if validation:
 
@@ -81,38 +83,48 @@ def log_in_response(server, conn, validation, statement, username):
         friends = get_user_friends(user_data[0])
 
         conn.sendall(user_data_as_pickle)
-        send_friends_data(conn, friends)
-        send_all_conversations(conn, friends, user_data)
+        send_friends_data(server, conn, friends)
+        send_all_conversations(conn, user_data)
         send_all_requests(conn, user_data[0])
 
     else:
         conn.sendall(statement.encode('utf-8'))
 
 
-def send_all_conversations(conn, user_friends, user_data):
-    from database.chatting_databases import get_conversation
-    all_conversations = []
-    for friend in user_friends:
-        conversation = get_conversation(user_id=user_data[0], friend_id=friend[0])
-        data = (friend[0], conversation)
+def send_all_conversations(conn, user_data):
+    from SERVER.database.users_database import get_all_conversations_info
+    from SERVER.database.chatting_databases import get_conversation
+    user_id = user_data[0]
+    user_conversations = []
+    all_conversations_info = get_all_conversations_info()
+    # print(all_conversations_info)
+    for conversation in all_conversations_info:
+        members = conversation[1].split('-')
 
-        all_conversations.append(data)
-    data_as_pickle = pickle.dumps(all_conversations)
+        if int(user_id) in [int(member_id) for member_id in members]:
+            conv_id = conversation[0]
+            conv_name = conversation[2]
+            content = get_conversation(conv_id=conv_id)
+            user_conversations.append((conv_id, conv_name, members, content))  # int , str, list, list
+    # print(user_conversations)
+    user_conversations_pickle = pickle.dumps(user_conversations)
+    conn.sendall(user_conversations_pickle)
 
-    conn.sendall(data_as_pickle)
 
-
-def send_friends_data(conn, friends_data):
-    from server import logger
-
-    friends_data_dict = {}
+def send_friends_data(server, conn, friends_data):
+    i = - 1
     for data in friends_data:
-        friends_data_dict[str(data[0])] = data[1]
+        i += 1
+        data = list(data)
+        if int(data[0]) in [int(user[1]) for user in server.log_in_users]:
+            data.append('online')
+        else:
+            data.append('offline')
+        friends_data[i] = data
 
-    logger.critical(friends_data_dict)
+    friends_data_pickle = pickle.dumps(friends_data)
 
-    data_dict_json = json.dumps(friends_data_dict)
-    conn.sendall(data_dict_json.encode('utf-8'))
+    conn.sendall(friends_data_pickle)
 
 
 def send_all_requests(conn, user_id):

@@ -10,14 +10,15 @@ def find_logged_in_user(server, user_id):
     return False, None  # if not we return False, and NO
 
 
-def get_friends_ids_string(friends_ids, user_id):
-    friends_ids_string = ''
-    for f_id in friends_ids:
-        if int(f_id) != int(user_id):
-            friends_ids_string += f'{f_id}-'
-    if friends_ids_string.endswith('-'):
-        friends_ids_string = friends_ids_string[:-1]
-    return friends_ids_string
+def get_members_data_as_string(members_data, member_id):
+    data_as_string = ''
+    for data in members_data:
+        if int(data[0]) != int(member_id):
+            data_as_string += f'{data[0]}-{data[1]}>'
+    if data_as_string.endswith('>'):
+        data_as_string = data_as_string[:-1]
+    return data_as_string
+
 
 
 encoding_dict = {'a': "'3,9 5'6l9,1,9n1'0'4x1b9'", 'b': "y3,0'3,3 2 1,6'9,0'2'4 4 ", 'c': " 8 8'1'2a1 6 911s5'2 8'5 ",

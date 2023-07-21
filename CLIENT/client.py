@@ -12,7 +12,8 @@ logging.basicConfig(format='%(asctime)s %(levelname)-8s[%(filename)s:%(lineno)d]
                     filename='client_logs.txt')
 logger = logging.getLogger('client')
 
-if __name__ == '__main__':
+
+def connect():
     PORT = 5050
     HEADER = 64
     SERVER = socket.gethostbyname(socket.gethostname())
@@ -29,4 +30,8 @@ if __name__ == '__main__':
     func2.send(None)
 
     user_auth_home_page(func1, func2)
+
+
+if __name__ == '__main__':
+    connect()
     tk.mainloop()

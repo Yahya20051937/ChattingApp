@@ -1,22 +1,28 @@
 import sqlite3
 
 
-def create_table(user_id, friend_id):
-    from database.database_management import DataBaseManagement
-    with DataBaseManagement(f'{user_id}_chat.db') as cursor:
-        table_name = f'table_{friend_id}_'
-        query = f"CREATE TABLE IF NOT EXISTS {table_name} (msg_id int, sender int, message text, is_seen int, is_distributed int)"
-
-        cursor.execute(query)
-
-
-def create_grp_table(user_id, conv_id):
-    from database.database_management import DataBaseManagement
-    with DataBaseManagement(f'{user_id}_chat.db') as cursor:
+def create_conversation_table(conv_id):
+    from SERVER.database.database_management import DataBaseManagement
+    with DataBaseManagement(f'chatting_database.db') as cursor:
         table_name = f'table_{conv_id}_'
-        query = f"CREATE TABLE IF NOT EXISTS {table_name} (msg_id int, sender int, message text, is_seen int, is_distributed int)"
+        cursor.execute(
+            f'CREATE TABLE IF NOT EXISTS {table_name} (msg_id int, sender_id int, message text, seen_by text, distributed_to text)')
 
-        cursor.execute(query)
+
+def add_message(conv_id, msg_id, sender_id, message):
+    from SERVER.database.database_management import DataBaseManagement
+    with DataBaseManagement(f'chatting_database.db') as cursor:
+        table_name = f'table_{conv_id}_'
+        cursor.execute(f'INSERT INTO {table_name} VALUES (?, ?, ?, ?, ?)', (msg_id, sender_id, message, 0, 0))
+
+
+def get_conversation(conv_id):
+    from SERVER.database.database_management import DataBaseManagement
+    with DataBaseManagement(f'chatting_database.db') as cursor:
+        table_name = f'table_{conv_id}_'
+        cursor.execute(f'SELECT * FROM {table_name}')
+        data = cursor.fetchall()
+        return data
 
 
 def create_request_table(user_id):
@@ -46,56 +52,23 @@ def delete_request(user_id, friend_id):
         cursor.execute('DELETE FROM requests_table WHERE id = ?', (friend_id,))
 
 
-def get_conversation(user_id, friend_id):
-    from database.database_management import DataBaseManagement
-    file_name = f'{user_id}_chat.db'
-    with DataBaseManagement(file_name) as cursor:
-        table_name = f'table_{friend_id}_'
-        query = f'SELECT * FROM {table_name}'
-        cursor.execute(query)
-        conversation = cursor.fetchall()
-        return conversation
-
-
-def add_message(table_owner_id, friend_id, sender_id, receiver_id, message):
-    from server import logger
-
-    """
-    if the user is the sender, then his id must represent the sender column in the table along with the message, and if the friend is the sender, we do the opposite
-    """
-    from database.database_management import DataBaseManagement
-    file_name = f'{table_owner_id}_chat.db'
-    logger.critical(f'file name: {file_name}')
-    with DataBaseManagement(file_name) as cursor:
-        table_name = f'table_{friend_id}_'
-        msg_id = len(get_conversation(table_owner_id, friend_id)) + 1
-        query = f'INSERT INTO {table_name} VALUES (?, ?, ?, 0, 0)'
-        try:
-            cursor.execute(query, (msg_id, sender_id, message))
-        except sqlite3.OperationalError:
-            create_table(sender_id, receiver_id)
-            create_table(receiver_id, sender_id)
-
-
-def add_grp_message(table_owner_id, conv_id, sender_id, message):
-    from database.database_management import DataBaseManagement
-    with DataBaseManagement(f'{table_owner_id}_chat.db') as cursor:
+def increment_message_is_seen(conv_id, msg_id, seen_by_id):
+    from SERVER.database.database_management import DataBaseManagement
+    with DataBaseManagement(f'chatting_database.db') as cursor:
         table_name = f'table_{conv_id}_'
-        msg_id = len(get_conversation(user_id=table_owner_id, friend_id=conv_id)) + 1
-        cursor.execute(f'INSERT INTO {table_name} VALUES (?, ?, ?, 0, 0)', (msg_id, sender_id, message))
+        cursor.execute(f'SELECT seen_by FROM {table_name} WHERE msg_id = ?', (int(msg_id),))
+        seen_by = cursor.fetchall()[0][0]
+        seen_by += f'-{seen_by_id}'
+        cursor.execute(f'UPDATE {table_name} SET seen_by = ? WHERE msg_id = ?', (seen_by, msg_id))
+        return len(seen_by.split('-')[1:])
 
 
-def edit_message_to_seen(table_owner_id, friend_id, msg_id):
-    from database.database_management import DataBaseManagement
-    file_name = f'{table_owner_id}_chat.db'
-    with DataBaseManagement(file_name) as cursor:
-        table_name = f'table_{friend_id}_'
-        cursor.execute(f'UPDATE {table_name} SET is_seen = ? WHERE msg_id = ?', (1, msg_id))
-
-
-def edit_message_to_distributed(table_owner_id, friend_id, msg_id):
-    from database.database_management import DataBaseManagement
-    file_name = f'{table_owner_id}_chat.db'
-    with DataBaseManagement(file_name) as cursor:
-        table_name = f'table_{friend_id}_'
-        cursor.execute(f'UPDATE {table_name} SET is_distributed = ? WHERE msg_id = ?', (1, msg_id))
+def increment_message_is_distributed(conv_id, msg_id, distributed_to_id):
+    from SERVER.database.database_management import DataBaseManagement
+    with DataBaseManagement(f'chatting_database.db') as cursor:
+        table_name = f'table_{conv_id}_'
+        cursor.execute(f'SELECT distributed_to FROM {table_name} WHERE msg_id = ?', (int(msg_id),))
+        distributed_to = cursor.fetchall()[0][0]
+        distributed_to += f'-{distributed_to_id}'
+        cursor.execute(f'UPDATE {table_name} SET distributed_to = ? WHERE msg_id = ?', (distributed_to, msg_id))
+        return len(distributed_to.split('-')[1:])

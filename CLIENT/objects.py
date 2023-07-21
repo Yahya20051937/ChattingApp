@@ -1,3 +1,4 @@
+import random
 import time
 import tkinter as tk
 import json
@@ -25,68 +26,88 @@ class User:
         self.friend_requests_frame = friend_requests_frame
         self.current_conversation = None
         self.page = None
+        self.label = None
         self.page_elements = dict()
         self.send_request_func = send_request_func
-        self.groups_names = []
+        self.status = 'offline'
 
     def get_friends_data(self):
-        friends_data_json = self.connection.recv(4000).decode('utf-8')
-        friends_data = json.loads(friends_data_json)
-
-        friends = []
-        for user_id in list(friends_data.keys()):
-            friend = User(id=user_id, username=friends_data[user_id])
-            friends.append(friend)
-
-        self.friends = friends
+        friends_data_pickle = self.connection.recv(4000)
+        friends_data = pickle.loads(friends_data_pickle)
+        print(friends_data)
+        for friend_data in friends_data:
+            friend_id = int(friend_data[0])
+            friend_username = friend_data[1]
+            friend_status = friend_data[2]
+            friend = User(id=friend_id, username=friend_username)
+            friend.status = friend_status
+            self.friends.append(friend)
 
     def get_all_conversations(self):
         from functions import search_object_by_id
         all_conversations_as_pickle = self.connection.recv(10000)
+
         all_conversations = pickle.loads(all_conversations_as_pickle)
 
-        for conv in all_conversations:  # get each friend id and conversation from the server and create a dict and store all the dicts in a list
+        for conv in all_conversations:
+            conv_id = int(conv[0])
+            conv_name = conv[1]
+            members = conv[2]
+            content = conv[3]
+            # print(conv_id, conv_name, members, content)
+            members_objects = [search_object_by_id(self.friends, int(member_id)) for member_id in members if
+                               int(member_id) != int(self.id)]
 
-            friend_id = conv[0]
+            if len(members_objects) == 1:
+                is_group = False
+                conv_name = members_objects[0].username
+            else:
+                is_group = True
+            members_objects.append(self)
 
-            content = conv[1]
+            conversation = Conversation(conv_id=conv_id, name=conv_name, user=self, members=members_objects,
+                                        messages=[], is_group=is_group)
 
-            messages = []
-            for data in content:
+            for msg in content:
+                msg_id = int(msg[0])
+                sender = search_object_by_id(conversation.members, int(msg[1]))
+                text = msg[2]
+                seen_by = msg[3].split('-')[1:]
+                distributed_to = msg[4].split('-')[1:]
 
-                msg_id = int(data[0])
-                sender = search_object_by_id(self.friends, data[1])
-                if sender is None:
-                    sender = self
-                message = Message(msg_id=msg_id, sender=sender, content=data[2], user=self)
-                is_seen = int(data[3])
-                is_distributed = int(data[4])
+                message = Message(conversation=conversation, user=self, msg_id=msg_id, sender=sender, content=text)
 
-                if is_seen == 0:
-                    message.is_seen = False
-                elif is_seen == 1:
-                    message.is_seen = True
+                if int(sender.id) == int(self.id):
+                    if len(seen_by) == len(conversation.members) - 1:
+                        message.is_seen = True
+                    else:
+                        message.is_seen = False
 
-                if is_distributed == 0:
-                    message.is_distributed = False  # if the message is not distributed, we have to send to the server that now it is distributed
-                    self.send_request_func.send(f'/is_distributed/{self.id}/{friend_id}/{message.id}')
-                    time.sleep(0.2)
-                elif is_distributed == 1:
-                    message.is_distributed = True
+                    if len(distributed_to) == len(conversation.members) - 1:
+                        message.is_distributed = True
+                    else:
+                        message.is_distributed = False
+                else:
+                    if str(self.id) in seen_by:
+                        message.seen_by_user = True
+                    else:
+                        message.seen_by_user = False
 
-                messages.append(message)
-            friend = search_object_by_id(self.friends, friend_id)
+                    if str(self.id) in distributed_to:
+                        message.distributed_to_user = True
+                    else:
+                        message.distributed_to_user = False
+                        self.send_request_func.send(
+                            f'/is_distributed/{conversation.id}/{message.id}/{message.sender.id}/{self.id}')
+                        time.sleep(0.2)
+                        message.distributed_to_user = True
 
-            conversation = Conversation(user=self, friend=friend, messages=messages)
+                conversation.messages.append(message)
             self.conversations.append(conversation)
-
-        try:
-            self.current_conversation = self.conversations[0]
-        except IndexError:
-            pass
 
     def get_all_requests(self):
         data_as_pickle = self.connection.recv(4000)
+
         try:
             requests = pickle.loads(data_as_pickle)
         except pickle.UnpicklingError:
@@ -102,159 +123,149 @@ class User:
         - If the response is a message, we find the sender user object, and then the conversation object, and we either display the message if the conversation is displayed or we edit the label if the another page is displayed
         - if the response is a friend request, we create a friend request object that has a user attribute, and we display it if the requests' page is displayed, and we add it to the requests attribute in the user object
         - if the response is a friend response from the server, we just display it (either the request is sent or the user is not found)
-        - If the response is a friend request accepted, we create a user object that has the new friend data, and we redisplay the users labels, so that the new user label is displayed
-        - If the response is a message is seen, we get the message that has been seen, by getting the friend and then the conversation, and we update the message
+        - If the response is a new conversation request, then our friend request has been accepted, so we create a new conversation using the data from the server (conv_id , members, ..) and we redisplay all the conversations
+        - If the response is a message is seen, we get the message that has been seen, using the msg_id and the conv_id
         - If the response is a message is distributed, we do the same thing we did in the case of the message is seen
         :return:
         """
-        from functions import search_object_by_id, add_new_message, get_conversation, get_group_conversation
-        from chatting.templates import display_conversations_labels
+        from functions import search_object_by_id, split_responses, get_conversation_by_friend, get_label
+        from chatting.templates import display_conversations_labels, home_page
         from client import logger
 
-        while True:
-            response = self.connection.recv(1000).decode(
-                'utf-8')
-            print(response, self.username)
-            if response.split('/')[0] == 'message':
-                message_dict = json.loads(response.split('/')[1])
-                sender = search_object_by_id(self.friends, message_dict['sender'])
-                conversation = get_conversation(self.conversations, sender)
-                message = Message(msg_id=len(conversation.messages) + 1, sender=sender, content=message_dict['message'],
-                                  user=self)
+        while self.status == 'online':
+            try:
+                responses = self.connection.recv(1000).decode(
+                    'utf-8')
+                responses = split_responses(responses)
+                print(responses, self.username)
+            except ConnectionAbortedError:
+                break
+            for response in responses:
+                if response[0] == 'message':
+                    message_dict = json.loads(response[1])
+                    conv_id = int(message_dict['conv_id'])
+                    sender = search_object_by_id(self.friends, message_dict['sender'])
+                    conversation = search_object_by_id(self.conversations, conv_id)
+                    message = Message(msg_id=len(conversation.messages) + 1, sender=sender,
+                                      content=message_dict['message'],
+                                      user=self, conversation=conversation)
 
-                messages_frame = self.page_elements['messages_frame']
-                messages_frames = self.page_elements['messages_frames']
-                users_labels = self.page_elements['users_labels']
-                try:
-                    if self.page == f'conversation:{sender.id}':
+                    self.send_request_func.send(
+                        f'/is_distributed/{conv_id}/{message.id}/{sender.id}/{self.id}')  # the message id distributed
+                    message.distributed_to_user = True
+
+                    messages_frame = self.page_elements['messages_frame']
+                    messages_frames = self.page_elements['messages_frames']
+                    users_labels = self.page_elements['users_labels']
+
+                    if self.page == f'conversation:{conversation.id}':
                         message.display(messages_frame, messages_frames, func=self.send_request_func)
 
                     else:
                         message.edit(users_labels)
-                except AttributeError:
-                    message.edit(users_labels)
 
-                add_new_message(message.sender, message,
-                                self.conversations)  # add the new message to the conversations list
-            elif response.split('/')[0] == 'grp_message':
-                message_dict = json.loads(response.split('/')[2])
-                conv_id = response.split('/')[1]
-                sender = search_object_by_id(self.friends, message_dict['sender'])
-                conversation = get_group_conversation(self.conversations, conv_id)
-                message = Message(msg_id=len(conversation.messages + 1), sender=sender, content=message_dict['message'],
-                                  user=self)
+                    conversation.messages.append(message)
+                elif response[0] == 'friend_request':
+                    requesting_user = User(id=response[2], username=response[1])
+                    friend_request = FriendRequest(user=self, requesting_user=requesting_user)
+                    friend_request.display(friend_requests_frame=self.friend_requests_frame,
+                                           send_request_func=self.send_request_func)
+                    self.friend_requests.append(friend_request)
+                elif response[0] == 'friend_response':
+                    self.response_label.config(text=response[1])
 
-                messages_frame = self.page_elements['messages_frame']
-                messages_frames = self.page_elements['messages_frames']
-                users_labels = self.page_elements['users_labels']
+                elif response[0] == 'new_conversation':
+                    conv_id = int(response[1])
+                    name = response[2]
+                    members = response[3].split('>')[:-1]
 
-                try:
-                    if self.page == f'conversation:{sender.id}':
-                        message.display(messages_frame, messages_frames, func=self.send_request_func)
+                    members_objects = []
+                    for member in members:
+                        try:
+                            user_id = int(member.split('-')[0])
+                            username = member.split('-')[1]
+                            member_obj = User(id=user_id, username=username)
+                            members_objects.append(member_obj)
+                            self.friends.append(member_obj)
+                        except ValueError:
+                            pass
+                    if not len(members_objects) > 1:
+                        name = members_objects[0].username
 
+                    members_objects.append(self)
+                    if len(members_objects) == 2:
+                        is_group = False
                     else:
-                        message.edit(users_labels)
-                except AttributeError:
-                    message.edit(users_labels)
+                        is_group = True
+                    conversation = Conversation(user=self, conv_id=conv_id, name=name, messages=[],
+                                                members=members_objects,
+                                                is_group=is_group)
+                    self.conversations.append(conversation)
 
-                add_new_message(message.sender, message,
-                                self.conversations)  # add the new message to the conversations list
-            elif response.split('/')[0] == 'friend_request':
-                requesting_user = User(id=response.split('/')[2], username=response.split('/')[1])
-                friend_request = FriendRequest(user=self, requesting_user=requesting_user)
-                friend_request.display(friend_requests_frame=self.friend_requests_frame,
-                                       send_request_func=self.send_request_func)
-                self.friend_requests.append(friend_request)
-            elif response.split('/')[0] == 'friend_response':
-                self.response_label.config(text=response.split('/')[1])
+                    if self.page.split(":")[0] == 'conversation' or self.page == 'home_page':
+                        home_page(self, first=False)
 
-            elif response.split('/')[0] == 'friend_request_accepted':
-                new_friend = User(id=response.split('/')[1], username=response.split('/')[2])
-                self.friends.append(new_friend)
-                new_conversation = Conversation(user=self, friend=new_friend, messages=[])
-                self.conversations.append(new_conversation)
+                elif response[0] == 'message_is_seen':
+                    conv_id = response[1]
+                    msg_id = response[2]
 
-                contacts_frame = self.page_elements['contacts_frame']
-                conversation_frame = self.page_elements['conversation_frame']
-                messages_frame = self.page_elements['messages_frame']
+                    conversation = search_object_by_id(self.conversations, conv_id)
+                    message = search_object_by_id(conversation.messages,
+                                                  msg_id)  # then we find the message using the id
 
-                messages_frames = self.page_elements['messages_frames']
-                users_labels = self.page_elements['users_labels']
+                    message.is_seen = True
+                    if self.page == f'conversation:{conversation.id}':
+                        message.update_is_seen()
 
-                display_conversations_labels(user=self, contacts_frame=contacts_frame,
-                                             conversation_frame=conversation_frame, messages_frames=messages_frames,
-                                             messages_frame=messages_frame, send_request_func=self.send_request_func,
-                                             users_labels=users_labels)
-            elif response.split('/')[0] == 'message_is_seen':
-                friend_id = response.split('/')[1]
-                msg_id = response.split('/')[2]
+                elif response[0] == 'message_is_distributed':
+                    conv_id = response[1]
+                    msg_id = response[2]
 
-                friend = search_object_by_id(self.friends, friend_id)  # we find the friend using the id
-                conversation = get_conversation(self.conversations,
-                                                friend)  # then we find the conversation using the friend object
-                message = search_object_by_id(conversation.messages, msg_id)  # then we find the message using the id
+                    conversation = search_object_by_id(self.conversations, conv_id)
+                    message = search_object_by_id(conversation.messages,
+                                                  msg_id)  # then we find the message using the id
 
-                message.is_seen = True
-                if self.page == f'conversation:{conversation.friend.id}':
-                    message.update_is_seen()
+                    message.is_distributed = True
+                    if self.page == f'conversation:{conversation.id}':
+                        message.update_is_distributed()
 
-            elif response.split('/')[0] == 'message_is_distributed':
-                friend_id = response.split('/')[1]
-                msg_id = response.split('/')[2]
-
-                friend = search_object_by_id(self.friends, friend_id)  # we find the friend using the id
-                conversation = get_conversation(self.conversations,
-                                                friend)  # then we find the conversation using the friend object
-                message = search_object_by_id(conversation.messages, msg_id)  # then we find the message using the id
-
-                message.is_distributed = True
-                if self.page == f'conversation:{conversation.friend.id}':
-                    message.update_is_distributed()
-
-            elif response.split('/')[0] == 'group_is_created':
-                conv_id = response.split('/')[1]
-                grp_name = response.split('/')[2]
-                friends_ids_string = response.split('/')[3]
-                conversation_friends = []
-                for friend_id in friends_ids_string.split('-'):
+                elif response[0] == 'friend_is_online':
+                    friend_id = response[1]
                     friend = search_object_by_id(self.friends, friend_id)
-                    conversation_friends.append(friend)
-                group_conversation = GroupConversation(user=self, name=grp_name, friends=conversation_friends,
-                                                       messages=[], conv_id=conv_id)
-                self.conversations.append(group_conversation)
+                    friend.status = 'online'
+                    conversation = get_conversation_by_friend(self.conversations, friend)
+                    label = get_label(self.page_elements['users_labels'], conversation)
+                    label.update_on_off_line()
 
-                contacts_frame = self.page_elements['contacts_frame']
-                conversation_frame = self.page_elements['conversation_frame']
-                messages_frame = self.page_elements['messages_frame']
-
-                messages_frames = self.page_elements['messages_frames']
-                users_labels = self.page_elements['users_labels']
-
-                display_conversations_labels(user=self, contacts_frame=contacts_frame,
-                                             conversation_frame=conversation_frame, messages_frames=messages_frames,
-                                             messages_frame=messages_frame, send_request_func=self.send_request_func,
-                                             users_labels=users_labels)
+                elif response[0] == 'friend_is_offline':
+                    friend_id = response[1]
+                    friend = search_object_by_id(self.friends, friend_id)
+                    friend.status = 'offline'
 
 
 class Conversation:
-    def __init__(self, user, friend, messages):
+    def __init__(self, user, members, messages, conv_id, name, is_group):
         self.user = user
-        self.friend = friend
+        self.members = members
+        self.id = conv_id
         self.messages = messages
-        self.friends = None
-        self.id = None
+        self.name = name
+        self.is_group = is_group
 
     def display(self, conversation_frame, messages_frame, func, messages_frames,
                 users_labels):
-        from functions import get_label, change_content, set_id
+        from functions import get_label, change_content, set_id, members_usernames
 
-        self.user.page = f'conversation:{self.friend.id}'
+        self.user.page = f'conversation:{self.id}'
+        self.user.label.config(
+            text=f'You, {members_usernames(self.user, self.members)}, {self.id}')
 
         for msg in messages_frames:
             msg.destroy()
 
         user_label = get_label(users_labels,
                                self)  # these two line are used to remove the "new message" string from the label after the button is clicked
+
         user_label.fix_text()
 
         for message in self.messages:
@@ -272,32 +283,22 @@ class Conversation:
         sender_label = tk.Label(entry_frame, text=self.user.username)
         user_entry = tk.Entry(entry_frame, textvariable=message)
 
-        if self.__class__ == GroupConversation:
-            x = 'grp_send'
-            y = ''
-            j = self.id
-            for f in self.friends[:-1]:
-                y += f'{f.id}-'
-            y += f'{self.friends[-1]}'
-        else:
-            x = 'send'
-            y = self.friend.id
-            j = self.friend.id
-
         send_button = tk.Button(entry_frame, text='Send',
                                 command=lambda message_obj=Message(msg_id=999, user=self.user,
                                                                    sender=self.user,
-                                                                   content=None)
+                                                                   content=None, conversation=self)
 
                                 : [
+
                                     set_id(self, message_obj),
                                     change_content(message_obj, message.get()),
-                                    message_obj.display(
-                                        messages_frames=messages_frames, messages_frame=messages_frame, func=func),
                                     self.add_message(
                                         message_obj),
+                                    time.sleep(0.1),
+                                    message_obj.display(
+                                        messages_frames=messages_frames, messages_frame=messages_frame, func=func),
 
-                                    func.send(f'/{x}/{self.user.id}/{j}/{y}/{message_obj.id}/{message.get()}'),
+                                    func.send(f'/send/{self.user.id}/{self.id}/{message_obj.id}/{message.get()}'),
 
                                     # send the message to the server through a coroutine, and add the message to the list
                                 ])
@@ -312,18 +313,26 @@ class Conversation:
 
 class Message:
 
-    def __init__(self, msg_id, user, sender, content):
+    def __init__(self, msg_id, user, sender, content, conversation):
         self.user = user
         self.id = msg_id
         self.sender = sender
         self.content = content
-
+        self.conversation = conversation
         self.is_seen = False
         self.is_distributed = False
+        self.seen_by_user = False
+        self.distributed_to_user = False
         self.info_label = None
 
     def display(self, messages_frame, messages_frames, func):
-        from functions import search_object_by_id
+        """
+        if the user is the sender, we check if our message has been seen by the other members or not, and we update the message info label. If the user is not the sender, we check if the message has been seen by the user, of not we send a request to the server
+        :param messages_frame:
+        :param messages_frames:
+        :param func:
+        :return:
+        """
         if self.user.page.split(':')[0] == 'conversation':
             frame = tk.Frame(messages_frame)
             frame.pack(fill='x', expand=True)
@@ -356,15 +365,15 @@ class Message:
                 sender_label.pack(side='left')
                 message_label.pack(side='right', fill='x', expand=True)
                 # is_seen_label.pack(side='right')
-                if self.is_seen is False:
-                    self.is_seen = True  # if the message is displayed, then the user is in the home page, then the user has seen the message  (in the case where the friend is the message sender)
-                    func.send(f'/is_seen/{self.user.id}/{self.sender.id}/{self.id}')
+                if self.seen_by_user is False:
+                    self.seen_by_user = True
+                    func.send(f'/is_seen/{self.conversation.id}/{self.id}/{self.sender.id}/{self.user.id}')
+                    time.sleep(0.2)
 
     def edit(self, users_labels):
-        from functions import get_label, get_conversation
-        conversation = get_conversation(self.user.conversations, friend=self.sender)
-        user_label = get_label(users_labels, conversation=conversation)
-        user_label.config(text=f'{self.sender.username}  (New message)')
+        from functions import get_label
+        user_label = get_label(users_labels, self.conversation)
+        user_label.config(text=f'{self.conversation.name}  (New message)')
 
     def update_is_seen(self):
         self.info_label.config(text='✔✔', fg='skyblue')
@@ -374,14 +383,22 @@ class Message:
 
 
 class UserLabel(tk.Button):
-    def __init__(self, user, conversation, name, master=None, **kwargs):
+    def __init__(self, conversation, master=None, **kwargs):
         super().__init__(master, **kwargs)
-        self.user = user
         self.conversation = conversation
-        self.name = name
+        if not conversation.is_group:
+            self.other_member = \
+                [member for member in conversation.members if int(member.id) != int(conversation.user.id)][0]
+            self.text = f'{self.conversation.name} ({self.other_member.status})'
+        else:
+            self.text = self.conversation.name
 
     def fix_text(self):
-        self.config(text=self.name)
+        self.config(text=self.text)
+
+    def update_on_off_line(self):
+        self.text = f'{self.conversation.name} {self.other_member.status}'
+        self.fix_text()
 
 
 class FriendRequest:
@@ -396,11 +413,11 @@ class FriendRequest:
             request_frame.pack()
             request_label = tk.Label(request_frame, text=self.requesting_user.username)
             accept_button = tk.Button(request_frame, text='Accept',
-                                      command=lambda x=self.requesting_user.id, y=request_frame: [
+                                      command=lambda x=self.requesting_user.id, y=request_frame,
+                                      : [
                                           send_request_func.send(f'/accept/{self.user.id}/{x}'), y.destroy(),
                                           self.user.friends.append(self.requesting_user),
-                                          self.user.conversations.append(
-                                              Conversation(user=self.user, friend=self.requesting_user, messages=[])),
+
                                           delete_friend_request(user=self.user,
                                                                 requesting_friend=self.requesting_user)])
             decline_button = tk.Button(request_frame, text='Decline',
@@ -413,9 +430,4 @@ class FriendRequest:
             decline_button.pack(side='right')
 
 
-class GroupConversation(Conversation):
-    def __init__(self, user, friends, conv_id, name, messages):
-        super().__init__(user, None, messages)
-        self.friends = friends
-        self.id = conv_id
-        self.name = name
+

@@ -10,3 +10,7 @@ def find_first_index(lst, element):
         if value == element:
             return index
     return None
+
+
+def split_requests():
+

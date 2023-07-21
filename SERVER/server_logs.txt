@@ -2727,3 +2727,1150 @@
 15-07-2023 17:30:14  CRITICAL[server.py:21] New connection from <socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59318)>, ('192.168.100.56', 59318)
 15-07-2023 17:30:18  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
 15-07-2023 17:30:18  CRITICAL[handle_client.py:111] {'2': 'hatim', '3': 'fahd', '34807': 'l3chran'}
+17-07-2023 10:57:50  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 10:58:33  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60184)>, ('192.168.100.56', 60184)
+17-07-2023 10:58:53  CRITICAL[server.py:21] New connection from <socket.socket fd=344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60185)>, ('192.168.100.56', 60185)
+17-07-2023 10:59:06  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 10:59:12  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60198)>, ('192.168.100.56', 60198)
+17-07-2023 10:59:21  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+17-07-2023 10:59:21  INFO    [authentification.py:7] usernames : []
+17-07-2023 10:59:21  INFO    [authentification.py:12] emails : []
+17-07-2023 10:59:21  CRITICAL[handle_client.py:112] {}
+17-07-2023 10:59:34  CRITICAL[server.py:21] New connection from <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60201)>, ('192.168.100.56', 60201)
+17-07-2023 10:59:49  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+17-07-2023 10:59:49  INFO    [authentification.py:7] usernames : ['yahya']
+17-07-2023 10:59:49  INFO    [authentification.py:12] emails : ['y@']
+17-07-2023 10:59:49  CRITICAL[handle_client.py:112] {}
+17-07-2023 11:00:03  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+17-07-2023 11:00:03  INFO    [authentification.py:7] usernames : ['yahya', 'fahd']
+17-07-2023 11:00:03  INFO    [authentification.py:12] emails : ['y@', 'f@']
+17-07-2023 11:00:03  CRITICAL[handle_client.py:112] {}
+17-07-2023 11:00:21  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 11:00:21  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 11:00:21  CRITICAL[users_database.py:62] user friends : 1/
+17-07-2023 11:00:21  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 11:00:22  CRITICAL[users_database.py:62] user friends : 3/
+17-07-2023 11:00:22  CRITICAL[users_database.py:62] user friends : 3/
+17-07-2023 11:00:41  CRITICAL[users_database.py:62] user friends : 3/1/
+17-07-2023 11:00:41  CRITICAL[users_database.py:62] user friends : 1/2/
+17-07-2023 11:00:41  CRITICAL[users_database.py:62] user friends : 3/2/
+17-07-2023 11:04:52  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:04:54  CRITICAL[server.py:21] New connection from <socket.socket fd=252, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60215)>, ('192.168.100.56', 60215)
+17-07-2023 11:04:58  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 11:04:58  CRITICAL[handle_client.py:112] {'3': 'hatim', '2': 'fahd', '44623': 'l3chran'}
+17-07-2023 11:07:27  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:07:40  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60216)>, ('192.168.100.56', 60216)
+17-07-2023 11:07:50  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:07:52  CRITICAL[server.py:21] New connection from <socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60217)>, ('192.168.100.56', 60217)
+17-07-2023 11:08:11  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+17-07-2023 11:08:11  INFO    [authentification.py:7] usernames : []
+17-07-2023 11:08:11  INFO    [authentification.py:12] emails : []
+17-07-2023 11:08:11  CRITICAL[handle_client.py:113] {}
+17-07-2023 11:08:14  CRITICAL[server.py:21] New connection from <socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60218)>, ('192.168.100.56', 60218)
+17-07-2023 11:08:21  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+17-07-2023 11:08:21  INFO    [authentification.py:7] usernames : ['yahya']
+17-07-2023 11:08:21  INFO    [authentification.py:12] emails : ['y@']
+17-07-2023 11:08:21  CRITICAL[handle_client.py:113] {}
+17-07-2023 11:08:25  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60219)>, ('192.168.100.56', 60219)
+17-07-2023 11:08:34  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+17-07-2023 11:08:34  INFO    [authentification.py:7] usernames : ['yahya', 'fahd']
+17-07-2023 11:08:34  INFO    [authentification.py:12] emails : ['y@', 'f@']
+17-07-2023 11:08:34  CRITICAL[handle_client.py:113] {}
+17-07-2023 11:08:54  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 11:08:54  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 11:08:55  CRITICAL[users_database.py:62] user friends : 1/
+17-07-2023 11:08:55  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 11:08:56  CRITICAL[users_database.py:62] user friends : 2/
+17-07-2023 11:08:56  CRITICAL[users_database.py:62] user friends : 2/
+17-07-2023 11:09:12  CRITICAL[users_database.py:62] user friends : 1/3/
+17-07-2023 11:09:12  CRITICAL[users_database.py:62] user friends : 2/1/
+17-07-2023 11:09:12  CRITICAL[users_database.py:62] user friends : 2/3/
+17-07-2023 11:12:30  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:13:58  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:14:05  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60224)>, ('192.168.100.56', 60224)
+17-07-2023 11:14:11  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 11:14:11  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran'}
+17-07-2023 11:14:15  CRITICAL[server.py:21] New connection from <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60225)>, ('192.168.100.56', 60225)
+17-07-2023 11:14:22  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 11:14:22  CRITICAL[handle_client.py:114] {'1': 'yahya', '3': 'hatim', '64176': 'l3chran'}
+17-07-2023 11:14:29  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60227)>, ('192.168.100.56', 60227)
+17-07-2023 11:14:37  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 11:14:37  CRITICAL[handle_client.py:114] {'2': 'fahd', '1': 'yahya', '64176': 'l3chran'}
+17-07-2023 11:14:57  CRITICAL[users_database.py:62] user friends : 1/3/64176/
+17-07-2023 11:14:57  CRITICAL[users_database.py:62] user friends : 2/1/64176/
+17-07-2023 11:14:57  CRITICAL[users_database.py:62] user friends : 2/3/64176/
+17-07-2023 11:17:54  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:17:56  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60237)>, ('192.168.100.56', 60237)
+17-07-2023 11:17:58  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60238)>, ('192.168.100.56', 60238)
+17-07-2023 11:18:00  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60239)>, ('192.168.100.56', 60239)
+17-07-2023 11:18:08  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 11:18:08  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2'}
+17-07-2023 11:18:55  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 11:18:55  CRITICAL[handle_client.py:114] {'1': 'yahya', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2'}
+17-07-2023 11:19:11  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 11:19:11  CRITICAL[handle_client.py:114] {'2': 'fahd', '1': 'yahya', '64176': 'l3chran', '793': 'l3chran2'}
+17-07-2023 11:19:26  CRITICAL[users_database.py:62] user friends : 1/3/64176/793/
+17-07-2023 11:19:26  CRITICAL[users_database.py:62] user friends : 2/1/64176/793/
+17-07-2023 11:19:26  CRITICAL[users_database.py:62] user friends : 2/3/64176/793/
+17-07-2023 11:49:16  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:49:22  CRITICAL[server.py:21] New connection from <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60326)>, ('192.168.100.56', 60326)
+17-07-2023 11:49:26  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 11:49:26  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2', '58742': 'l3chran3'}
+17-07-2023 11:49:51  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:49:58  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60327)>, ('192.168.100.56', 60327)
+17-07-2023 11:50:02  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 11:50:02  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2', '58742': 'l3chran3'}
+17-07-2023 11:50:25  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60328)>, ('192.168.100.56', 60328)
+17-07-2023 11:50:29  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 11:50:29  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2', '58742': 'l3chran3'}
+17-07-2023 11:51:23  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:51:25  CRITICAL[server.py:21] New connection from <socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60330)>, ('192.168.100.56', 60330)
+17-07-2023 11:51:28  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 11:51:28  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2', '58742': 'l3chran3'}
+17-07-2023 11:59:56  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 11:59:57  CRITICAL[server.py:21] New connection from <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60377)>, ('192.168.100.56', 60377)
+17-07-2023 12:00:04  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:00:04  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2', '58742': 'l3chran3'}
+17-07-2023 12:00:23  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:00:35  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60379)>, ('192.168.100.56', 60379)
+17-07-2023 12:00:40  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:00:40  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2', '58742': 'l3chran3'}
+17-07-2023 12:01:23  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:01:27  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60382)>, ('192.168.100.56', 60382)
+17-07-2023 12:01:31  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:01:31  CRITICAL[handle_client.py:114] {'2': 'fahd', '3': 'hatim', '64176': 'l3chran', '793': 'l3chran2', '58742': 'l3chran3'}
+17-07-2023 12:02:09  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:02:11  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60383)>, ('192.168.100.56', 60383)
+17-07-2023 12:02:20  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+17-07-2023 12:02:20  INFO    [authentification.py:7] usernames : []
+17-07-2023 12:02:20  INFO    [authentification.py:12] emails : []
+17-07-2023 12:02:20  CRITICAL[handle_client.py:114] {}
+17-07-2023 12:02:23  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60384)>, ('192.168.100.56', 60384)
+17-07-2023 12:02:29  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+17-07-2023 12:02:29  INFO    [authentification.py:7] usernames : ['yahya']
+17-07-2023 12:02:29  INFO    [authentification.py:12] emails : ['y@']
+17-07-2023 12:02:29  CRITICAL[handle_client.py:114] {}
+17-07-2023 12:02:34  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60385)>, ('192.168.100.56', 60385)
+17-07-2023 12:02:42  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+17-07-2023 12:02:42  INFO    [authentification.py:7] usernames : ['yahya', 'fahd']
+17-07-2023 12:02:42  INFO    [authentification.py:12] emails : ['y@', 'f@']
+17-07-2023 12:02:42  CRITICAL[handle_client.py:114] {}
+17-07-2023 12:02:58  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 12:02:58  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 12:03:04  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 12:03:04  CRITICAL[users_database.py:62] user friends : 3/
+17-07-2023 12:03:04  CRITICAL[users_database.py:62] user friends : 1/
+17-07-2023 12:03:05  CRITICAL[users_database.py:62] user friends : 1/
+17-07-2023 12:03:41  CRITICAL[server.py:21] New connection from <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60387)>, ('192.168.100.56', 60387)
+17-07-2023 12:03:53  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:03:53  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd'}
+17-07-2023 12:06:16  CRITICAL[users_database.py:62] user friends : 1/3/
+17-07-2023 12:06:33  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:06:35  CRITICAL[server.py:21] New connection from <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60391)>, ('192.168.100.56', 60391)
+17-07-2023 12:06:39  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:06:39  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd'}
+17-07-2023 12:06:46  CRITICAL[server.py:21] New connection from <socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60392)>, ('192.168.100.56', 60392)
+17-07-2023 12:06:51  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:06:51  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd'}
+17-07-2023 12:06:56  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60393)>, ('192.168.100.56', 60393)
+17-07-2023 12:06:59  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 12:06:59  CRITICAL[handle_client.py:114] {'1': 'yahya', '3': 'hatim', '33810': 'l3chran'}
+17-07-2023 12:08:15  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:08:43  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:08:50  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60394)>, ('192.168.100.56', 60394)
+17-07-2023 12:08:56  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+17-07-2023 12:08:56  INFO    [authentification.py:7] usernames : []
+17-07-2023 12:08:56  INFO    [authentification.py:12] emails : []
+17-07-2023 12:08:56  CRITICAL[handle_client.py:114] {}
+17-07-2023 12:08:59  CRITICAL[server.py:21] New connection from <socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60395)>, ('192.168.100.56', 60395)
+17-07-2023 12:09:04  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+17-07-2023 12:09:04  INFO    [authentification.py:7] usernames : ['yahya']
+17-07-2023 12:09:04  INFO    [authentification.py:12] emails : ['y@']
+17-07-2023 12:09:04  CRITICAL[handle_client.py:114] {}
+17-07-2023 12:09:07  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60396)>, ('192.168.100.56', 60396)
+17-07-2023 12:09:14  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+17-07-2023 12:09:14  INFO    [authentification.py:7] usernames : ['yahya', 'fahd']
+17-07-2023 12:09:14  INFO    [authentification.py:12] emails : ['y@', 'f@']
+17-07-2023 12:09:14  CRITICAL[handle_client.py:114] {}
+17-07-2023 12:09:33  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 12:09:33  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 12:09:34  CRITICAL[users_database.py:62] user friends : 1/
+17-07-2023 12:09:34  CRITICAL[users_database.py:62] user friends : 
+17-07-2023 12:09:35  CRITICAL[users_database.py:62] user friends : 3/
+17-07-2023 12:09:35  CRITICAL[users_database.py:62] user friends : 3/
+17-07-2023 12:09:52  CRITICAL[users_database.py:62] user friends : 3/1/
+17-07-2023 12:09:52  CRITICAL[users_database.py:62] user friends : 1/2/
+17-07-2023 12:09:52  CRITICAL[users_database.py:62] user friends : 3/2/
+17-07-2023 12:12:21  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:12:26  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60399)>, ('192.168.100.56', 60399)
+17-07-2023 12:12:31  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:12:31  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:14:11  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:14:17  CRITICAL[server.py:21] New connection from <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60400)>, ('192.168.100.56', 60400)
+17-07-2023 12:14:22  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:14:22  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:14:46  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60402)>, ('192.168.100.56', 60402)
+17-07-2023 12:14:53  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:14:53  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:15:25  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60403)>, ('192.168.100.56', 60403)
+17-07-2023 12:15:32  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:15:32  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:20:46  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:20:49  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60409)>, ('192.168.100.56', 60409)
+17-07-2023 12:20:50  CRITICAL[server.py:21] New connection from <socket.socket fd=296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60410)>, ('192.168.100.56', 60410)
+17-07-2023 12:20:52  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60411)>, ('192.168.100.56', 60411)
+17-07-2023 12:20:59  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:20:59  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:21:39  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:21:47  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60413)>, ('192.168.100.56', 60413)
+17-07-2023 12:21:49  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60414)>, ('192.168.100.56', 60414)
+17-07-2023 12:21:51  CRITICAL[server.py:21] New connection from <socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60415)>, ('192.168.100.56', 60415)
+17-07-2023 12:21:55  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:21:55  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:27:22  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 12:27:22  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 12:27:30  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:27:30  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:31:21  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:31:24  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60474)>, ('192.168.100.56', 60474)
+17-07-2023 12:31:29  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:31:29  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:31:36  CRITICAL[server.py:21] New connection from <socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60475)>, ('192.168.100.56', 60475)
+17-07-2023 12:31:43  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:31:44  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:31:50  CRITICAL[server.py:21] New connection from <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60476)>, ('192.168.100.56', 60476)
+17-07-2023 12:31:55  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 12:31:55  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 12:39:48  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:39:57  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60492)>, ('192.168.100.56', 60492)
+17-07-2023 12:40:00  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:40:00  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:44:02  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:44:06  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60510)>, ('192.168.100.56', 60510)
+17-07-2023 12:44:09  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:44:09  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:44:15  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60511)>, ('192.168.100.56', 60511)
+17-07-2023 12:44:19  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 12:44:19  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 12:44:24  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60513)>, ('192.168.100.56', 60513)
+17-07-2023 12:44:30  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:44:30  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:48:58  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 12:49:01  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60527)>, ('192.168.100.56', 60527)
+17-07-2023 12:49:04  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 12:49:04  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 12:49:10  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60529)>, ('192.168.100.56', 60529)
+17-07-2023 12:49:16  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 12:49:16  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 12:49:18  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 60530)>, ('192.168.100.56', 60530)
+17-07-2023 12:49:24  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 12:49:24  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 13:59:10  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 13:59:13  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61376)>, ('192.168.100.56', 61376)
+17-07-2023 13:59:17  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 13:59:17  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 13:59:23  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61377)>, ('192.168.100.56', 61377)
+17-07-2023 13:59:35  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 13:59:35  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 13:59:38  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61378)>, ('192.168.100.56', 61378)
+17-07-2023 13:59:43  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 13:59:43  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 14:02:33  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 14:02:35  CRITICAL[server.py:21] New connection from <socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61398)>, ('192.168.100.56', 61398)
+17-07-2023 14:02:36  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61399)>, ('192.168.100.56', 61399)
+17-07-2023 14:02:38  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61400)>, ('192.168.100.56', 61400)
+17-07-2023 14:02:43  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 14:02:43  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:03:00  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 14:03:00  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:03:10  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 14:03:12  CRITICAL[server.py:21] New connection from <socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61401)>, ('192.168.100.56', 61401)
+17-07-2023 14:03:14  CRITICAL[server.py:21] New connection from <socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61402)>, ('192.168.100.56', 61402)
+17-07-2023 14:03:16  CRITICAL[server.py:21] New connection from <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61412)>, ('192.168.100.56', 61412)
+17-07-2023 14:03:20  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 14:03:20  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:03:26  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 14:03:26  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:03:32  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 14:03:32  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 14:06:50  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 14:06:52  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61414)>, ('192.168.100.56', 61414)
+17-07-2023 14:06:54  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61415)>, ('192.168.100.56', 61415)
+17-07-2023 14:06:56  CRITICAL[server.py:21] New connection from <socket.socket fd=172, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61416)>, ('192.168.100.56', 61416)
+17-07-2023 14:07:02  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 14:07:02  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:07:08  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 14:07:08  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:07:14  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 14:07:14  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 14:09:48  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 14:09:52  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61419)>, ('192.168.100.56', 61419)
+17-07-2023 14:09:54  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61420)>, ('192.168.100.56', 61420)
+17-07-2023 14:09:56  CRITICAL[server.py:21] New connection from <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61421)>, ('192.168.100.56', 61421)
+17-07-2023 14:10:02  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 14:10:03  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:10:08  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+17-07-2023 14:10:08  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 14:10:11  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+17-07-2023 14:10:11  CRITICAL[handle_client.py:114] {'3': 'hatim', '1': 'yahya', '10213': 'l3chran'}
+17-07-2023 15:04:01  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 15:04:14  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61561)>, ('192.168.100.56', 61561)
+17-07-2023 15:04:22  CRITICAL[server.py:21] New connection from <socket.socket fd=400, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61563)>, ('192.168.100.56', 61563)
+17-07-2023 15:04:27  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 15:04:27  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 15:07:32  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 15:07:37  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61564)>, ('192.168.100.56', 61564)
+17-07-2023 15:07:43  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 15:07:43  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 15:08:37  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 15:08:39  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61567)>, ('192.168.100.56', 61567)
+17-07-2023 15:08:43  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 15:08:43  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 15:09:10  INFO    [server.py:40] SERVER LISTENING
+17-07-2023 15:10:26  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61576)>, ('192.168.100.56', 61576)
+17-07-2023 15:10:30  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+17-07-2023 15:10:30  CRITICAL[handle_client.py:114] {'3': 'hatim', '2': 'fahd', '10213': 'l3chran'}
+17-07-2023 15:11:00  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:02:09  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:02:33  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:02:56  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:03:23  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51484)>, ('192.168.100.56', 51484)
+18-07-2023 11:08:33  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+18-07-2023 11:08:33  INFO    [authentification.py:7] usernames : []
+18-07-2023 11:08:33  INFO    [authentification.py:12] emails : []
+18-07-2023 11:08:33  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:09:14  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:09:29  CRITICAL[server.py:21] New connection from <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51489)>, ('192.168.100.56', 51489)
+18-07-2023 11:09:46  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+18-07-2023 11:09:46  INFO    [authentification.py:7] usernames : ['yahya']
+18-07-2023 11:09:46  INFO    [authentification.py:12] emails : ['y@']
+18-07-2023 11:09:46  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:10:04  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:10:11  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51490)>, ('192.168.100.56', 51490)
+18-07-2023 11:10:17  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+18-07-2023 11:10:17  INFO    [authentification.py:7] usernames : ['yahya', 'hatim']
+18-07-2023 11:10:17  INFO    [authentification.py:12] emails : ['y@', 'h@']
+18-07-2023 11:10:17  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:10:47  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51491)>, ('192.168.100.56', 51491)
+18-07-2023 11:10:51  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:10:51  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:10:53  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:10:53  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:11:02  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:11:02  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:11:09  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:11:09  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:11:33  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51493)>, ('192.168.100.56', 51493)
+18-07-2023 11:11:40  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 11:11:40  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:11:42  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:11:42  CRITICAL[users_database.py:62] user friends : 1/
+18-07-2023 11:11:59  CRITICAL[users_database.py:62] user friends : 3/
+18-07-2023 11:11:59  CRITICAL[users_database.py:62] user friends : 3/
+18-07-2023 11:12:18  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:12:18  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:12:27  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:12:27  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:16:13  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:16:23  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51540)>, ('192.168.100.56', 51540)
+18-07-2023 11:16:27  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:16:27  CRITICAL[handle_client.py:114] {'3': 'fahd', '2': 'hatim'}
+18-07-2023 11:16:42  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:16:44  CRITICAL[server.py:21] New connection from <socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51541)>, ('192.168.100.56', 51541)
+18-07-2023 11:16:48  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:16:48  CRITICAL[handle_client.py:114] {'3': 'fahd', '2': 'hatim'}
+18-07-2023 11:20:25  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:20:38  CRITICAL[server.py:21] New connection from <socket.socket fd=112, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51547)>, ('192.168.100.56', 51547)
+18-07-2023 11:20:42  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:20:42  CRITICAL[handle_client.py:114] {'3': 'fahd', '2': 'hatim'}
+18-07-2023 11:21:21  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:21:24  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51548)>, ('192.168.100.56', 51548)
+18-07-2023 11:21:27  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:21:27  CRITICAL[handle_client.py:114] {'3': 'fahd', '2': 'hatim'}
+18-07-2023 11:22:04  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:22:16  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51555)>, ('192.168.100.56', 51555)
+18-07-2023 11:22:21  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:22:21  CRITICAL[handle_client.py:114] {'3': 'fahd', '2': 'hatim'}
+18-07-2023 11:22:37  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:22:40  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51558)>, ('192.168.100.56', 51558)
+18-07-2023 11:22:46  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:22:46  CRITICAL[handle_client.py:114] {'3': 'fahd', '2': 'hatim'}
+18-07-2023 11:23:08  CRITICAL[server.py:21] New connection from <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51560)>, ('192.168.100.56', 51560)
+18-07-2023 11:23:12  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+18-07-2023 11:23:12  CRITICAL[handle_client.py:114] {'1': 'yahya', '2': 'hatim'}
+18-07-2023 11:23:18  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:23:18  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:23:36  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:23:38  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51564)>, ('192.168.100.56', 51564)
+18-07-2023 11:23:40  CRITICAL[server.py:21] New connection from <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51565)>, ('192.168.100.56', 51565)
+18-07-2023 11:23:50  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+18-07-2023 11:23:50  INFO    [authentification.py:7] usernames : []
+18-07-2023 11:23:50  INFO    [authentification.py:12] emails : []
+18-07-2023 11:23:51  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:24:06  INFO    [handle_client.py:17] sing up request : username : simo, password : 1 email : s@, confirm password: 1
+18-07-2023 11:24:06  INFO    [authentification.py:7] usernames : ['yahya']
+18-07-2023 11:24:06  INFO    [authentification.py:12] emails : ['y@']
+18-07-2023 11:24:06  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:24:12  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:24:12  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:24:17  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:24:17  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:24:25  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:24:25  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:24:35  CRITICAL[server.py:21] New connection from <socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51566)>, ('192.168.100.56', 51566)
+18-07-2023 11:24:40  CRITICAL[server.py:21] New connection from <socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51568)>, ('192.168.100.56', 51568)
+18-07-2023 11:24:52  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+18-07-2023 11:24:52  INFO    [authentification.py:7] usernames : ['yahya', 'simo']
+18-07-2023 11:24:52  INFO    [authentification.py:12] emails : ['y@', 's@']
+18-07-2023 11:24:52  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:25:03  CRITICAL[users_database.py:62] user friends : 2/
+18-07-2023 11:25:03  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:25:05  CRITICAL[users_database.py:62] user friends : 1/
+18-07-2023 11:25:05  CRITICAL[users_database.py:62] user friends : 1/
+18-07-2023 11:25:21  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:25:21  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:25:34  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:25:34  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:25:53  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:25:55  CRITICAL[server.py:21] New connection from <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51572)>, ('192.168.100.56', 51572)
+18-07-2023 11:25:57  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51573)>, ('192.168.100.56', 51573)
+18-07-2023 11:26:03  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:26:03  CRITICAL[handle_client.py:114] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:26:12  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 11:26:12  CRITICAL[handle_client.py:114] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 11:26:19  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:26:19  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:31:06  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:31:16  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51651)>, ('192.168.100.56', 51651)
+18-07-2023 11:31:26  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+18-07-2023 11:31:26  INFO    [authentification.py:7] usernames : ['yahya', 'simo', 'hatim']
+18-07-2023 11:31:34  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+18-07-2023 11:31:34  INFO    [authentification.py:7] usernames : ['yahya', 'simo', 'hatim']
+18-07-2023 11:31:34  INFO    [authentification.py:12] emails : ['y@', 's@', 'h@']
+18-07-2023 11:31:34  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:31:47  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:31:55  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:31:58  CRITICAL[server.py:21] New connection from <socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51655)>, ('192.168.100.56', 51655)
+18-07-2023 11:32:04  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+18-07-2023 11:32:04  INFO    [authentification.py:7] usernames : []
+18-07-2023 11:32:04  INFO    [authentification.py:12] emails : []
+18-07-2023 11:32:04  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:32:11  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51658)>, ('192.168.100.56', 51658)
+18-07-2023 11:32:19  INFO    [handle_client.py:17] sing up request : username : simo, password : 1 email : s@, confirm password: 1
+18-07-2023 11:32:19  INFO    [authentification.py:7] usernames : ['yahya']
+18-07-2023 11:32:19  INFO    [authentification.py:12] emails : ['y@']
+18-07-2023 11:32:19  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:32:24  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:32:24  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:32:34  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:32:34  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:32:41  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:32:41  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:32:58  CRITICAL[server.py:21] New connection from <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51659)>, ('192.168.100.56', 51659)
+18-07-2023 11:33:07  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+18-07-2023 11:33:07  INFO    [authentification.py:7] usernames : ['yahya', 'simo']
+18-07-2023 11:33:07  INFO    [authentification.py:12] emails : ['y@', 's@']
+18-07-2023 11:33:07  CRITICAL[handle_client.py:114] {}
+18-07-2023 11:33:23  CRITICAL[users_database.py:62] user friends : 1/
+18-07-2023 11:33:23  CRITICAL[users_database.py:62] user friends : 
+18-07-2023 11:33:26  CRITICAL[users_database.py:62] user friends : 2/
+18-07-2023 11:33:26  CRITICAL[users_database.py:62] user friends : 2/
+18-07-2023 11:34:28  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:34:28  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:38:58  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:39:16  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51675)>, ('192.168.100.56', 51675)
+18-07-2023 11:39:20  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:39:20  CRITICAL[handle_client.py:112] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:39:25  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51677)>, ('192.168.100.56', 51677)
+18-07-2023 11:39:30  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 11:39:30  CRITICAL[handle_client.py:112] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 11:39:36  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:39:36  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:43:08  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:43:20  CRITICAL[server.py:21] New connection from <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51693)>, ('192.168.100.56', 51693)
+18-07-2023 11:43:22  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51695)>, ('192.168.100.56', 51695)
+18-07-2023 11:43:27  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:43:27  CRITICAL[handle_client.py:112] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:43:38  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 11:43:38  CRITICAL[handle_client.py:112] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 11:43:45  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:43:45  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:44:28  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:44:31  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51696)>, ('192.168.100.56', 51696)
+18-07-2023 11:44:33  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51697)>, ('192.168.100.56', 51697)
+18-07-2023 11:44:38  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:44:38  CRITICAL[handle_client.py:112] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:44:45  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 11:44:45  CRITICAL[handle_client.py:112] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 11:44:51  CRITICAL[chatting_databases.py:68] file name: 1_chat.db
+18-07-2023 11:44:51  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:45:19  CRITICAL[chatting_databases.py:68] file name: 2_chat.db
+18-07-2023 11:45:19  CRITICAL[chatting_databases.py:68] file name: 3_chat.db
+18-07-2023 11:49:23  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:49:27  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51707)>, ('192.168.100.56', 51707)
+18-07-2023 11:49:29  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51708)>, ('192.168.100.56', 51708)
+18-07-2023 11:49:34  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:49:34  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:50:00  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:50:12  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51709)>, ('192.168.100.56', 51709)
+18-07-2023 11:50:16  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:50:16  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:50:35  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:54:05  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:54:13  CRITICAL[server.py:21] New connection from <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51713)>, ('192.168.100.56', 51713)
+18-07-2023 11:54:18  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:54:18  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:54:41  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:54:50  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51714)>, ('192.168.100.56', 51714)
+18-07-2023 11:54:53  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:54:53  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:55:10  CRITICAL[server.py:21] New connection from <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51715)>, ('192.168.100.56', 51715)
+18-07-2023 11:55:16  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 11:55:16  CRITICAL[handle_client.py:113] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 11:56:51  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:56:54  CRITICAL[server.py:21] New connection from <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51721)>, ('192.168.100.56', 51721)
+18-07-2023 11:56:55  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51722)>, ('192.168.100.56', 51722)
+18-07-2023 11:57:00  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:57:00  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:58:03  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:58:14  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 11:58:17  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51723)>, ('192.168.100.56', 51723)
+18-07-2023 11:58:20  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51724)>, ('192.168.100.56', 51724)
+18-07-2023 11:58:25  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 11:58:25  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 11:58:31  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 11:58:31  CRITICAL[handle_client.py:113] {'2': 'simo', '1': 'yahya'}
+18-07-2023 11:58:38  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 11:58:38  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 11:58:44  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 11:58:44  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 11:58:49  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 11:58:49  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 11:58:55  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 11:58:55  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:02:41  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:02:45  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:02:57  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:02:58  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51801)>, ('192.168.100.56', 51801)
+18-07-2023 12:03:02  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 12:03:02  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 12:03:15  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:03:15  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 12:10:49  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:10:53  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51826)>, ('192.168.100.56', 51826)
+18-07-2023 12:10:56  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51827)>, ('192.168.100.56', 51827)
+18-07-2023 12:11:03  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 12:11:03  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 12:11:10  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 12:11:10  CRITICAL[handle_client.py:113] {'2': 'simo', '1': 'yahya'}
+18-07-2023 12:11:21  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:11:21  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:17:54  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:17:57  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51833)>, ('192.168.100.56', 51833)
+18-07-2023 12:17:58  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51834)>, ('192.168.100.56', 51834)
+18-07-2023 12:18:03  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 12:18:03  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 12:18:13  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 12:18:13  CRITICAL[handle_client.py:113] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 12:18:25  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:18:25  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 12:18:35  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:18:35  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 12:19:13  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:19:13  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:19:20  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:19:20  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:19:24  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:19:24  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:19:35  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:19:35  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:19:53  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:19:53  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:20:01  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:20:01  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:20:05  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:20:05  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:20:19  CRITICAL[chatting_databases.py:59] file name: 1_chat.db
+18-07-2023 12:20:19  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:20:28  CRITICAL[server.py:21] New connection from <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51835)>, ('192.168.100.56', 51835)
+18-07-2023 12:20:34  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 12:20:34  CRITICAL[handle_client.py:113] {'2': 'simo', '1': 'yahya'}
+18-07-2023 12:20:47  CRITICAL[chatting_databases.py:59] file name: 3_chat.db
+18-07-2023 12:20:47  CRITICAL[chatting_databases.py:59] file name: 2_chat.db
+18-07-2023 12:27:38  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:27:48  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51864)>, ('192.168.100.56', 51864)
+18-07-2023 12:27:53  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 12:27:53  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 12:27:59  CRITICAL[server.py:21] New connection from <socket.socket fd=544, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51865)>, ('192.168.100.56', 51865)
+18-07-2023 12:28:04  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 12:28:04  CRITICAL[handle_client.py:113] {'2': 'simo', '1': 'yahya'}
+18-07-2023 12:28:12  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51867)>, ('192.168.100.56', 51867)
+18-07-2023 12:28:18  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 12:28:18  CRITICAL[handle_client.py:113] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 12:29:44  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:29:46  CRITICAL[server.py:21] New connection from <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51868)>, ('192.168.100.56', 51868)
+18-07-2023 12:29:48  CRITICAL[server.py:21] New connection from <socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51869)>, ('192.168.100.56', 51869)
+18-07-2023 12:29:50  CRITICAL[server.py:21] New connection from <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51870)>, ('192.168.100.56', 51870)
+18-07-2023 12:29:55  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 12:29:55  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 12:30:02  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 12:30:02  CRITICAL[handle_client.py:113] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 12:30:08  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 12:30:08  CRITICAL[handle_client.py:113] {'2': 'simo', '1': 'yahya'}
+18-07-2023 12:31:10  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:31:21  CRITICAL[server.py:21] New connection from <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51875)>, ('192.168.100.56', 51875)
+18-07-2023 12:31:24  CRITICAL[server.py:21] New connection from <socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51876)>, ('192.168.100.56', 51876)
+18-07-2023 12:31:26  CRITICAL[server.py:21] New connection from <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51877)>, ('192.168.100.56', 51877)
+18-07-2023 12:31:29  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 12:31:29  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 12:31:35  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 12:31:35  CRITICAL[handle_client.py:113] {'2': 'simo', '1': 'yahya'}
+18-07-2023 12:31:41  INFO    [handle_client.py:61] log in request : username : fahd, password : 1
+18-07-2023 12:31:45  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 12:31:45  CRITICAL[handle_client.py:113] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 12:32:52  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 12:32:55  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 51878)>, ('192.168.100.56', 51878)
+18-07-2023 12:32:58  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 12:32:58  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 13:03:25  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 13:03:38  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 52344)>, ('192.168.100.56', 52344)
+18-07-2023 13:03:42  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 13:03:42  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 13:03:50  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 52345)>, ('192.168.100.56', 52345)
+18-07-2023 13:03:56  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 13:03:56  CRITICAL[handle_client.py:113] {'1': 'yahya', '3': 'hatim'}
+18-07-2023 13:05:01  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 13:05:03  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 52347)>, ('192.168.100.56', 52347)
+18-07-2023 13:05:06  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 52348)>, ('192.168.100.56', 52348)
+18-07-2023 13:05:11  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 13:05:11  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim'}
+18-07-2023 13:05:16  INFO    [handle_client.py:61] log in request : username : hatim, password : 1
+18-07-2023 13:05:16  CRITICAL[handle_client.py:113] {'2': 'simo', '1': 'yahya'}
+18-07-2023 13:05:29  CRITICAL[users_database.py:55] user friends : 1/3/
+18-07-2023 13:05:29  CRITICAL[users_database.py:55] user friends : 2/1/
+18-07-2023 13:05:29  CRITICAL[users_database.py:55] user friends : 2/3/
+18-07-2023 13:06:49  INFO    [server.py:40] SERVER LISTENING
+18-07-2023 13:06:51  CRITICAL[server.py:21] New connection from <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 52352)>, ('192.168.100.56', 52352)
+18-07-2023 13:06:53  CRITICAL[server.py:21] New connection from <socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 52353)>, ('192.168.100.56', 52353)
+18-07-2023 13:06:57  INFO    [handle_client.py:61] log in request : username : yahya, password : 1
+18-07-2023 13:06:57  CRITICAL[handle_client.py:113] {'2': 'simo', '3': 'hatim', '45567': "19,5y1 792 5'6 3,8n3'6'15'8,4,747,7'8'9'2 6,1'3'5n 8 8'1'2a1 6 911s5'2 8'5 ,4s7'7,413 8 2'1,9x3'9'1c87 3v4'6,3'9,5 7,5'4'8,5''3,9 5'6l9,1,9n1'0'4x1b9',1 3 5u9k6l6'3x3 5,6'8a2,"}
+18-07-2023 13:07:02  INFO    [handle_client.py:61] log in request : username : simo, password : 1
+18-07-2023 13:07:02  CRITICAL[handle_client.py:113] {'1': 'yahya', '3': 'hatim', '45567': "19,5y1 792 5'6 3,8n3'6'15'8,4,747,7'8'9'2 6,1'3'5n 8 8'1'2a1 6 911s5'2 8'5 ,4s7'7,413 8 2'1,9x3'9'1c87 3v4'6,3'9,5 7,5'4'8,5''3,9 5'6l9,1,9n1'0'4x1b9',1 3 5u9k6l6'3x3 5,6'8a2,"}
+19-07-2023 12:01:21  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:03:53  INFO    [server.py:41] SERVER LISTENING
+19-07-2023 12:04:14  CRITICAL[server.py:21] New connection from <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55540)>, ('192.168.100.56', 55540)
+19-07-2023 12:04:26  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55541)>, ('192.168.100.56', 55541)
+19-07-2023 12:04:35  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 12:04:35  INFO    [authentification.py:7] usernames : []
+19-07-2023 12:04:35  INFO    [authentification.py:12] emails : []
+19-07-2023 12:04:35  CRITICAL[handle_client.py:116] {}
+19-07-2023 12:30:23  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:30:33  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55605)>, ('192.168.100.56', 55605)
+19-07-2023 12:30:42  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:30:44  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55606)>, ('192.168.100.56', 55606)
+19-07-2023 12:30:50  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 12:30:50  INFO    [authentification.py:7] usernames : []
+19-07-2023 12:30:50  INFO    [authentification.py:12] emails : []
+19-07-2023 12:30:57  CRITICAL[server.py:21] New connection from <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55607)>, ('192.168.100.56', 55607)
+19-07-2023 12:31:12  INFO    [handle_client.py:17] sing up request : username : berrada, password : 1 email : b@, confirm password: 1
+19-07-2023 12:31:12  INFO    [authentification.py:7] usernames : ['yahya']
+19-07-2023 12:31:12  INFO    [authentification.py:12] emails : ['y@']
+19-07-2023 12:31:56  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:33:52  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:33:58  CRITICAL[server.py:21] New connection from <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55609)>, ('192.168.100.56', 55609)
+19-07-2023 12:34:03  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 12:34:07  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55610)>, ('192.168.100.56', 55610)
+19-07-2023 12:34:13  INFO    [handle_client.py:62] log in request : username : berrada, password : 1
+19-07-2023 12:35:36  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:35:38  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55612)>, ('192.168.100.56', 55612)
+19-07-2023 12:35:42  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 12:35:45  CRITICAL[server.py:21] New connection from <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55613)>, ('192.168.100.56', 55613)
+19-07-2023 12:35:52  INFO    [handle_client.py:62] log in request : username : berrada, password : 1
+19-07-2023 12:36:04  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:36:04  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:37:41  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:37:49  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:37:52  CRITICAL[server.py:21] New connection from <socket.socket fd=384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55623)>, ('192.168.100.56', 55623)
+19-07-2023 12:37:54  CRITICAL[server.py:21] New connection from <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55624)>, ('192.168.100.56', 55624)
+19-07-2023 12:38:03  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 12:38:03  INFO    [authentification.py:7] usernames : []
+19-07-2023 12:38:03  INFO    [authentification.py:12] emails : []
+19-07-2023 12:38:18  INFO    [handle_client.py:17] sing up request : username : simo, password : 1 email : s@, confirm password: 1
+19-07-2023 12:38:18  INFO    [authentification.py:7] usernames : ['yahya']
+19-07-2023 12:38:18  INFO    [authentification.py:12] emails : ['y@']
+19-07-2023 12:38:36  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:38:36  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:39:30  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:39:32  CRITICAL[server.py:21] New connection from <socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55626)>, ('192.168.100.56', 55626)
+19-07-2023 12:39:36  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 12:40:32  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:40:34  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55627)>, ('192.168.100.56', 55627)
+19-07-2023 12:40:40  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 12:40:53  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:41:04  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:41:06  CRITICAL[server.py:21] New connection from <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55628)>, ('192.168.100.56', 55628)
+19-07-2023 12:41:09  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55629)>, ('192.168.100.56', 55629)
+19-07-2023 12:41:16  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 12:41:16  INFO    [authentification.py:7] usernames : []
+19-07-2023 12:41:16  INFO    [authentification.py:12] emails : []
+19-07-2023 12:41:27  INFO    [handle_client.py:17] sing up request : username : simo, password : 1 email : s@, confirm password: 1
+19-07-2023 12:41:27  INFO    [authentification.py:7] usernames : ['yahya']
+19-07-2023 12:41:27  INFO    [authentification.py:12] emails : ['y@']
+19-07-2023 12:41:35  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:41:35  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:45:38  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:45:59  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:46:10  CRITICAL[server.py:21] New connection from <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55636)>, ('192.168.100.56', 55636)
+19-07-2023 12:46:12  CRITICAL[server.py:21] New connection from <socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55637)>, ('192.168.100.56', 55637)
+19-07-2023 12:46:21  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 12:46:26  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:46:29  CRITICAL[server.py:21] New connection from <socket.socket fd=308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55638)>, ('192.168.100.56', 55638)
+19-07-2023 12:46:34  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 12:46:34  INFO    [authentification.py:7] usernames : []
+19-07-2023 12:46:34  INFO    [authentification.py:12] emails : []
+19-07-2023 12:48:05  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:48:14  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55639)>, ('192.168.100.56', 55639)
+19-07-2023 12:48:40  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 12:49:05  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:49:45  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:49:47  CRITICAL[server.py:21] New connection from <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55644)>, ('192.168.100.56', 55644)
+19-07-2023 12:49:50  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 12:49:54  CRITICAL[server.py:21] New connection from <socket.socket fd=300, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55646)>, ('192.168.100.56', 55646)
+19-07-2023 12:50:10  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+19-07-2023 12:50:10  INFO    [authentification.py:7] usernames : ['yahya']
+19-07-2023 12:50:10  INFO    [authentification.py:12] emails : ['y@']
+19-07-2023 12:50:16  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:50:16  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:53:29  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:53:53  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:53:56  CRITICAL[server.py:21] New connection from <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55657)>, ('192.168.100.56', 55657)
+19-07-2023 12:53:58  CRITICAL[server.py:21] New connection from <socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55658)>, ('192.168.100.56', 55658)
+19-07-2023 12:54:15  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 12:54:15  INFO    [authentification.py:7] usernames : []
+19-07-2023 12:54:15  INFO    [authentification.py:12] emails : []
+19-07-2023 12:54:22  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+19-07-2023 12:54:22  INFO    [authentification.py:7] usernames : ['yahya']
+19-07-2023 12:54:22  INFO    [authentification.py:12] emails : ['y@']
+19-07-2023 12:54:34  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:54:34  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 12:56:09  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:56:24  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 12:56:28  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55666)>, ('192.168.100.56', 55666)
+19-07-2023 12:56:31  CRITICAL[server.py:21] New connection from <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 55667)>, ('192.168.100.56', 55667)
+19-07-2023 12:56:37  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:09:35  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:09:42  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59492)>, ('192.168.100.56', 59492)
+19-07-2023 14:09:46  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:10:27  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:10:31  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59493)>, ('192.168.100.56', 59493)
+19-07-2023 14:10:35  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:12:29  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:12:31  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59506)>, ('192.168.100.56', 59506)
+19-07-2023 14:12:35  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:14:00  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:14:04  CRITICAL[server.py:21] New connection from <socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59509)>, ('192.168.100.56', 59509)
+19-07-2023 14:14:08  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:14:38  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:14:40  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59510)>, ('192.168.100.56', 59510)
+19-07-2023 14:14:43  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:16:09  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:16:11  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59520)>, ('192.168.100.56', 59520)
+19-07-2023 14:16:14  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:16:43  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59522)>, ('192.168.100.56', 59522)
+19-07-2023 14:16:49  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+19-07-2023 14:16:49  INFO    [authentification.py:7] usernames : ['yahya', 'hatim']
+19-07-2023 14:16:49  INFO    [authentification.py:12] emails : ['y@', 'h@']
+19-07-2023 14:16:57  CRITICAL[users_database.py:81] user friends : 2/
+19-07-2023 14:16:57  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 14:17:56  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:18:00  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59523)>, ('192.168.100.56', 59523)
+19-07-2023 14:18:03  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:18:08  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59524)>, ('192.168.100.56', 59524)
+19-07-2023 14:18:13  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+19-07-2023 14:21:07  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:21:09  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59529)>, ('192.168.100.56', 59529)
+19-07-2023 14:21:15  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:21:19  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59530)>, ('192.168.100.56', 59530)
+19-07-2023 14:21:24  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+19-07-2023 14:22:20  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:22:23  CRITICAL[server.py:21] New connection from <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59531)>, ('192.168.100.56', 59531)
+19-07-2023 14:22:27  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:23:18  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:23:21  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59534)>, ('192.168.100.56', 59534)
+19-07-2023 14:23:25  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:23:34  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59535)>, ('192.168.100.56', 59535)
+19-07-2023 14:23:38  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+19-07-2023 14:24:16  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:24:34  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 14:24:36  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59537)>, ('192.168.100.56', 59537)
+19-07-2023 14:24:38  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59539)>, ('192.168.100.56', 59539)
+19-07-2023 14:24:43  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 14:24:48  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+19-07-2023 14:55:22  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 15:01:25  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 15:01:27  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59600)>, ('192.168.100.56', 59600)
+19-07-2023 15:01:29  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59601)>, ('192.168.100.56', 59601)
+19-07-2023 15:01:33  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+19-07-2023 15:02:11  INFO    [server.py:40] SERVER LISTENING
+19-07-2023 15:02:13  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59602)>, ('192.168.100.56', 59602)
+19-07-2023 15:02:19  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+19-07-2023 15:02:19  INFO    [authentification.py:7] usernames : []
+19-07-2023 15:02:19  INFO    [authentification.py:12] emails : []
+19-07-2023 15:02:22  CRITICAL[server.py:21] New connection from <socket.socket fd=264, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 59603)>, ('192.168.100.56', 59603)
+19-07-2023 15:02:28  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+19-07-2023 15:02:28  INFO    [authentification.py:7] usernames : ['yahya']
+19-07-2023 15:02:28  INFO    [authentification.py:12] emails : ['y@']
+19-07-2023 15:02:37  CRITICAL[users_database.py:81] user friends : 
+19-07-2023 15:02:37  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 11:52:05  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 11:52:35  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63313)>, ('192.168.100.56', 63313)
+20-07-2023 11:52:56  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63314)>, ('192.168.100.56', 63314)
+20-07-2023 11:53:04  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 11:53:12  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 11:54:27  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 11:54:29  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63334)>, ('192.168.100.56', 63334)
+20-07-2023 11:54:31  CRITICAL[server.py:21] New connection from <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63335)>, ('192.168.100.56', 63335)
+20-07-2023 11:54:38  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 11:54:43  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 11:55:39  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 11:55:40  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63336)>, ('192.168.100.56', 63336)
+20-07-2023 11:55:45  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 11:55:49  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63338)>, ('192.168.100.56', 63338)
+20-07-2023 11:55:54  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 11:56:48  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 11:56:50  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63339)>, ('192.168.100.56', 63339)
+20-07-2023 11:56:52  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63340)>, ('192.168.100.56', 63340)
+20-07-2023 11:56:57  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 11:57:04  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 11:57:59  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 11:58:17  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 11:58:19  CRITICAL[server.py:21] New connection from <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63351)>, ('192.168.100.56', 63351)
+20-07-2023 11:58:21  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63352)>, ('192.168.100.56', 63352)
+20-07-2023 11:58:35  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63354)>, ('192.168.100.56', 63354)
+20-07-2023 11:58:56  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 11:59:11  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 11:59:38  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 11:59:40  CRITICAL[server.py:21] New connection from <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63355)>, ('192.168.100.56', 63355)
+20-07-2023 11:59:44  CRITICAL[server.py:21] New connection from <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63356)>, ('192.168.100.56', 63356)
+20-07-2023 11:59:45  CRITICAL[server.py:21] New connection from <socket.socket fd=556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63357)>, ('192.168.100.56', 63357)
+20-07-2023 11:59:52  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:00:02  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:00:18  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:00:25  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63358)>, ('192.168.100.56', 63358)
+20-07-2023 12:00:28  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63359)>, ('192.168.100.56', 63359)
+20-07-2023 12:00:30  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63360)>, ('192.168.100.56', 63360)
+20-07-2023 12:00:38  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:00:45  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:08:34  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:08:42  CRITICAL[server.py:21] New connection from <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63364)>, ('192.168.100.56', 63364)
+20-07-2023 12:08:44  CRITICAL[server.py:21] New connection from <socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63365)>, ('192.168.100.56', 63365)
+20-07-2023 12:08:49  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:08:54  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:09:08  CRITICAL[server.py:21] New connection from <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63366)>, ('192.168.100.56', 63366)
+20-07-2023 12:09:15  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+20-07-2023 12:09:15  INFO    [authentification.py:7] usernames : ['yahya', 'hatim']
+20-07-2023 12:09:15  INFO    [authentification.py:12] emails : ['y@', 'h@']
+20-07-2023 12:09:27  CRITICAL[users_database.py:81] user friends : 2/
+20-07-2023 12:09:27  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 12:09:32  CRITICAL[users_database.py:81] user friends : 1/
+20-07-2023 12:09:32  CRITICAL[users_database.py:81] user friends : 1/
+20-07-2023 12:12:00  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:12:02  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63375)>, ('192.168.100.56', 63375)
+20-07-2023 12:12:05  CRITICAL[server.py:21] New connection from <socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63376)>, ('192.168.100.56', 63376)
+20-07-2023 12:12:07  CRITICAL[server.py:21] New connection from <socket.socket fd=536, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63377)>, ('192.168.100.56', 63377)
+20-07-2023 12:12:12  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:13:19  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:13:21  CRITICAL[server.py:21] New connection from <socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63390)>, ('192.168.100.56', 63390)
+20-07-2023 12:13:24  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63391)>, ('192.168.100.56', 63391)
+20-07-2023 12:13:26  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63392)>, ('192.168.100.56', 63392)
+20-07-2023 12:13:37  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:13:46  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:13:53  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+20-07-2023 12:38:12  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:38:16  CRITICAL[server.py:21] New connection from <socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63409)>, ('192.168.100.56', 63409)
+20-07-2023 12:38:19  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63410)>, ('192.168.100.56', 63410)
+20-07-2023 12:38:25  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:38:44  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:38:49  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63411)>, ('192.168.100.56', 63411)
+20-07-2023 12:38:51  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63412)>, ('192.168.100.56', 63412)
+20-07-2023 12:38:56  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:39:19  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:40:18  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:40:26  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63413)>, ('192.168.100.56', 63413)
+20-07-2023 12:40:28  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63414)>, ('192.168.100.56', 63414)
+20-07-2023 12:40:33  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:40:38  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:42:15  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:42:19  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63420)>, ('192.168.100.56', 63420)
+20-07-2023 12:42:20  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63421)>, ('192.168.100.56', 63421)
+20-07-2023 12:42:25  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:42:31  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:44:32  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:44:37  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63444)>, ('192.168.100.56', 63444)
+20-07-2023 12:44:44  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:44:54  CRITICAL[server.py:21] New connection from <socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63445)>, ('192.168.100.56', 63445)
+20-07-2023 12:45:01  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:45:57  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:46:02  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:46:10  CRITICAL[server.py:21] New connection from <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63447)>, ('192.168.100.56', 63447)
+20-07-2023 12:46:13  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63448)>, ('192.168.100.56', 63448)
+20-07-2023 12:46:17  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:46:24  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:52:24  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:52:29  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63456)>, ('192.168.100.56', 63456)
+20-07-2023 12:52:33  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63457)>, ('192.168.100.56', 63457)
+20-07-2023 12:52:38  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:52:50  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 12:54:32  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:54:45  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 12:54:50  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63459)>, ('192.168.100.56', 63459)
+20-07-2023 12:54:56  CRITICAL[server.py:21] New connection from <socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63461)>, ('192.168.100.56', 63461)
+20-07-2023 12:55:02  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 12:55:14  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 13:06:47  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:07:00  CRITICAL[server.py:21] New connection from <socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63476)>, ('192.168.100.56', 63476)
+20-07-2023 13:07:05  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 13:10:42  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:10:45  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63488)>, ('192.168.100.56', 63488)
+20-07-2023 13:10:47  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63489)>, ('192.168.100.56', 63489)
+20-07-2023 13:10:54  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 13:11:00  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 13:15:03  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63503)>, ('192.168.100.56', 63503)
+20-07-2023 13:15:09  INFO    [handle_client.py:17] sing up request : username : simo, password : 1 email : s@, confirm password: 1
+20-07-2023 13:15:09  INFO    [authentification.py:7] usernames : ['yahya', 'hatim', 'fahd']
+20-07-2023 13:15:09  INFO    [authentification.py:12] emails : ['y@', 'h@', 'f@']
+20-07-2023 13:15:15  CRITICAL[users_database.py:81] user friends : 2/3/
+20-07-2023 13:15:15  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 13:15:30  CRITICAL[users_database.py:81] user friends : 1/3/
+20-07-2023 13:15:30  CRITICAL[users_database.py:81] user friends : 1/
+20-07-2023 13:29:41  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:29:48  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63514)>, ('192.168.100.56', 63514)
+20-07-2023 13:29:54  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+20-07-2023 13:29:54  INFO    [authentification.py:7] usernames : []
+20-07-2023 13:29:54  INFO    [authentification.py:12] emails : []
+20-07-2023 13:30:13  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:30:15  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63515)>, ('192.168.100.56', 63515)
+20-07-2023 13:30:27  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:30:30  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63516)>, ('192.168.100.56', 63516)
+20-07-2023 13:30:37  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+20-07-2023 13:30:37  INFO    [authentification.py:7] usernames : []
+20-07-2023 13:30:37  INFO    [authentification.py:12] emails : []
+20-07-2023 13:31:08  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:31:10  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63519)>, ('192.168.100.56', 63519)
+20-07-2023 13:31:13  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 13:31:18  CRITICAL[server.py:21] New connection from <socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63520)>, ('192.168.100.56', 63520)
+20-07-2023 13:31:26  CRITICAL[server.py:21] New connection from <socket.socket fd=528, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63521)>, ('192.168.100.56', 63521)
+20-07-2023 13:31:33  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+20-07-2023 13:31:33  INFO    [authentification.py:7] usernames : ['yahya']
+20-07-2023 13:31:33  INFO    [authentification.py:12] emails : ['y@']
+20-07-2023 13:31:41  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 13:31:41  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 13:31:58  CRITICAL[server.py:21] New connection from <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63522)>, ('192.168.100.56', 63522)
+20-07-2023 13:32:05  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+20-07-2023 13:32:05  INFO    [authentification.py:7] usernames : ['yahya', 'hatim']
+20-07-2023 13:32:05  INFO    [authentification.py:12] emails : ['y@', 'h@']
+20-07-2023 13:32:21  CRITICAL[users_database.py:81] user friends : 2/
+20-07-2023 13:32:21  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 13:32:24  CRITICAL[users_database.py:81] user friends : 1/
+20-07-2023 13:32:24  CRITICAL[users_database.py:81] user friends : 1/
+20-07-2023 13:34:56  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:35:03  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:35:08  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63525)>, ('192.168.100.56', 63525)
+20-07-2023 13:35:10  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63526)>, ('192.168.100.56', 63526)
+20-07-2023 13:35:15  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 13:35:22  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 13:36:43  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:36:46  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63527)>, ('192.168.100.56', 63527)
+20-07-2023 13:36:47  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63528)>, ('192.168.100.56', 63528)
+20-07-2023 13:36:51  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 13:36:58  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 13:38:16  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:38:39  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:38:41  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63529)>, ('192.168.100.56', 63529)
+20-07-2023 13:38:43  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63530)>, ('192.168.100.56', 63530)
+20-07-2023 13:38:48  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 13:38:53  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 13:40:28  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 13:41:20  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63532)>, ('192.168.100.56', 63532)
+20-07-2023 13:41:26  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+20-07-2023 13:41:26  INFO    [authentification.py:7] usernames : []
+20-07-2023 13:41:26  INFO    [authentification.py:12] emails : []
+20-07-2023 13:41:32  CRITICAL[server.py:21] New connection from <socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63534)>, ('192.168.100.56', 63534)
+20-07-2023 13:41:37  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+20-07-2023 13:41:37  INFO    [authentification.py:7] usernames : ['yahya']
+20-07-2023 13:41:37  INFO    [authentification.py:12] emails : ['y@']
+20-07-2023 13:41:44  CRITICAL[server.py:21] New connection from <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 63535)>, ('192.168.100.56', 63535)
+20-07-2023 13:41:54  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+20-07-2023 13:41:54  INFO    [authentification.py:7] usernames : ['yahya', 'fahd']
+20-07-2023 13:41:54  INFO    [authentification.py:12] emails : ['y@', 'f@']
+20-07-2023 13:42:09  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 13:42:09  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 13:42:15  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 13:42:15  CRITICAL[users_database.py:81] user friends : 2/
+20-07-2023 13:42:15  CRITICAL[users_database.py:81] user friends : 3/
+20-07-2023 13:42:15  CRITICAL[users_database.py:81] user friends : 3/
+20-07-2023 14:35:41  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 14:35:47  CRITICAL[server.py:21] New connection from <socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64141)>, ('192.168.100.56', 64141)
+20-07-2023 14:35:55  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64142)>, ('192.168.100.56', 64142)
+20-07-2023 14:36:10  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64143)>, ('192.168.100.56', 64143)
+20-07-2023 14:36:19  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 14:36:34  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+20-07-2023 14:36:40  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 14:38:11  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 14:38:13  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64156)>, ('192.168.100.56', 64156)
+20-07-2023 14:38:15  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64157)>, ('192.168.100.56', 64157)
+20-07-2023 14:38:20  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 14:38:26  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 14:40:51  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 14:40:52  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64168)>, ('192.168.100.56', 64168)
+20-07-2023 14:40:54  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64169)>, ('192.168.100.56', 64169)
+20-07-2023 14:41:02  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+20-07-2023 14:41:02  INFO    [authentification.py:7] usernames : []
+20-07-2023 14:41:02  INFO    [authentification.py:12] emails : []
+20-07-2023 14:41:11  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+20-07-2023 14:41:11  INFO    [authentification.py:7] usernames : ['yahya']
+20-07-2023 14:41:11  INFO    [authentification.py:12] emails : ['y@']
+20-07-2023 14:41:14  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64171)>, ('192.168.100.56', 64171)
+20-07-2023 14:41:23  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+20-07-2023 14:41:23  INFO    [authentification.py:7] usernames : ['yahya', 'hatim']
+20-07-2023 14:41:23  INFO    [authentification.py:12] emails : ['y@', 'h@']
+20-07-2023 14:41:45  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 14:41:45  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 14:42:05  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 14:42:05  CRITICAL[users_database.py:81] user friends : 3/
+20-07-2023 14:42:06  CRITICAL[users_database.py:81] user friends : 1/
+20-07-2023 14:42:06  CRITICAL[users_database.py:81] user friends : 1/
+20-07-2023 14:43:52  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 14:43:54  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64178)>, ('192.168.100.56', 64178)
+20-07-2023 14:43:56  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64179)>, ('192.168.100.56', 64179)
+20-07-2023 14:43:58  CRITICAL[server.py:21] New connection from <socket.socket fd=560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64180)>, ('192.168.100.56', 64180)
+20-07-2023 14:44:05  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 14:44:18  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+20-07-2023 14:44:31  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 14:48:27  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 14:48:31  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64186)>, ('192.168.100.56', 64186)
+20-07-2023 14:48:33  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64187)>, ('192.168.100.56', 64187)
+20-07-2023 14:48:41  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 14:48:47  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 14:54:13  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 14:54:15  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64195)>, ('192.168.100.56', 64195)
+20-07-2023 14:54:17  CRITICAL[server.py:21] New connection from <socket.socket fd=416, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64196)>, ('192.168.100.56', 64196)
+20-07-2023 14:54:21  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 14:55:49  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 14:55:57  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64206)>, ('192.168.100.56', 64206)
+20-07-2023 14:56:55  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 14:56:57  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64207)>, ('192.168.100.56', 64207)
+20-07-2023 14:56:59  CRITICAL[server.py:21] New connection from <socket.socket fd=524, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64208)>, ('192.168.100.56', 64208)
+20-07-2023 14:57:01  CRITICAL[server.py:21] New connection from <socket.socket fd=340, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64209)>, ('192.168.100.56', 64209)
+20-07-2023 14:57:05  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 14:57:12  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 14:57:39  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+20-07-2023 15:07:14  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 15:07:16  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64216)>, ('192.168.100.56', 64216)
+20-07-2023 15:07:18  CRITICAL[server.py:21] New connection from <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64217)>, ('192.168.100.56', 64217)
+20-07-2023 15:07:23  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 15:08:31  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 15:09:43  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 15:09:55  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 15:09:56  CRITICAL[server.py:21] New connection from <socket.socket fd=568, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64218)>, ('192.168.100.56', 64218)
+20-07-2023 15:09:58  CRITICAL[server.py:21] New connection from <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64219)>, ('192.168.100.56', 64219)
+20-07-2023 15:10:04  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+20-07-2023 15:10:04  INFO    [authentification.py:7] usernames : ['yahya', 'hatim', 'fahd']
+20-07-2023 15:10:19  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 15:10:22  CRITICAL[server.py:21] New connection from <socket.socket fd=516, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64220)>, ('192.168.100.56', 64220)
+20-07-2023 15:10:24  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64221)>, ('192.168.100.56', 64221)
+20-07-2023 15:10:26  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64222)>, ('192.168.100.56', 64222)
+20-07-2023 15:10:31  INFO    [handle_client.py:17] sing up request : username : yahya, password : 1 email : y@, confirm password: 1
+20-07-2023 15:10:31  INFO    [authentification.py:7] usernames : []
+20-07-2023 15:10:31  INFO    [authentification.py:12] emails : []
+20-07-2023 15:10:39  INFO    [handle_client.py:17] sing up request : username : hatim, password : 1 email : h@, confirm password: 1
+20-07-2023 15:10:39  INFO    [authentification.py:7] usernames : ['yahya']
+20-07-2023 15:10:39  INFO    [authentification.py:12] emails : ['y@']
+20-07-2023 15:10:52  INFO    [handle_client.py:17] sing up request : username : fahd, password : 1 email : f@, confirm password: 1
+20-07-2023 15:10:52  INFO    [authentification.py:7] usernames : ['yahya', 'hatim']
+20-07-2023 15:10:52  INFO    [authentification.py:12] emails : ['y@', 'h@']
+20-07-2023 15:11:31  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 15:11:32  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 15:11:37  CRITICAL[users_database.py:81] user friends : 
+20-07-2023 15:11:37  CRITICAL[users_database.py:81] user friends : 2/
+20-07-2023 15:11:38  CRITICAL[users_database.py:81] user friends : 3/
+20-07-2023 15:11:38  CRITICAL[users_database.py:81] user friends : 3/
+20-07-2023 15:14:35  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 15:14:39  CRITICAL[server.py:21] New connection from <socket.socket fd=460, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64230)>, ('192.168.100.56', 64230)
+20-07-2023 15:14:41  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64231)>, ('192.168.100.56', 64231)
+20-07-2023 15:14:43  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64232)>, ('192.168.100.56', 64232)
+20-07-2023 15:14:49  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 15:14:54  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+20-07-2023 15:15:02  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+20-07-2023 15:18:54  INFO    [server.py:40] SERVER LISTENING
+20-07-2023 15:18:56  CRITICAL[server.py:21] New connection from <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64234)>, ('192.168.100.56', 64234)
+20-07-2023 15:18:58  CRITICAL[server.py:21] New connection from <socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64235)>, ('192.168.100.56', 64235)
+20-07-2023 15:19:00  CRITICAL[server.py:21] New connection from <socket.socket fd=572, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 64236)>, ('192.168.100.56', 64236)
+20-07-2023 15:19:09  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+20-07-2023 15:19:19  INFO    [handle_client.py:62] log in request : username : fahd, password : 1
+20-07-2023 15:19:27  INFO    [handle_client.py:62] log in request : username : hatim, password : 1
+21-07-2023 14:44:08  INFO    [server.py:40] SERVER LISTENING
+21-07-2023 14:44:21  CRITICAL[server.py:21] New connection from <socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61642)>, ('192.168.100.56', 61642)
+21-07-2023 14:44:25  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:47:14  INFO    [server.py:40] SERVER LISTENING
+21-07-2023 14:47:16  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61647)>, ('192.168.100.56', 61647)
+21-07-2023 14:47:19  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:50:51  INFO    [server.py:40] SERVER LISTENING
+21-07-2023 14:50:52  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61649)>, ('192.168.100.56', 61649)
+21-07-2023 14:50:56  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:51:02  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:51:47  INFO    [server.py:40] SERVER LISTENING
+21-07-2023 14:51:50  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61654)>, ('192.168.100.56', 61654)
+21-07-2023 14:51:53  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:54:38  INFO    [server.py:40] SERVER LISTENING
+21-07-2023 14:54:44  CRITICAL[server.py:21] New connection from <socket.socket fd=492, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61663)>, ('192.168.100.56', 61663)
+21-07-2023 14:54:47  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:55:29  INFO    [server.py:40] SERVER LISTENING
+21-07-2023 14:55:31  CRITICAL[server.py:21] New connection from <socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61666)>, ('192.168.100.56', 61666)
+21-07-2023 14:55:34  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:55:35  CRITICAL[server.py:21] New connection from <socket.socket fd=604, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61667)>, ('192.168.100.56', 61667)
+21-07-2023 14:55:41  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:58:55  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 14:58:57  CRITICAL[server.py:21] New connection from <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61681)>, ('192.168.100.56', 61681)
+21-07-2023 14:59:00  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:59:01  CRITICAL[server.py:21] New connection from <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61682)>, ('192.168.100.56', 61682)
+21-07-2023 14:59:06  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:59:07  CRITICAL[server.py:21] New connection from <socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61683)>, ('192.168.100.56', 61683)
+21-07-2023 14:59:11  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 14:59:13  CRITICAL[server.py:21] New connection from <socket.socket fd=500, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61684)>, ('192.168.100.56', 61684)
+21-07-2023 15:40:19  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:40:24  CRITICAL[server.py:21] New connection from <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61771)>, ('192.168.100.56', 61771)
+21-07-2023 15:40:28  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:41:23  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:41:25  CRITICAL[server.py:21] New connection from <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61793)>, ('192.168.100.56', 61793)
+21-07-2023 15:41:28  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:42:40  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:42:43  CRITICAL[server.py:21] New connection from <socket.socket fd=540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61795)>, ('192.168.100.56', 61795)
+21-07-2023 15:42:48  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:44:24  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:44:26  CRITICAL[server.py:21] New connection from <socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61796)>, ('192.168.100.56', 61796)
+21-07-2023 15:44:30  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:45:07  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:45:09  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61798)>, ('192.168.100.56', 61798)
+21-07-2023 15:45:12  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:45:50  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:48:19  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:48:35  CRITICAL[server.py:21] New connection from <socket.socket fd=476, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61803)>, ('192.168.100.56', 61803)
+21-07-2023 15:48:44  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:49:54  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:49:56  CRITICAL[server.py:21] New connection from <socket.socket fd=508, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61805)>, ('192.168.100.56', 61805)
+21-07-2023 15:50:00  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:50:21  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:50:24  CRITICAL[server.py:21] New connection from <socket.socket fd=552, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61806)>, ('192.168.100.56', 61806)
+21-07-2023 15:50:28  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:51:04  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:51:11  CRITICAL[server.py:21] New connection from <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61808)>, ('192.168.100.56', 61808)
+21-07-2023 15:51:14  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:52:13  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:52:15  CRITICAL[server.py:21] New connection from <socket.socket fd=504, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61810)>, ('192.168.100.56', 61810)
+21-07-2023 15:52:18  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:54:38  INFO    [server.py:43] SERVER LISTENING
+21-07-2023 15:54:40  CRITICAL[server.py:21] New connection from <socket.socket fd=520, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61814)>, ('192.168.100.56', 61814)
+21-07-2023 15:54:43  INFO    [handle_client.py:62] log in request : username : yahya, password : 1
+21-07-2023 15:56:45  CRITICAL[server.py:21] New connection from <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.56', 5050), raddr=('192.168.100.56', 61825)>, ('192.168.100.56', 61825)
+21-07-2023 15:56:50  INFO    [handle_client.py:62] log in request : username : fahd, password : 1

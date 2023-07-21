@@ -20,22 +20,25 @@ def handle_client(server, conn, addr):
     from requests import handle_request
     logger.critical(f'New connection from {conn}, {addr}')
     while True:
-        request = conn.recv(240).decode(FORMAT)  # get the request and handle it here
-        handle_request(server, request, conn)
-
+        try:
+            request = conn.recv(240).decode(FORMAT)  # get the request and handle it here
+            handle_request(server, request, conn)
+        except ConnectionResetError:
+            break
 
 
 class Server:
     def __init__(self):
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server.bind(ADDR)
-        self.log_in_users = []   # (conn, id)
+        self.log_in_users = []  # (conn, id)
 
     def start(self):
-        from database.users_database import create_table
+        from database.users_database import create_table, create_conversation_data_table
 
         self.server.listen()
         create_table()
+        create_conversation_data_table()
 
         logger.info('SERVER LISTENING')
         while True:
